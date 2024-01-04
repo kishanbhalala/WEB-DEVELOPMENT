@@ -1,0 +1,245 @@
+/* lecture-6 */
+
+*{
+    box-sizing:border-box
+}
+body{
+    margin: 0;
+}
+
+/* css position */
+.position{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    /* position: sticky; 
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    /* top: 30px; */
+    /* left:30px; */
+    /* z-index: -1;  */
+}
+
+
+/* .mainbox{
+    display: flex;
+    height: 600px;
+    width: 1500px;
+    border: 2px solid blueviolet;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.box-1{
+    
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+}
+.box-2{ 
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+}
+.box-4{ 
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box-5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(17, 220, 92);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}   
+.box-6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(32, 111, 148);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; 
+}
+.box-7{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(148, 86, 32);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.box-8{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(148, 32, 90);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box-9{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(146, 148, 32);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+} */
+
+
+/* z-index properties */
+/* .z-index-1{
+    height: 200px;
+    width: 210px;
+    background-color: brown;
+    position: absolute;
+    z-index: 1;
+}
+.z-index-2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+} */
+
+/* css-float properties */
+/* .float-1 img{
+    float: left;
+    clear: right;
+} */
+/* .image-1{
+    float: left;
+    clear:right;
+}
+.image-2{
+    float: right;
+    clear:left;
+} */
+
+/* css clear properties */
+/* .clear-1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    clear: left;
+}
+.clear-2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+    clear: left;
+}
+.clear-3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    clear: both;
+} */
+
+/* css overflow properties */
+/* .box-11{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow: hidden;
+    overflow: auto;   
+} */
+/* .box-22 img{
+    height: 200px;
+    width: 200px;
+
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow: hidden;  
+} */
+
+/* cursor properties */
+/* .alias{ cursor:alias;}
+.all-scroll{cursor:all-scroll;}
+.auto{cursor:auto;}
+.cell{cursor:cell}
+.context-menu{cursor:context-menu}
+.col-resize{cursor:col-resize}
+.copy{cursor:copy}
+.crosshair{cursor:crosshair}
+.default{cursor:default}
+.e-resize{cursor:e-resize}
+.ew-resize{cursor:ew-resize}
+.grab{cursor: -webkit-grab; cursor: grab;}
+.grabbing{cursor: -webkit-grabbing; cursor: grabbing}
+.help{cursor:help}
+.move{cursor:move}
+.n-resize{cursor:n-resize}
+.ne-resize{cursor:ne-resize}
+.nwse-resize{cursor:nwse-resize}
+.ns-resize{cursor:ns-resize}
+.nw-resize{cursor:nw-resize}
+.nwse-resize{cursor:nwse-resize}
+.no-drop{cursor:no-drop}
+.none{cursor:none}
+.not-allowed{cursor:not-allowed}
+.pointer{cursor:pointer}
+.progress{cursor:progress}
+.row-resize{cursor:row-resize}
+.s-resize{cursor:s-resize}
+.se-resize{cursor:se-resize}
+.sw-resize{cursor:sw-resize}
+.text{cursor:text}
+.url{cursor:}
+.w-resize{cursor:w-resize}
+.wait{cursor:wait}
+.zoom-in{cursor:zoom-in}
+.zoom-out{cursor:zoom-out} */
+
+
+/* css object-fit properties */
+   /* fill / contain / cover / scale-down / none  */
+
+    /* img{
+        height: 600px;
+        width: 600px;    
+    } */
+   /* .min-img{
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+   } */
+
+   /* img{
+    object-fit:fill;
+   } */

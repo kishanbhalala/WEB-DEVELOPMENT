@@ -1,0 +1,232 @@
+/* lecture-5 */
+
+/* common css */
+*{
+    box-sizing: border-box;
+}
+body{
+    /* margin: 0; */
+    font-family: 'Lobster';
+}
+
+/* google font */
+/* .online-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+} */
+
+/* offline font  */
+/* .offline-font {
+    font-family: 'Lobster';
+} */
+
+/* css display properties  */
+    /* .d-none{
+        display:inline-block;
+    }
+    .demobox{
+        display: inline;
+    }
+    .demobox p{
+        display: inline;
+    } */
+    /* .demobox div{
+        display: inline;
+    } */
+    /* .demobox a{
+        display: block;
+    } */
+    /* .demobox-1{
+        height: 200px;
+        width: 200px;
+        background-color: purple;
+        display:inline-block;
+        display: inline;
+    } */
+
+/* css flex properties */
+    /* flex: grow / basis / shrink */
+  
+    /* .mainbox{
+        background-color: purple;
+        margin: 50px;
+        padding: 10px;
+        border: 3px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .flex{
+        padding: 10px;
+        margin: 0;
+        color:darkkhaki;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        align-items: stretch;
+        flex-grow: 1;
+        flex-basis: 100px;
+        width: 200px;
+        
+    
+    }
+            .box-1{
+                flex-basis: 200px;  
+                background-color: rgb(136, 37, 37);
+            }
+            .box-2{
+                flex-shrink: 50;
+                background-color: rgb(89, 168, 33);
+            }
+            .box-3{
+                flex-grow: 2;
+                background-color: rgb(40, 42, 38);
+            }
+            .box-4{
+                flex-grow: 3;
+                background-color: rgb(51, 33, 168);
+            }
+            .box-5{
+                
+                background-color: rgb(168, 98, 33);
+            } */
+   
+
+/* css flex-box / flex-container properties */
+    .mainbox1{
+        display: flex;
+        height: 500px;
+        max-width:1000px;
+        border: 5px solid red;
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+    
+        /* justify-content: flex-start;
+        justify-content: flex-end;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly; */
+
+        /* align-items: flex-start;
+        align-items: flex-end;
+        align-items: center; */
+
+        /* align-self: flex-start; */
+        /* align-self: flex-end; */
+        /* align-self: center; */
+        /* align-self: start; */
+        /* align-self: end; */
+        /* align-self: self-start; */
+        /* align-self: self-end; */
+
+        /* align-content: center;
+        align-content: start;   
+        align-content: end;
+        align-content: flex-start;
+        align-content: flex-end; */
+
+        /* flex-direction: row; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        
+        /* flex-flow: row; */
+        /* flex-flow: row-reverse; */
+        /* flex-flow: column; */
+        /* flex-flow: column-reverse; */
+        /* flex-flow: nowrap;   */
+        /* flex-flow: wrap; */
+        /* flex-flow: wrap-reverse;  */
+        /* flex-flow: row wrap;     */
+        /* flex-flow: column wrap; */
+        /* flex-flow:row-reverse wrap-reverse; */
+        
+    } 
+
+    /* .box-11{
+        background-color: rgb(9, 255, 0);
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;
+        order: 5;
+    }
+  
+    .box-21{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;
+        order: 1;
+    }
+    .box-31{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;
+        order: 2;
+    }
+    .box-41{
+        background-color: yellow;   
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;
+        order: 3;
+    }
+    .box-51{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua; 
+        order: 4;
+    }
+    .box-61{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;
+        order: 6;
+
+    }
+    .box-71{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;  
+        order: 7;
+    }
+    .box-81{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;
+        order: 8;
+    }
+    .box-91{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+        color: aqua;  
+        order: 9;
+    } */
+
+ /* flex direction */
+    /* row and reverse
+
+    justify-content :- direction-horizontly
+    align-items :- direction-verticley
+
+    column and column-reverse
+
+    justify-content :- direction-verticley
+    align-items :- direction-horizontly */

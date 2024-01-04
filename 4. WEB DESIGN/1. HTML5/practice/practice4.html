@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>table practice</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>first table tag</caption>
+        <!-- <figcaption>table tag</figcaption> -->
+        <thead>
+        <tbody>
+            <tr>
+                <td>no.</td>
+                <td>full name</td>
+                <td>position</td>
+                <td>salary</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>bill gates</td>
+                <td>foun mc</td>
+                <td>1 lakh</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>foun apple</td>
+                <td>2 lakh</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+
+    <!--colspan and rowspan, colorgroup-->
+    <table>
+        <caption>second table tag</caption><br>
+        <colgroup>
+            <col span="1" bgcolor="red">
+            <col span="1" bgcolor="yellow">
+            <col span="1" bgcolor="pink">
+        </colgroup>
+        <tr>
+            <th rowspan="1" bgcolor="green" colspan="2">full name</th>
+            <!-- <th rowspan="1" bgcolor="blue">last name</th> -->
+            <th rowspan="1" bgcolor="katthai">marks</th>
+        </tr>
+        <tr>
+            <td>sonoo</td>
+            <td>jaiswal</td>
+            <td colspan="1" bgcolor="grey" rowspan="2">66</td>
+        </tr>
+        <tr>
+            <td>jems</td>
+            <td>william</td>
+        </tr>
+        <tr>
+            <td>swati</td>
+            <td col span="1" bgcolor="grey" rowspan="2">sironi</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>chetna</td>
+            <td>75</td>
+        </tr>
+    </table>
+</body>
+
+</html>

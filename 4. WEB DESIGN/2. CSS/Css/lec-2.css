@@ -1,0 +1,332 @@
+/* h1 {
+    color: red;
+} */
+
+/* lecture-2 *
+
+/* CSS BOREDER  = 10 TYPES */
+   /* 1.solid */
+    /* .main{
+        display:flex;
+        padding: 100px;
+        border: 2px solid red;
+    
+    } */
+    
+    /* 2.dotted */
+    /* .box-1{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-left: 10px;
+        border: 5px dotted red;
+    } */
+
+    /* 3.solid */
+    /* .box-2{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-left: 10px;
+        border: 5px solid red;
+    } */
+
+     /* 4.inset */
+     /* .box-3{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-left: 10px;
+        border: 100px inset red;
+    } */
+
+      /* 5.outset */
+      /* .box-4{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-left: 10px;
+        border: 100px outset green;
+    }  */
+
+    /* 6.double */
+    /* .box-5{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-left: 10px;
+        border: 100px double green;
+    }  */
+  
+    /* 7.ridge*/
+     /* .box-6{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-left: 10px;
+        border: 100px ridge green;
+    } */
+    
+    /* 8.none*/
+    /* .box-7{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-right: 10px;
+        margin-left: 10px;
+        border: 100px none green;
+    } */
+
+    /* 9.dashed*/
+    /* .box-8{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-right: 10px;
+        border: 5px dashed green;
+    } */
+
+    /* 10.groove*/
+    /* .box-9{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-right: 10px;
+        border: 15px groove green;
+    } */
+
+    /* 11.hidden*/
+    /* .box-6{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        margin-right: 10px;
+        border: 100px hidden green;
+    }
+
+    .box-1{
+        border-width: 10px;
+        border-style: dotted;
+        border-color: red;
+        border-left-style : solid;
+        border-right-width: 30px;
+        border-bottom-color: black;
+        border-top:none;
+        border-left:none;
+        
+    } */
+
+    /* BORDER RADIUS */
+    .radius{
+        height: 300px;
+        width: 300px;
+        border: 10px solid blue;
+        /* border-radius: 20px; */
+        /* border-radius: 40%; */
+        /* border-radius: 10px 100px; */
+        /* border-radius: 50px 20px 100px; */
+        /* border-radius: 100px 20px 70px 100px; */
+        /* border-bottom-left-radius: 50px; */
+    }
+
+    /* CSS OUTLINE PROPERTIES */
+    /* .boxx-2{
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        border: 5px solid rgb(243, 6, 6);
+        outline: 5px groove purple;
+        outline-offset: 20px;
+        outline-width: 10px;
+        margin: 100px;
+    } */
+
+    /* CSS OPACITY = 0.1 to 1*/
+    /* .opacity{
+        height: 300px;
+        width: 300px;
+        background-color: rgba(0, 255, 64,0.3);
+        opacity:0.9;  
+        color:rgb(0,0,255)
+    } */
+
+    /* CSS BUTTON  */
+        button{
+            background-color: red;
+            border: rgb(44, 13, 131);
+            padding: 10px 60px;
+            color: green;
+            font-weight:bold;
+            border-radius:5px 40px;
+        }
+        button:hover{
+            outline: 20px solid blue;
+        }
+        .link-1{
+            text-decoration: dotted;
+            padding: 10px 30px;
+            background-color: blueviolet;   
+            color: aqua;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            border-radius: 50%;
+        }
+        a:hover{
+            border: 5px solid black;
+        }
+        a:focus{
+            border: 10px solid rgb(21, 241, 65);
+            background-color: rgb(255,0,0,0.42);
+            color: blue;
+        }
+
+        /* input type button */
+            /* input{
+                background-color: red;
+                border:10px solid black;
+                padding: 10px 20px;
+                color: green;
+                font-weight:bold;
+                border-radius:50px;
+            }
+            input:hover{
+                border: 2px solid blue;
+                box-shadow: 5px 10px 20px aqua;
+            }
+            input:focus{
+                box-shadow: -5px -5px 10px green;
+                margin-left: 10px;
+            } */
+
+/* CSS FONT PROPERTIES */
+    /* 1.font-family/google font */
+            /* .font-family p:nth-child(1){
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .font-family p:nth-child(2){
+                font-family:'Times New Roman', Times, serif;
+            }
+            .font-family p:nth-child(3){
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+         */
+     /* 2.font-size */
+            /* .font-size p{
+                font-size: 40px;
+            } */
+
+    /* 3.font-style */
+            /* .font-style p:nth-child(1){
+                font-style: italic;
+            }
+            .font-style p:nth-child(2){
+                font-style: oblique;
+            } */
+
+    /* 4.font variant */
+            /* .font-variant p:nth-child(1){
+                font-variant: small-caps;
+            } */
+    /* 5.font weight */
+            /* .font-weight p:nth-child(1){
+                font-weight:bolder;
+            } */
+     /* 6.font line-height */
+            /* .line-height p{
+                font-size: 50px;
+                line-height: 1.9;
+            } */
+
+ /* TEXT PROPERTIES  */
+        /* 1.text-color */
+            /* .text-color{
+                color: green;
+            } */
+         /* 2.text-align */
+            /* .text-align p:nth-child(1){
+                text-align: right;
+            }
+            .text-align p:nth-child(2){
+                text-align: center;
+            }
+            .text-align p:nth-child(3){
+                text-align: justify;
+            } */
+         /* 3.text-decoration */
+             /* .text-decoration p:nth-child(1){
+                text-decoration:overline ;
+             }
+             .text-decoration p:nth-child(2){
+                text-decoration:line-through ;
+             }
+             .text-decoration p:nth-child(3){
+                text-decoration:underline ;
+             }
+             .text-decoration p:nth-child(4){
+                text-decoration:underline dotted ;
+             }
+             .text-decoration p:nth-child(5){
+                text-decoration:wavy red line-through ;
+             } */
+         /* 4. text-transform */
+            /* .text-transform p:nth-child(1){
+                text-transform: capitalize;
+            }
+            .text-transform p:nth-child(2){
+                text-transform: uppercase;
+            }
+            .text-transform p:nth-child(3){
+                text-transform: lowercase;
+            } */
+        /* 5.text-indent */
+            /* .text-indent p:nth-child(1){
+                text-indent: 100px;
+            } */
+        /* 6.letter-spacing */
+            /* .letter-spacing p{
+                letter-spacing: 10px;
+            } */
+         /* 7.word-spacin */
+            /* .word-spacing p{
+                word-spacing: 20px;
+            } */
+        /* 8.text-direction */
+            /* .text-direction p{
+                unicode-bidi: bidi-override;
+                direction: rtl;
+            } */
+        /* 9.text-shadow */
+            /* .text-shadow p:nth-child(1){
+                text-shadow: 2px 2px 1px rgb(255, 0, 0);
+            } */
+
+
+/* CSS VERTICAL ALIGN */
+    p .a{
+        /* vertical-align: bottom; */
+        /* vertical-align: baseline; */
+        /* vertical-align: middle; */
+    }
+    p .b{
+        /* vertical-align: sub;
+        vertical-align: super;
+        vertical-align: text-bottom;
+        vertical-align: top; */
+    }
+ 
+/* CSS WHITESPACE */
+    .whitespace{
+        /* white-space: nowrap; */
+        /* white-space: pre; */
+        /* text-align: justify; */
+    }
+    /* css word wrap */
+    /* .whitespace{
+        word-wrap: normal;
+        word-wrap: break-word;
+    } */
+
+/* CSS VISIBLITY */
+h1{
+    /* visibility:visible; */
+}

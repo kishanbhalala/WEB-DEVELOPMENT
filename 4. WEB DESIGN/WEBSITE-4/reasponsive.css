@@ -1,0 +1,57 @@
+/* css avada reasponsive behavior */
+
+@media (max-width:1400px){
+
+}
+@media(max-width:1024px){
+
+    /* header start */
+
+    .navigation{
+        padding: 0px 30px;
+    }
+    .nav-link{
+        display: none;
+    }
+    .mobile-menu{
+        display: block
+    }
+    .my-avada{
+        display: none;
+    }
+    .nav-item:focus-within .mobile-menu-item{
+        display: block;
+        position: absolute;
+        left: 0;
+        top:0;
+        z-index: 100;
+        width: 100%;
+        background-color: gray;
+    }
+    .nav-item nav ul li{
+        display: block;
+        margin: 40px 0px;
+    }
+
+    /* the ultimate start */
+
+    .ultimate-text h1{
+        font-size: calc(4vw + 8px);
+        max-width: 300px;
+    }
+
+    /* .ultimate-main{
+        background-image: url('./asset/image/ultimate-img.jpeg');
+    }
+
+    .ultimate-image{
+        display: none;
+    } */
+}
+@media(max-width:640px){
+    .ultimate-text h1{
+        max-width: 200px;
+    }
+
+}
+

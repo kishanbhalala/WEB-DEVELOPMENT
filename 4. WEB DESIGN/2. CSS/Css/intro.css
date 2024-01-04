@@ -1,0 +1,60 @@
+/* css apply external method */
+/* pre{
+    color: rgb(red, green, blue);
+    border: 2px solid red;
+    background-color: aqua;
+}
+h4{
+    text-align: left ;
+    text-decoration: line-through ;
+} */
+
+/* casecade */
+.element-1{
+    height: 200px;
+    width: 200px;   
+    background-color: red;
+}
+.element-1{
+    background-color: blue;
+    height: 30px;
+    width: 500px;
+}
+.element-1{
+    height: 500px;
+}
+
+/* inheritance */
+.heading-1{
+    color: red;
+    text-decoration: underline;
+}
+.element-2 .heading-1{
+    color:green;
+}
+.text .element-2 .heading-1{
+    color:chocolate;
+}
+.text .heading-1{
+    color:blueviolet;
+}
+.element-3 .heading-1{
+    color:yellow;
+}
+
+/* important rule */
+.heading-2{
+    color:red;
+    background-color: yellow;
+}
+.heading-2{
+    color:blue;
+    background-color: grey;
+}
+.para-11{
+    color: pink;
+}
+.para-11{
+    color:greenyellow ;
+}
+

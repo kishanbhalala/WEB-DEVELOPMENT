@@ -1,0 +1,149 @@
+/* lecture-3 */
+
+/* 
+padding
+margin
+box sizing 
+width 
+height 
+max-width 
+max-height 
+min-width 
+max-height 
+listing style 
+box shadow  
+*/
+
+/* *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+} */
+
+/* padding and margin */
+.demo {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.demo-1 {
+
+    height: 200px;
+    width: 200px;
+    background-color: rgb(236, 78, 78);
+    border: 2px solid blue;
+    /* margin: 20px; */
+    /* margin-top: 50px; */
+    /* margin-left: 100px; */
+    /* margin-right: 50px; */
+    /* margin-bottom: 20px; */
+
+    /* margin: 20px 40px; */
+    /* margin: 20px 400px 50px; */
+    /* margin: 20px 40px 60px 100px; */
+
+    /* padding: 20px; */
+    /* padding-top: 30px; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    /* padding-bottom: 50px; */
+
+    /* padding:20px 40px; */
+    /* padding:10px 20px 30px; */
+    /* padding:15px 2px, 30px, 40px; */
+}
+
+/* BOX SIZING PROPERTIES */
+/* .content-box{
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        border: 10px solid blue;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: content-box;    
+    }
+    .border-box{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        border: 10px solid blue;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 20px;
+    }  */
+
+/* CSS WIDTH / HEIGHT */
+/* .box-1{
+        max-width: 500px;
+        background-color: yellow;
+        margin-bottom: 100px;
+    }
+    .box-2{
+        min-width: 800px;
+        height: 200px;
+        overflow: hidden;
+    }
+    .box-3{
+        max-width: 500px;
+        max-height: 200px;
+        background-color: blue;
+        margin-bottom: 200px;
+    }
+    .box-4{
+        min-width: 500px;
+        min-height: 200px;
+        background-color: brown;
+        margin-bottom: 100px;
+    }
+    .box-5{        
+        min-height: 100px;
+        background-color: yellow; 
+    } */
+
+/* LISTING TAG / TABLE TAG  */
+/* listing tag :- list-style-type
+                list-style-position
+                list-style-image */
+
+/* ol{
+            list-style-type: armenian;
+            list-style-type: decimal;
+            list-style-type: decimal-leading-zero;
+            list-style-type: georgian;
+            list-style-type: lower-greek;
+            list-style-type: lower-latin;
+            list-style-type: lower-alpha;
+            list-style-type: lower-roman;
+            list-style-type: none;
+            list-style-type: upper-alpha;
+            list-style-type: upper-latin;
+            list-style-type: upper-roman;
+            list-style-position: inside;
+        } */
+
+ul {
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-image: url("../html/avengers_age_of_ultron_avengers_hulk_102191_3840x2400.jpg "); */
+    /* list-style-position: inside; */
+}
+
+
+/* BOX - SHADOW */
+/* .box-1{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    box-shadow: 20px 20px 10px rgba(0, 26, 255, 0.9);
+   }
+   .box-2{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(236,78,78);
+    box-shadow: -20px -20px 10px rgba(32,134,18,0.396);
+   } */

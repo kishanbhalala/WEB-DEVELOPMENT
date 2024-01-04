@@ -1,0 +1,93 @@
+/* lecture-9 */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+/* css overlay */
+
+/* .container{
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.container img{
+    height: 300px;
+    width: 300px;
+}
+.container:hover img{
+    transform: scale(1.9);
+    transition: 2s;
+}
+.container{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.container:hover .overlay{
+    position: absolute;
+    transition: 0.5s ease;
+    height: 300px;
+    width: inherit;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    opacity: 0.8;
+}
+.container:hover .text{
+    display: block;
+    position: absolute;
+    transition: 0.5s ease;
+    height: 300px;
+    width: inherit;
+    top: 0;
+    left: 0;
+    display: flex;
+    opacity: 0.5;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.text{
+    display: none;
+} */
+
+
+/* values and units */
+/* .wrapper{
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+.px{
+    width: 200px;
+    border: 2px solid red;
+    
+}
+.vw{
+    width: 20vw;
+    border: 1px solid yellow;
+    margin-top: 10px;
+}
+.em{
+    width: 10em;
+    height: 10em;
+    border: 1px solid blue;
+    margin-top: 10px;
+} */
+
+
+/* .back{
+    height: 100vh;
+    
+    background-image: url(../image/23338054633_398b87dc3a_o.jpg ),
+    url(../image/24110752169_346e00f12f_o.jpg);
+
+
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+} */

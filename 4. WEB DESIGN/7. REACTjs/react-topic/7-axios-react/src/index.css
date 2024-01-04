@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button{
+         @apply h-20 flex items-center justify-center text-2xl m-4 text-white w-60 bg-purple-500 border-2 border-black font-bold 
+    }
+    .button-2{
+         @apply h-10 flex items-center justify-center text-2xl m-4 text-white w-52 bg-purple-500 border-2 border-black font-bold 
+    }
+    .button-input{
+         @apply h-10  flex items-center justify-center text-2xl m-4 text-white w-96 bg-gray-500 border-2 border-black font-bold 
+    }
+    .text-space{
+         @apply min-h-fit w-full border-2 border-black mb-10
+    }
+}

@@ -1,0 +1,177 @@
+/* lecture-1 */
+
+/* import rule */
+/* @import'./lec-2.css'; */
+
+/* body{
+    background-color: aqua;
+} */
+
+
+/* css restting  */
+/* p{
+    color: brown;
+}
+.para-33 {
+    color: rgb(12, 0, 139);
+}
+.para-22 p{
+    color:yellow;
+} */
+
+/* 1.simple tag selector */
+/* p{
+    color: purple   ;
+} */
+
+/* 2.multi class selector */
+/* .div-3{
+    color: red;
+}
+.div-1{
+    color: green;
+    background-color: orange;
+} */
+
+/* 3.unique id selector */
+/* #box-1{
+    background-color: yellowgreen;
+}
+#box-2{
+    background-color: brown;
+}
+#box-2{
+    background-color:aqua;
+}
+#box-3{
+    background-color:green;
+} */
+
+/* 4.combinator selector  */
+/* a.descendent selector (space)  */
+/* div p {
+    background-color: yellow;
+} */
+
+/* b.child selector (>) */
+/* div > p {
+    background-color: pink;
+} */
+
+/* c.adjuacent sibling selector (+) */
+/* div + p {
+    background-color: yellow;
+} */
+
+/* d.general sibling selector (~) */
+/* div ~ p {
+    background-color: yellow;
+  } */
+
+/* link selector */
+/*      1.link
+        2.active
+        3.hover
+        4.visited   */
+
+/* .option-1:link{
+        color: red;
+        background-color: green;
+    } 
+    a:active{
+        color:aqua;
+        text-decoration:underline;
+    }
+    a:hover{
+        background-color: yellow;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+     .option-2:visited{
+        color: black;
+        background-color: darkorange;
+    } */
+
+/* CSS COLOR */
+/* .box-1{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(0, 0, 255);
+}
+.box-2{
+    height: 100px;
+    width: 200px;
+    background-color: rgba(48, 189, 57,0.5);
+}
+.box-3{
+    height: 100px;
+    width: 200px;
+    background-color: #ab2424;
+}
+.box-4{
+    height: 100px;
+    width: 200px;
+    background-color: hsl(240, 100%, 10%);
+} */
+
+/* CSS BACKGROUND PROPERTIES */
+/* .back-1{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    color:hsl(240deg,100%,10%)
+}
+.back-2{
+    height: 500px;
+    width: 500px;
+    background-image: url(../image/24110752169_346e00f12f_o.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+} */
+
+/* css gradient */
+/* .linear-gradient-1 {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to left, red, rgb(140, 255, 255));
+}
+
+.diagonal-linear-gradient {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top right, red , yellow 80%);
+}
+
+.linear-gradient-rainbow {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)
+}
+.radial-gradient-simple{
+    height: 50vh;
+    width: 50%;
+    background: radial-gradient(red,orange,yellow,blue,green,purple)
+}
+.radial-gradient{
+    height: 50vh;
+    width: 50%;
+    background: radial-gradient(circle farthest-corner at left, red,blue,green)
+}
+.bullseye{
+    height: 50vh;
+    width: 50%;
+    background: repeating-radial-gradient(red,red 10%,white 10%,white 20%)
+}
+.warning{
+    height: 50vh;
+    width: 50%;
+    background:repeating-linear-gradient(90deg,yellow,yellow 10%,black 10%, black 20%)
+} 
+
+.conic{
+    height: 50vh;
+    width: 50%;
+    background-image: conic-gradient(red,yellow,green);
+} */

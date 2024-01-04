@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-300 p-5">
+    <section>
+        <div class="flex justify-between">
+            <div>
+                <div class="flex">
+                    <h1 class="font-medium">Customers</h1>
+                    <button class="bg-blue-300 rounded-2xl px-3 text-blue-700 text-xs ml-3 h-6">240 vendors</button>
+                </div>
+                <p class="text-gray-600">These companies have purchased in the last 12 months.</p>
+            </div>
+            <div class="flex h-8 mt-4">
+                <button class="bg-white rounded-md flex px-2 items-center"><img class="h-6 w-6 mr-2"
+                        src="./assets/cloud-arrow-up-bold-svgrepo-com.svg" alt=""> import</button>
+                <button class="bg-blue-700 rounded-md flex px-3 items-center ml-3 text-white"><img class="h-5 mr-2"
+                        src="./assets/circle-plus-svgrepo-com.svg" alt=""> Add vendor</button>
+            </div>
+        </div>
+
+        <div class="flex justify-between mt-8">
+            <div class="flex rounded-md overflow-auto font-bold text-gray-500">
+                <div class="py-1 px-3  border border-slate-400">View all</div>
+                <div class="py-1 px-4 border border-slate-400 bg-white ">Monitired</div>
+                <div class="py-1 px-5 border border-slate-400 bg-white ">Unmonitired</div>
+            </div>
+            <div class="relative flex items-center">
+                <div class="absolute pl-2 ">
+                    <span class="fa fa-search form-control-feedback text-gray-400 "></span>
+                </div>
+                <input type="text" class="pl-8 px-14 rounded-md py-1" placeholder="Search">
+            </div>
+        </div>
+
+        <div class=" border border-gray-400 mt-10 rounded-md ">
+            <div class="flex border-b border-gray-400 p-4">
+                <h1 class="w-[250px] ">Company <i class="fa-solid fa-arrow-down-a-z text-gray-500 ml-2"></i></h1>
+                <h1 class="w-[200px] ">Status</h1>
+                <h1 class="w-[400px] ">About</h1>
+                <h1 class="w-[200px] ">Users</h1>
+                <h1 class="w-[400px] ">License use</h1>
+            </div>
+
+            <div class="flex items-center border-b border-gray-400 p-3 bg-white">
+                <div class="w-[250px]">
+                    <p class="font-bold">Catalog</p>
+                    <p>catlogapp.io</p>
+                </div>
+                <div class="flex items-center w-[200px]">
+                    <span class="bg-green-200 rounded-full  px-4 text-green-700 font-bold">Customer</span>
+                </div>
+                <div class="w-[400px] ">
+                    <p class="text-[17px]">Content curating app</p>
+                    <p>Brings all your news into one place</p>
+                </div>
+                <div class="flex items-center w-[200px]">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <p
+                        class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">
+                        +4</p>
+                </div>
+                <div class="bg-blue-400 h-2 rounded-full overflow-auto w-64 my-auto mr-36">
+                    <div class=" bg-blue-700 h-2 w-[75%]"></div>
+                </div>
+                <div class="my-auto">
+                    <img class="h-7" src="./assets/dots-vertical-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex items-center border-b border-gray-400 p-3 bg-white ">
+                <div class="w-[250px]">
+                    <p class="font-bold">Circooles</p>
+                    <p>getcircooles.com</p>
+                </div>
+                <div class="flex items-center w-[200px] ">
+                    <span class="bg-gray-300 rounded-full  px-4 text-gray-700 font-bold">Churned</span>
+                </div>
+                <div class="w-[400px] ">
+                    <p class="text-[17px]">Design software</p>
+                    <p>super lightweight design app</p>
+                </div>
+                <div class="flex items-center w-[200px]">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <p
+                        class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">
+                        +4</p>
+                </div>
+                <div class="bg-blue-400 h-2 rounded-full overflow-auto w-64 my-auto mr-36">
+                    <div class=" bg-blue-700 h-2  w-[45%]"></div>
+                </div>
+                <div class="my-auto">
+                    <img class="h-7" src="./assets/dots-vertical-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex  items-center border-b border-gray-400 p-3 bg-white ">
+                <div class="w-[250px]">
+                    <p class="font-bold">Sisyphus</p>
+                    <p>sisyphus.com</p>
+                </div>
+                <div class="flex items-center w-[200px] ">
+                    <span class="bg-green-200 rounded-full  px-4 text-green-700 font-bold">Customer</span>
+                </div>
+                <div class="w-[400px] ">
+                    <p class="text-[17px]">Automation and workflow</p>
+                    <p>Time tracking, invoicing and expenses</p>
+                </div>
+                <div class="flex items-center w-[200px]">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <p
+                        class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">
+                        +4</p>
+                </div>
+                <div class="bg-blue-400 h-2 rounded-full overflow-auto w-64 my-auto mr-36">
+                    <div class=" bg-blue-700 h-2  w-[95%]"></div>
+                </div>
+                <div class="my-auto">
+                    <img class="h-7" src="./assets/dots-vertical-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex n items-center border-b border-gray-400 p-3 bg-white">
+                <div class="w-[250px] ">
+                    <p class="font-bold">Hourglass</p>
+                    <p>hourglass.app</p>
+                </div>
+                <div class="flex items-center w-[200px]">
+                    <span class="bg-gray-300 rounded-full  px-4 text-gray-700 font-bold">Churned</span>
+                </div>
+                <div class="w-[400px]">
+                    <p class="text-[17px]">Productivity app</p>
+                    <p>Time management and productivity</p> 
+                </div>
+                <div class="flex items-center w-[200px]">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <p
+                        class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">
+                        +4</p>
+                </div>
+                <div class="bg-blue-400 h-2 rounded-full overflow-auto w-64 my-auto mr-36">
+                    <div class=" bg-blue-700 h-2  w-[35%]"></div>
+                </div>
+                <div class="my-auto">
+                    <img class="h-7" src="./assets/dots-vertical-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex  items-center  border-gray-400 p-3 bg-white">
+                <div class="w-[250px]">
+                    <p class="font-bold">Quotient</p>
+                    <p>quotient.co</p>
+                </div>
+                <div class="flex items-center w-[200px] ">
+                    <span class="bg-green-200 rounded-full  px-4 text-green-700 font-bold">Customer</span>
+                </div>
+                <div class="w-[400px] ">
+                    <p class="text-[17px]">Sales CRM</p>
+                    <p>Web-based sales doc management</p>
+                </div>
+                <div class="flex items-center w-[200px]">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1256&q=80"
+                        alt="">
+                    <img class="object-cover w-7 h-7 -mx-1 border-2 border-white rounded-full shrink-0"
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80"
+                        alt="">
+                    <p
+                        class="flex items-center justify-center w-6 h-6 -mx-1 text-xs text-blue-600 bg-blue-100 border-2 border-white rounded-full">
+                        +4</p>
+                </div>
+                <div class="bg-blue-400 h-2 rounded-full overflow-auto w-64 my-auto mr-36">
+                    <div class=" bg-blue-700 h-2  w-[25%]"></div>
+                </div>
+                <div class="my-auto">
+                    <img class="h-7" src="./assets/dots-vertical-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-between mt-8">
+            <div>
+                <p>Page <span class="font-semibold">1 of 10</span></p>
+            </div>
+            <div>
+                <button class="bg-white rounded-md p-1 pr-3"><i
+                        class="fa-solid fa-arrow-left mx-3 text-gray-500"></i>Previous</button>
+                <button class="bg-white rounded-md p-1 px-3 ml-3"><span class="bg-gray-400">Next</span> <i
+                        class="fa-solid fa-arrow-right mx-2 text-gray-500"></i></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

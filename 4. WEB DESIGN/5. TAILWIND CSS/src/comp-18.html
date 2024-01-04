@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-400 p-5 grid h-screen place-content-center">
+    <section class="bg-white p-7 rounded-md shadow-2xl">
+        <div class="flex">
+            <div>
+                <h1 class="font-bold text-gray-600 mb-2">FIRST NAME</h1>
+                <input class="bg-gray-300 w-[350px] px-5 py-2 border-2 border-red-600 rounded-sm" type="text"
+                    placeholder="Jane">
+                <h4 class="font-medium text-red-600 italic mt-2">Plese fill out this field.</h4>
+            </div>
+            <div class="ml-7">
+                <h1 class="font-bold text-gray-600 mb-2">LAST NAME</h1>
+                <input class="bg-gray-300 w-[350px] px-5 py-2 rounded-sm" type="text" placeholder="Doe">
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <h1 class="font-bold text-gray-600 mb-2">PASSWORD</h1>
+            <input class="bg-gray-300 px-5 py-2 rounded-sm w-full" type="password" placeholder="****************">
+            <h6 class="font-bold text-xs italic text-gray-500 mt-2">Make it as long and as crazy as you'd like</h6>
+        </div>
+
+        <div class="flex justify-between mt-5">
+            <div>
+                <h1 class="font-bold text-gray-600 mb-2">CITY</h1>
+                <input class="bg-gray-300 px-5 py-2 rounded-sm" type="text" placeholder="Albuquerque">
+            </div>
+            <div>
+                <h1 class="font-bold text-gray-600 mb-2">STATE</h1>
+                <div class=" bg-gray-300 w-48 text-gray-600 rounded-sm font-semibold">
+                    <select class=" bg-gray-300 px-3 py-2 pr-16">
+                        <option>New Mexico</option>
+                        <option>America</option>
+                        <option>India</option>
+                        <option>Germany</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <h1 class="font-bold text-gray-600 mb-2">ZIP</h1>
+                <input class="bg-gray-300 px-5 py-2 rounded-sm" type="text" placeholder="90210">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

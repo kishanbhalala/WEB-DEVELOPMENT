@@ -1,0 +1,144 @@
+:root{
+    --color-text:rgb(61, 61, 61);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Basier Square';
+}
+body{
+    margin: 0;
+}
+
+/* common css */
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* header start */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a img{
+    max-width: 165px;
+    margin: 30px 0px;
+}
+
+.nav-item nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.nav-item nav ul li a {
+    font-size: 17px;
+    color:#282828;
+}
+
+.nav-item nav ul li a i{
+    vertical-align: bottom;
+    padding-left: 8px;
+}
+
+.my-avada span a{
+    padding: 15px 25px;
+    border:1px solid black;
+    color:black;
+    font-weight: 900;
+    border-radius: 6px;
+}
+.my-avada span a:hover{
+   background-color: black;
+   color: white;
+}
+.my-avada span a i{
+    margin-right:8px;
+}
+.mobile-menu{
+    display: none;
+    font-size: 25px;
+}
+.mobile-menu a{
+    color:var(--color-text);
+}
+.mobile-menu-item{
+    display: none;
+}
+
+/* the ultimate start */
+
+.ultimate-section{
+margin-top: 30px;
+}
+
+.ultimate-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ultimate-text{
+    max-width: 500px;
+}
+
+.ultimate-text h1{
+    font-size: 64px;
+    font-weight: bold;
+    color:var(--color-text);
+}
+.ultimate-text p{
+    font-size: 19px;
+    margin: 20px 0px;
+    color:var(--color-text);
+    line-height: 30px;
+
+}
+.ultimate-image img{
+    max-width: 800px;
+}
+
+.ultimate-text span a{
+    font-size: 20px;
+    font-weight:400;
+    color:white;
+    border:1px solid black;
+    background-color: var(--color-text);
+    padding: 15px 25px;
+    border-radius: 6px;
+}
+.ultimate-text span a i{
+    margin-left: 10px;
+    vertical-align:bottom;
+}
+
+.ultimate-text span{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.ultimate-line{
+    margin: 50px 0px;
+}
+
+.ultimate-list ul{
+    display: flex;
+}
+
+.ultimate-list ul li:nth-child(1){
+    margin-right:40px ;
+}
+
+.ultimate-list ul li span{
+    font-size: 30px;
+}
+.ultimate-list ul li p{
+    font-size: 14px;
+    margin: 10px 0px;
+}      

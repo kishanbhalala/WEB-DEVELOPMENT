@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Basier Square';
+    src: url('BasierSquare-Medium.eot');
+    src: url('BasierSquare-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BasierSquare-Medium.woff2') format('woff2'),
+        url('BasierSquare-Medium.woff') format('woff'),
+        url('BasierSquare-Medium.ttf') format('truetype'),
+        url('BasierSquare-Medium.svg#BasierSquare-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

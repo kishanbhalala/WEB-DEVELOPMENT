@@ -1,0 +1,222 @@
+@import 'variable';
+
+* {
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+// variables :-
+// h1{
+//     color: $r;
+//     background-color: $b;
+//     text-decoration:$line;
+// }
+// p{
+//     color: $r;
+//     border: 2px solid $y;
+//     text-decoration:$line;
+// }
+//  a:hover{
+//     color: $r;
+//     text-decoration: none;
+//     background-color: $b;  
+//     text-decoration:$line;  
+// }
+
+// nesting :-
+// nav {
+//     ul {
+//       margin: 0;
+//       padding: 0;
+//       list-style: none;
+//       color: $r;
+//     }
+
+//     li { display: inline-block;
+//          background-color: $y;       
+//     }
+
+//     a {
+//       display: block;
+//       padding: 6px 12px;
+//       text-decoration: $line;
+//     }
+//   }
+
+// Mixins :-
+// @mixin bd-radius($value:10%) {
+//     border-radius: $value;
+// }
+// @mixin box-shadow($top, $left, $blur, $color){
+//     box-shadow: $top $left $blur $color;
+// }
+// div{
+//     margin: 0 0 15px 15px;
+// }
+// .info {
+//     height: 100px;
+//     width: 100px;
+//     background-color: blue;
+//     @include bd-radius(50%);
+//     @include box-shadow(5px,5px,0,black);
+// }
+
+// .alert {
+//     height: 200px;
+//     width: 200px;
+//     background-color: $r;
+//     @include bd-radius(10px);
+//     @include box-shadow(-5px,-5px,10px,black);
+// }
+
+// .success {
+//     height: 300px;
+//     width: 300px;
+//     background-color: $y;
+//     @include bd-radius(30px);
+// }
+
+
+// Extend/Inheritance  :- 
+
+// #first{
+//     background-color: $r;
+//     height: 100px;
+//     width: 300px;
+//     padding: 10px;
+//     margin: 20px 0 50px;
+//     text-transform: uppercase;
+//     text-decoration:$line;
+//     color: green;    
+// }
+// #second{
+//     background-color: $y;
+//     height: 100px;
+//     width: 400px;
+//     @extend #first;
+// }
+// #third{
+//     background-color: $b;
+//     height: 100px;
+//     width: 500px;
+//     @extend #first;
+// }
+
+// operators :-  
+
+// .abc {
+//     // padding: 10px == 10px;
+//     // margin:1000ms < 1s
+
+//     padding: arial=='arial' and 10px==10px;
+//     padding: arial=='arial' or 10px==20px;
+//     padding: not 10 != 10px;
+// }
+
+// .test{
+//     padding: $var1 + $var2 + px;
+//     padding: $var1 - $var2 + px;
+//     padding: $var1 * $var2 + px;
+//     padding: $var1 / $var2 + px;
+//     padding: $var1 % $var2 + px;
+// }
+
+// interpolation :-
+
+// @mixin margin($position,$unit){
+//     margin-#{$position} :$unit + px;
+// }
+// .test{
+//     @include margin(bottom,20);
+// }
+
+
+// function :-
+
+// @function half($width){
+//     @return $width/2 + px;
+// }
+// @function one-third($width){
+//     @return $width/3 + px;
+// }
+
+// .half-width{
+//     width:half($container-width);
+// }
+// .one-third-width{
+//     width:one-third($container-width);
+// }
+
+// content directive :-
+
+// body{
+//     background-color: gray;
+// }
+// @mixin media($width){
+//     @media screen and (max-width :$width){
+//         @content;
+//     }
+// }
+
+// @include media(1300px){
+//     body{
+//         background-color: red;
+//     }
+// }
+// @include media(1000px){
+//     body{
+//         background-color: yellow;
+//     }
+// }
+
+
+// if else :- 
+// @mixin changecolor($value) {
+//     font-size: $value + px;
+
+
+//     @if $value >0 and $value <=20 {
+//         color: green;
+//     }
+
+//     @else if $value >20 and $value <=50 {
+//         color: blue;
+//     }
+
+//     @else {
+//         color: yellow;
+//     }
+// }
+
+// .test {
+//     @include changecolor(45)
+// }
+
+
+// forloop :- 
+
+// @for $i from 1 through 5 {
+//     .list-#{$i} {
+//         width: 200px *$i;
+//         background: darken(pink, $i * 10%);
+//         padding: 20px * $i;
+//     }
+// }
+
+// eachloop  :- 
+
+// @each $i in (normal,bold,italic){
+//     .#{$i}{
+//         font-weight: $i;
+//     }
+// }   
+
+// whileloop :-
+// $i : 10;
+
+//  @while $i <= 50{
+//     .padding-#{$i}{
+//         padding-left:1px * $i;
+//     }
+//     $i : $i + 10;
+//  }

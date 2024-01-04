@@ -1,0 +1,205 @@
+/* lecture-4 */
+
+/* CSS PSEUDO CLASS */
+/* accent-color */
+
+/* input {
+    accent-color: rgb(135, 212, 125);
+} */
+
+/*
+        ::placeholder
+        :focus
+        :hover
+        ::marker
+        
+        :disabled
+        :enabled(default)
+        :checked
+        :required
+ */
+
+
+/* .input-1::placeholder{
+        color: red;
+        text-decoration: underline;
+    }
+
+    input:focus{
+        border-color: yellow;
+        outline: 5px solid green;
+        border-radius: 10px ;
+    }
+    input:hover{
+        border:5px solid red;
+        outline: 2px solid blue;
+    }
+    :is(ol,ul) li::marker{
+        color:rgb(48, 246, 13);
+    } */
+
+
+/* 
+    :empty
+    :invalid
+    :read-only
+    :read-write
+    :root
+    :target
+    :valid
+    :lang()  
+*/
+
+/* div:empty {
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+        border: 2px solid green;
+    }
+
+    input:invalid {
+        border: 20px solid red;
+    }
+
+    input:valid {
+        outline: 2px solid green;
+    }
+
+    *:read-only {
+        font-size: 20px;
+        color: blue;
+    }
+    
+    :root{
+        --color-1:red;
+        --color-2:green;
+        --color-3:yellow;
+    }
+    .boxx-1{
+        height:100px;
+        width: 100px;
+        background-color: var(--color-2);
+    }
+
+[target=_blank] {
+    color: rgb(61, 178, 22);
+}
+
+[target=_blank] {
+    color: rgb(108, 42, 42);
+    text-decoration: underline;
+}
+
+*:lang("en") {
+    color: darkgoldenrod;
+    background-color: darkolivegreen;
+} */
+
+/* CSS PSEUDO CLASS */
+/*  :first-child
+    :first-of-type 
+    :last-child
+    :last-of-type
+    :not()
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :nth-of-type()
+    :only-of-type
+    :only-child */
+
+
+/* h1:only-child {
+    color: yellow;
+    background-color: green;
+} */
+/* p:not(h1){
+    color: yellow;
+    background-color: green;
+} */
+
+/* h1:first-child{
+    color: yellow;
+    background-color: green;
+} */
+/* h1:first-of-type{
+    color: yellow;
+    background-color: green;
+} */
+/* p:last-child{
+    color: yellow;
+    background-color: green;
+} */
+/* p:last-of-type{
+    color: yellow;
+    background-color: green;
+} */
+/* p:nth-child(2){
+    color: yellow;
+    background-color: green;
+} */
+/* h1:nth-last-child(3){
+    color: yellow;
+    background-color: green;
+} */
+/* h1:nth-last-of-type(2){
+    color: yellow;
+    background-color: green;
+} */
+/* h1:nth-of-type(3){
+    color: yellow;
+    background-color: green;
+} */
+/* p:only-of-type{
+    color: yellow;
+    background-color: green;
+} */
+/* p:only-child{
+    color: yellow;
+    background-color: green;
+} */
+
+
+/* CSS PSEUDO ELEMENT */
+        /* 
+            ::after
+            ::before
+            ::first-letter
+            ::first-line
+            ::selection 
+        */
+
+    /* css after and before */
+        /* h1::after{
+            content: "kishan";
+            background-color: red;
+            color: yellow;
+        } */
+
+        /* h1::first-letter{
+            font-size: 50px;
+            color: blueviolet;
+            text-decoration: underline;
+        } */
+        /* h1::first-line{
+            font-size: 20px;
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        p::selection{
+            background-color: yellow;
+            color: blue;
+            user-select: none;
+        } */
+        
+
+    /* box-shadow */
+        /* .shadow-1{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            border: 10px solid yellow;
+            overflow: auto;
+            box-shadow: 20px 20px 10px rgba(32,134,18,0.4);
+        } */
+    

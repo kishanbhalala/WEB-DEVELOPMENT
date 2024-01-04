@@ -1,0 +1,22 @@
+.btn1{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    color: white;    
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.btn2{
+    height: 100px;
+    width: 300px;
+    background-color: skyblue;
+    color: white;    
+    font-size: 30px;
+}
+
+span{
+    font-size: 30px;
+    padding: 10px;
+    background-color: burlywood;
+}

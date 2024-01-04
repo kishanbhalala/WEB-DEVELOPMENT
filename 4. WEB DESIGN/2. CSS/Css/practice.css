@@ -1,0 +1,277 @@
+/* .mainbox {
+    display: flex;
+    height: 600px;
+    width: 1400px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    position: relative;
+  }
+  .box-1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+  }
+  .box-11 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+  }
+  .box-22 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-3 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    bottom: 0;
+    position: absolute;
+  }
+  .box-33 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .box-44 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-5 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    left: 0;
+  }
+  .box-55 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .box-6 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    left: 0;
+  }
+  .box-66 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-7 {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .box-77 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-8 {
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-88 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-9 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-99 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  } */
+  
+
+  /* ball bounce */
+
+  body{
+    /* margin: 0px; */
+  }
+  .pitch{
+    border-bottom: 10px solid black;
+    padding-bottom: 50%;
+    position: relative;
+  }
+  .ball{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    color: aqua;
+    text-align: center;
+    line-height: 50px;
+    animation-name: kishan;
+    position: absolute;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    bottom: 0;
+  
+  }
+  @keyframes kishan{
+    0%{ 
+        top:0;
+        left:0;
+        animation-timing-function: ease-in;
+        transform: rotate(-360deg);
+        transition-duration: 10s;
+       
+    }
+    15%{
+        top: 95%;
+        left: 10%;
+        animation-timing-function: linear;
+    }
+    25%{
+        top: 20%;
+        left: 20%;
+        animation-timing-function: linear;
+    }
+    35%{
+        top: 95%;
+        left: 30%;
+        animation-timing-function: linear;
+    }
+    45%{
+        top: 35%;
+        left: 40%;
+        animation-timing-function: linear;
+    }
+    55%{
+        top: 95%;
+        left: 50%;
+        animation-timing-function: linear;
+    }
+    65%{
+        top: 45%;
+        left: 60%;
+        animation-timing-function: linear;
+    }
+    75%{
+        top: 95%;
+        left: 70%;
+        animation-timing-function: linear;
+    }
+    85%{
+        top: 55%;       
+        left: 80%;
+        animation-timing-function: linear;
+    }
+    95%{
+        top: 95%;
+        left: 90%;
+        animation-timing-function: linear;
+       
+    }
+    100%{
+        left: 100%;
+        animation-timing-function: linear;
+     
+  
+    }
+}

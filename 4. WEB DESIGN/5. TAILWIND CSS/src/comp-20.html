@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-300">
+    <section class="flex">
+        <div class="h-screen    w-72 bg-white">
+            <h1 class=" text-6xl text-pink-600 text-center pt-3">pleo</h1>
+            <div class="text-center">
+                <img class="h-20 w-20 rounded-full mx-auto mt-5 ring-1 ring-gray-400" src="./assets/mickey.jpg" alt="">
+                <h1 class="mt-2">Mickey</h1>
+            </div>
+
+            <div class="mt-6">
+                <div class="mt-4 ml-6">
+                    <i class="fa-regular fa-credit-card text-gray-700"></i><span class="ml-4">My Card</span>
+                </div>
+                <div class="mt-4 ml-6 flex items-center">
+                    <img class="h-4 w-4" src="./assets/stairs-2-svgrepo-com.svg" alt=""><span
+                        class="ml-4 text-pink-500">Expenses</span>
+                </div>
+                <div class="mt-4 ml-6">
+                    <i class="fa-solid fa-wallet text-gray-700"></i><span class="ml-4">Wallet</span>
+                </div>
+                <div class="mt-4 ml-5 flex items-center">
+                    <img class="h-6 w-6" src="./assets/users-arrows-svgrepo-com.svg" alt=""><span class="ml-3">Manage
+                        Team</span>
+                </div>
+                <div class="mt-4 ml-6">
+                    <i class="fa-regular fa-credit-card"></i><span class="ml-4">Manage Cards</span>
+                </div>
+                <div class="mt-4 ml-6 flex items-center">
+                    <img class="h-4 w-4" src="./assets/company-svgrepo-com.svg" alt=""><span class="ml-4">Company
+                        Profile</span>
+                </div>
+                <div class="mt-4 ml-6 flex items-center">
+                    <img class="h-4 w-4" src="./assets/sort-svgrepo-com.svg" alt=""><span class="ml-4">Manage
+                        Catagories</span>
+                </div>
+                <div class="mt-4 ml-6 flex items-center">
+                    <img class="h-5 w-5" src="./assets/profile-circle-svgrepo-com.svg" alt=""><span class="ml-4">My
+                        Profile</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full p-3 ml-5">
+            <h1 class="font-semibold text-2xl">Expenses</h1>
+
+            <div class="flex justify-between items-center mt-3">
+
+                <h6>wallet balance <span class="font-bold">71.180,00kr</span></h6>
+
+                <div class="relative flex items-center">
+                    <div class="absolute pl-2 ">
+                        <span class="fa fa-search form-control-feedback text-gray-800 "></span>
+                    </div>
+                    <input type="text" class="pl-8 px-14 rounded-md py-1 bg-gray-300" placeholder="Search in activity">
+                </div>
+
+                <button class="border border-gray-400 bg-gray-300 rounded-2xl flex px-4 py-1 items-center"><img
+                        class="h-5 w-5 mr-2" src="./assets/export-thin-svgrepo-com.svg" alt="">Export</button>
+
+                <div class="flex items-center">
+                    <h6>Filter</h6>
+                    <div class="ml-2 h-8 w-8 bg-gray-400 rounded-full relative flex justify-center items-center">
+                        <img class="h-4 w-6 absolute " src="./assets/filter-svgrepo-com.svg" alt="">
+                    </div>
+                    <div class="ml-2 h-8 w-8 bg-gray-400 rounded-full relative flex justify-center items-center">
+                        <img class="h-5 w-6 absolute" src="./assets/sort-ascending-svgrepo-com.svg" alt="">
+                    </div>
+                    <div class="ml-2 h-8 w-8 bg-gray-400 rounded-full relative flex justify-center items-center">
+                        <img class="h-5 w-6 absolute" src="./assets/user-filled-svgrepo-com.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="border border-gray-400/20 mt-3 mb-3"></div>
+
+            <div class="flex justify-between ">
+                <div class="flex justify-between bg-white w-[94%] p-5 border-l-4 border-green-500">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 h-12 rounded-full object-cover" src="./assets/pubg.jpg" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h1 class="font-bold text-gray-700 pl-1">Amazone</h1>
+
+                            <div class="flex mt-2">
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/user-filled-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">Niccolo perra</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/calendar-day-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">13 Aug 2016</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/last-24-hours-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">21 Hours</p>
+                                </div>
+                            </div>
+
+                            <div class="flex mt-2">
+                                <button
+                                    class="border border-gray-400  rounded-2xl flex px-7 py-1 mr-5 items-center"><img
+                                        class="h-4 w-4 mr-2" src="./assets/filter-svgrepo-com.svg" alt="">Select
+                                    Category</button>
+                                <button
+                                    class="border border-blue-400  rounded-2xl flex px-5 py-1 mr-5 items-center"><img
+                                        class="h-5 w-5 mr-2" src="./assets/edit-4-svgrepo-com.svg" alt="">Add
+                                    note</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mr-16">
+                        <h1 class="text-green-600">Refunded</h1>
+                        <h1 class="text-green-600">200 $</h1>
+                        <h6>300,00kr</h6>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-md flex items-center px-6">
+                    <img class="h-6 w-6" src="./assets/bookmark-check-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-2">
+                <div class="flex justify-between bg-white w-[94%] p-5">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 h-12 rounded-full object-cover" src="./assets/pubg.jpg" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h1 class="font-bold text-gray-700 pl-1">Amazone</h1>
+
+                            <div class="flex mt-2">
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/user-filled-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">Niccolo perra</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/calendar-day-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">13 Aug 2016</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/last-24-hours-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">21 Hours</p>
+                                </div>
+                            </div>
+
+                            <div class="flex mt-2">
+                                <button
+                                    class="border border-gray-400  rounded-2xl flex px-7 py-1 mr-5 items-center"><img
+                                        class="h-4 w-4 mr-2" src="./assets/filter-svgrepo-com.svg" alt="">Select
+                                    Category</button>
+                                <button
+                                    class="border border-blue-400  rounded-2xl flex px-5 py-1 mr-5 items-center"><img
+                                        class="h-5 w-5 mr-2" src="./assets/edit-4-svgrepo-com.svg" alt="">Add
+                                    note</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mr-16">
+                        <h1 class="text-green-600">Refunded</h1>
+                        <h1 class="text-green-600">200 $</h1>
+                        <h6>300,00kr</h6>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-md flex items-center px-6">
+                    <img class="h-6 w-6" src="./assets/bookmark-check-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-2">
+                <div class="flex justify-between bg-white w-[94%] p-5">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 h-12 rounded-full object-cover" src="./assets/pubg.jpg" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h1 class="font-bold text-gray-700 pl-1">Amazone</h1>
+
+                            <div class="flex mt-2">
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/user-filled-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">Niccolo perra</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/calendar-day-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">13 Aug 2016</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/last-24-hours-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">21 Hours</p>
+                                </div>
+                            </div>
+
+                            <div class="flex mt-2">
+                                <button
+                                    class="border border-gray-400  rounded-2xl flex px-7 py-1 mr-5 items-center"><img
+                                        class="h-4 w-4 mr-2" src="./assets/filter-svgrepo-com.svg" alt="">Select
+                                    Category</button>
+                                <button
+                                    class="border border-blue-400  rounded-2xl flex px-5 py-1 mr-5 items-center"><img
+                                        class="h-5 w-5 mr-2" src="./assets/edit-4-svgrepo-com.svg" alt="">Add
+                                    note</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mr-16">
+                        <h1 class="text-green-600">Refunded</h1>
+                        <h1 class="text-green-600">200 $</h1>
+                        <h6>300,00kr</h6>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-md flex items-center px-6">
+                    <img class="h-6 w-6" src="./assets/bookmark-check-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-2">
+                <div class="flex justify-between bg-white w-[94%] p-5">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 h-12 rounded-full object-cover" src="./assets/pubg.jpg" alt="">
+                        </div>
+                        <div class="ml-3">
+                            <h1 class="font-bold text-gray-700 pl-1">Amazone</h1>
+
+                            <div class="flex mt-2">
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/user-filled-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">Niccolo perra</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/calendar-day-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">13 Aug 2016</p>
+                                </div>
+                                <div class="flex mr-4">
+                                    <img class="h-5 w-6" src="./assets/last-24-hours-svgrepo-com.svg" alt="">
+                                    <p class="text-gray-500 font-medium ml-3">21 Hours</p>
+                                </div>
+                            </div>
+
+                            <div class="flex mt-2">
+                                <button
+                                    class="border border-gray-400  rounded-2xl flex px-7 py-1 mr-5 items-center"><img
+                                        class="h-4 w-4 mr-2" src="./assets/filter-svgrepo-com.svg" alt="">Select
+                                    Category</button>
+                                <button
+                                    class="border border-blue-400  rounded-2xl flex px-5 py-1 mr-5 items-center"><img
+                                        class="h-5 w-5 mr-2" src="./assets/edit-4-svgrepo-com.svg" alt="">Add
+                                    note</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mr-16">
+                        <h1 class="text-green-600">Refunded</h1>
+                        <h1 class="text-green-600">200 $</h1>
+                        <h6>300,00kr</h6>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-md flex items-center px-6">
+                    <img class="h-6 w-6" src="./assets/bookmark-check-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
+     </html>

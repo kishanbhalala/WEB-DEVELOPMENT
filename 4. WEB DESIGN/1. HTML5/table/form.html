@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        section {
+            width: 30%;
+            background-color: azure;
+            padding: 40px;
+            padding-top: 10px;
+        }
+
+        .id {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        input {
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        .gnd {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ftr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+            color: azure;
+            height: 50px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>registration</h1>
+        <div class="id">
+            <div>
+                <div>full name</div>
+                <input type="text" placeholder="enter your name">
+                <div>email</div>
+                <input type="text" placeholder="enter your email">
+                <div>password</div>
+                <input type="text" placeholder="enter your password">
+            </div>
+            <div>
+                <div>full name</div>
+                <input type="text" placeholder="enter your name">
+                <div>email</div>
+                <input type="text" placeholder="enter your email">
+                <div>password</div>
+                <input type="text" placeholder="enter your password">
+            </div>
+        </div>
+
+        <h1>Gender</h1>
+        <div class="gnd">
+            <div>
+                <input type="radio" name="gender" value="male"> Male
+            </div>
+            <div>
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <div>
+                <input type="radio" name="gender" value="prefer not to say"> prefer not to say
+            </div>
+        </div>
+
+        <div class="ftr">
+            <h2>Register</h2>
+        </div>
+    </section>
+</body>
+
+</html>

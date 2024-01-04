@@ -1,0 +1,272 @@
+/* 1]. What is the Box model in CSS? Which CSS properties are a part of it? */
+
+/* The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. 
+It is used to create the design and layout of web pages. 
+According to the CSS box model, the web browser supplies each element as a square prism */
+
+
+/* 2]. What are the advantages of using CSS? */
+
+/* Better Website Speed. 
+Easier to Maintain. 
+Consistent Design.
+Time-Saving.
+Better Device Compatibility.
+Positioning of Design Elements. */
+
+
+/* 3]. How to include CSS in the webpage? */
+
+/* inline
+internal
+external */
+
+/* 4]. What are the different types of Selectors in CSS? */
+
+/* simple tag selector
+multiple class selector 
+unique id selector
+combinator selector
+link selector 
+Universal Selector. */
+
+
+/* 5]. What do you understand about the universal sector? */
+
+/* The universal selector is used as a wildcard character. 
+    It selects all the elements on the pages. 
+    
+    example :- Set the text color to red, for all <p> elements. */
+
+/* p {
+          color :  red;
+        } */
+
+
+
+/* 6].Set the text color to red, for the element with id="para1". */
+
+/* #para1 {
+            color : red;
+        } */
+
+
+
+/* 7].Set the text color to red, for elements with class="colortext". */
+
+/* .colortext {
+            color : red;
+        } */
+
+
+
+/* 8].Set the text color to red, for all <p> and <h1> elements. Group the selectors to minimize code. */
+
+/* h1, p {
+            color : red;
+        } */
+
+
+
+/* 9].Add an external style sheet with the URL: "mystyle.css". */
+
+/*  <head>
+             <link rel="stylesheet" href="mystyle.css"> 
+    </head> */
+
+
+
+/* 10].Set the page's background color to red, by using an inline style. */
+
+/* apply to code HTML  */
+/*    <body style="background-color: red;">
+         <h1>This is a heading</h1>
+         <p>This is a paragraph</p>
+         <p>This is a paragraph</p>
+      </body> 
+*/
+
+
+/* 11].Set "paper.gif" as the background image of the page. */
+
+/* body {
+    background-image: url("./images.jpg");
+} */
+
+
+/* 12].Make the background image repeat only vertically.  */
+
+/* body {
+    background-image: url("./images.jpg");
+    background-repeat: repeat-y;
+} */
+
+
+/* 13].Specify that the background image should be shown once, in the top right corner. */
+
+/* body {
+    background-image: url("./img-2.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+} */
+
+
+/* 14].Use the correct background property to make the background image NOT scroll with the rest of the page. */
+
+/* body {
+    background-image: url("./img-2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+
+/* CSS PRACTICAL EXAM  */
+
+/* 1].Draw a circle inside a square using a single DIV in css? */
+
+/* .bg{
+    width: 200px;
+    height: 200px;
+    border: solid 2px rgb(11, 11, 11);   
+    position: relative;
+}
+span{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+} */
+
+/* 2].How to centre a div within another div?  */
+
+/* .parent {
+    height: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+.child {
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    border: 2px solid black;
+    top: 0;  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin :auto;
+    position: absolute;
+} */
+
+/* 3].How to create a zebra stripe Background with CSS? */
+
+/* 
+ .warning{
+    height: 50vh;
+    width: 50%;
+    background:repeating-linear-gradient(90deg,grey,grey 10%,black 10%, black 20%)
+}  */
+
+
+/* 4].Place a div to the corner top-right of the page? */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+} */
+
+
+/* 5].Place header at bottom of div */
+
+/* div {
+    width: 100%;
+    color: yellow;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+
+
+/* 6].CSS Gradient Example  */
+
+/* .example {
+    height: 200px;
+    width: 100%;
+    background : linear-gradient(to right,red, yellow);
+    background: radial-gradient(red, yellow, green,blue);
+    background: repeating-radial-gradient(red,rgb(13, 255, 0) 10%,white 10%,white 20%);
+    background: conic-gradient(red,yellow,green,blue);
+} */
+
+
+/* 7].How to make fixed background image in css */
+
+/* body {
+    text-align: center;
+    background-image: url("./img-2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} */
+
+
+/* 8].Add space between flex items  */
+
+/* .main {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: green;
+}
+
+.flex {
+    background-color: #f4f4f4;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+} */
+
+
+/* 9].How to get text to start a new line?  */
+
+/* <br> */
+
+
+
+/* 10].How to select child elements in css? */
+
+/* :first-child
+:last-child
+:nth-child()
+:nth-last-child()
+:only-child */
+
+/* div:nth-child(2) {
+    background: red;
+}
+li:nth-child(2) {
+    background: lightgreen;
+}
+:nth-child(3) {
+    background: yellow;
+} */
+
+
+/* 11].CSS background-color gray opacity css code example */
+
+/* .opacity {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(238, 255, 0,0.5);
+    opacity: 0.5;
+    color: red;
+} */
