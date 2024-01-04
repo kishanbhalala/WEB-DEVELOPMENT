@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{        //[0c*(9/5)+32]
+   float cel=5,fer;
+   clrscr();
+   fer=cel*(9/5)+32;
+    printf("5 cel = %.2f fer",fer);
+    getch();
+
+
+
+
+
+}

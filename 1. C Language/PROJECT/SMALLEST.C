@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{  // enter two value find smallest
+int a,b;
+clrscr();
+printf("enter the two value \n");
+scanf("%d%d",&a,&b);
+  if (a<b)
+  {
+   printf("smallest = %d",a);
+  }
+  else
+  {
+  printf("small = %d",b);
+  }
+
+getch();
+
+
+
+
+
+
+
+
+
+
+}
