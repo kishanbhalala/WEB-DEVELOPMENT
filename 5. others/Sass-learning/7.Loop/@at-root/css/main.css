@@ -1,0 +1,20 @@
+/* @at-root*/
+.box-1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.box-1 .box-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.box-1 .box-2 .box-4 {
+  overflow: hidden;
+  text-align: center;
+}
+.box-1 .box-3 {
+  border: 2px solid green;
+}
+
+/*# sourceMappingURL=main.css.map */

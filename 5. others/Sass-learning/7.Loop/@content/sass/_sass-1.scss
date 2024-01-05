@@ -1,0 +1,54 @@
+@use 'index' as *;
+
+@mixin font-size($size){
+  font-size: $size;
+  height: $size;
+  width: $size;
+  @content;
+}
+
+.box-1{
+  @include font-size(100px);
+}
+
+
+.box-2{
+  @include font-size(100px){
+    border-radius: 10px;
+  };
+}
+
+
+@mixin text{
+  @content;
+}
+
+@mixin text{
+  .demo{
+    @content;
+  }
+}
+
+@include text{
+  .one{
+    color:red;
+  }
+}
+
+.box-3{
+  @include text;
+}
+
+
+@mixin hover{
+    &:hover{
+      @content;
+    }
+}
+
+button{
+  background-color: red;
+  @include hover{
+    background-color: yellow;
+  }
+}

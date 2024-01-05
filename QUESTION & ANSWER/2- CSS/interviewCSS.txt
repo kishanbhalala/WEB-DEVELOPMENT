@@ -1,0 +1,958 @@
+ /* 1. What is CSS, and what is its role in web development? 
+
+   -> CSS stands for Cascading Style Sheets
+   -> CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+   -> CSS saves a lot of work. It can control the layout of multiple web pages all at once
+   -> External stylesheets are stored in CSS files 
+   -> css can be used to turn an HTML document  into a proffessional, polished design.
+   
+   * Styling HTML Elements
+   * Layout and Positioning
+   * Responsive Web Design 
+   * Animation and Transitions
+   * Browser Compatibility 
+*/
+
+ /* 2. Explain the difference between inline, internal, and external CSS.
+
+    -> inline :-
+       * It is used within HTML tag using the style attribute. 
+       * Highest priority. Overrides internal and external styles
+       * Not easy to maintain. Changes need to be made manually to each element.
+    -> internal :-
+       * It is used within <head> section of HTML document.
+       * Medium priority. Overrides external styles but can be overridden by inline styles.
+       * Relatively easy to maintain. Changes need to be made in one place in the <head> section.
+    -> external :-
+       * It is used in a separate .css file.
+       * Lowest priority. Can be overridden by both inline and internal styles.
+       * Easiest to maintain. Changes need to be made in one place in the external css file.
+*/
+
+ /* 3. What are the various ways to include CSS in a web page?
+
+    * Inline - by using the style attribute inside HTML elements
+    * Internal - by using a <style> element in the <head> section
+    * External - by using a <link> element to link to an external CSS file
+
+*/
+
+ /* 4. Describe the concept of specificity in CSS.
+
+    * Specificity in CSS refers to the set of rules used by browsers to decide which style should be applied to an element when multiple conflicting styles exist. 
+    * It determines which CSS rule will be applied to an element and in what order, resolving conflicts between styles.
+*/
+
+ /* 5. What is the box model in CSS?
+
+    * The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself
+*/
+
+ /* 6. Explain the differences between padding and margin in CSS.
+
+    -> padding :- 
+       * padding is space inside the element’s border.
+       * It does not allow negative values.
+       * We cannot set the padding to auto.
+    -> margin :- 
+       * margin is the space outside the border.
+       * It can be negative or any float number.
+       * We can set the margin to auto.		
+*/
+
+ /* 7. Describe the differences between display: block, display: inline, and display: inline-block. 
+    
+    -> display: block :- 
+       * Block-level elements generate a line break before and after the element and take up the full width of their parent container.
+       * Block elements start on a new line in the layout.
+       * <div>, <p>, <h1>, <form>, <ul>, <li>
+    -> display: inline :- 
+       * Inline-level elements do not cause a line break before or after the element and only take up as much width as necessary.
+       * Inline elements are laid out in the same line as the content and elements next to them.
+       * <span>, <a>, <strong>, <em>, <img>
+    -> display: inline-block :- 
+       * They are laid out as inline elements, but they can have block-level styling properties applied to them
+       * Inline-block elements are laid out in the same line as other inline elements.
+       * Inline-block is often used when you want elements to be inline but need to control their dimensions and spacing.
+*/
+
+ /* 8. What is the purpose of the z-index property in CSS? 
+
+   * z-index is the CSS property that controls the stacking order of overlapping elements on a page.
+*/
+
+ /* 9. How does CSS handle responsive web design?
+
+    * They make it easy to change styles based on the types of device rendering the content, or the features of that device, for example width, height, orientation, ability to hover, and whether the device is being used as a touchscreen.
+*/
+
+ /* 10. What are pseudo-classes in CSS? Provide examples.
+
+    * A pseudo-class is used to define a special state of an element.
+
+    -> For example, it can be used to:
+    * Style an element when a user mouses over it
+    * Style visited and unvisited links differently
+    * Style an element when it gets focus
+*/
+
+ /* 11. Describe the differences between classes and IDs in CSS.
+
+    -> classes :- 
+       * the "class" selector is used to select an element with a specific class attribute.
+       * "class" assigned to an element has its name starts with "." followed by class name.
+       * Multiple class selectors can be attached to an element.
+       * The class can be applied to multiple elements so it could be multiple times on a single page.
+    -> IDs :-
+       * the "id" selector is used id attribute of an element.
+       * In HTML, for an element, the ID name starts with the "#" symbol followed by a unique name assigned to it.
+       * Only one ID selector can be attached to an element.
+       * ID is unique in a page and can only apply to at most one element
+*/
+
+ /* 12. Explain the use of the float property in CSS.  
+  
+      * The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+      * The float property specifies whether an element should float to the left, right, or not at all.
+*/
+
+ /* 13. What is the purpose of the position property in CSS? Describe its values.  
+
+      * The position property in CSS is used to specify the positioning method of an element within its containing element. 
+      * It can be a powerful tool for creating complex layouts and positioning elements precisely on a web page. 
+
+      -> static :-
+        * An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page. Default value.
+      -> relative :- 
+        * Element is positioned relative to its normal position in the document flow.
+      -> fixed :- 
+        * An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled
+      -> absolute :- 
+        * An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+      -> sticky :- 
+        * An element with position: sticky; is positioned based on the user's scroll position.
+*/
+
+ /* 14. Explain the concept of CSS preprocessors. Give examples. 
+
+    * preprocessors are scripting languages that extend the default capabilities of CSS. 
+    * They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations.
+*/
+
+ /* 15. How does CSS Grid different from Flexbox? 
+
+    -> Grid :-
+      * The CSS Grid Layout is a two-dimensional grid-based layout system with rows and columns. 
+      * It is useful in creating more complex and organized layouts.
+      * Layout First
+      
+    -> Flexbox :-
+      * The CSS Flexbox is a one-dimensional layout. It is useful in allocating and aligning the space among items in a grid container. 
+      * It works with various kinds of display devices and screen sizes. Content First
+      * Flex layout makes it easier to design and build responsive web pages without using many float and position properties in the CSS code.
+*/
+
+ /* 16. Describe the CSS box-sizing property and its various values.
+      
+      -> The box-sizing property allows us to include the padding and border in an element's total width and height
+
+      * content-box :- Default. The width and height properties (and min/max properties) includes only the content. 
+                       Border and padding are  not included	
+      * border-box :- The width and height properties (and min/max properties) includes content, padding and border	
+      * initial :- Sets this property to its default value. 	
+      * inherit :- Inherits this property from its parent element. 
+*/
+
+ /* 17. How does CSS support animations and transitions?
+
+      -> CSS supports animations and transitions to enhance the interactivity and visual appeal of web pages.
+
+      -> Transitions :-
+         * CSS transitions allow you to smoothly change property values over a specified duration. 
+         * Transitions are often used for creating smooth state changes, such as hover effects.
+      -> Animations :-
+         * CSS animations allow for more complex and customizable effects. 
+         * Animations can have multiple keyframes defining different styles at various points during the animation.
+*/
+
+ /* 18. What is the @media rule in CSS, and how is it used for responsive design? 
+
+      * The @media rule in CSS is used to apply different styles for different devices and screen sizes.
+      *  It is a key component of responsive web design, allowing developers to create websites that adapt and look good on various devices, such as desktops, tablets, and smartphones
+      * @media screen and (media-feature) {
+            body {
+                 CSS rules to be applied for specific media types and features
+           }
+         }
+*/
+
+ /* 19. Describe the differences between em and rem units in CSS.
+
+      -> em :-
+        * Relative to the parent element's font size
+        * Can cause issues with cascading font size values
+        * Based on parent element's font size
+        * Universal support
+      -> rem :-
+        * Relative to the root element (html) font size
+        * Consistent, since it always refers to the same base font size
+        * 16px (default font size of root element)	
+        * Widely supported in modern browsers	
+*/
+
+ /* 20. Explain the concept of the box-shadow property in CSS. 
+     
+      * The box-shadow CSS property adds shadow effects around an element's frame. 
+      * You can set multiple effects separated by commas.
+      * A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
+*/
+
+ /* 21. What are the differences between position: relative, position: absolute, and position: fixed in CSS? 
+
+      -> relative :-
+         * relative; property will cause it to adjust from its normal position
+         * The other objects or elements will not fill the gap.
+      -> absolute :-
+         * absolute; will cause it to adjust its position with respect to its parent.
+         * If no parent is present, then it uses the document body as parent.
+      -> fixed  :-
+         * fixed; property applied to an element will cause it to always stay in the same place even if the page is scrolled.
+         * To position the element we use top, right, bottom, left properties.
+*/
+
+ /* 22. Describe the purpose of the CSS transform property and its functions. 
+
+      * The transform property in CSS is a powerful tool that allows you to apply various transformations to an element.
+      * Transformations modify the element's appearance and position without affecting the document flow. 
+      * The transform property can be used with different functions to achieve different effects. 
+      * The transform property applies a 2D or 3D transformation to an element. 
+      * This property allows you to translate, rotate, scale, move, skew, matrix
+*/
+
+ /* 23. Explain the differences between opacity and rgba() in CSS for controlling transparency. 
+   
+      * Both opacity and rgba() in CSS are used to control the transparency of elements, but they work in slightly different ways.
+
+      -> opacity :-
+        * The opacity property is a numeric value between 0 and 1, where 0 represents fully transparent (completely invisible) and 1 represents fully opaque (completely visible).
+      -> rgba() :- 
+        * The rgba() function allows you to define a color by specifying its red, green, blue, and alpha (transparency) components. The alpha component is a numeric value between 0 and 1, where 0 represents fully transparent and 1 represents fully opaque.
+*/
+
+ /* 24. How does CSS handle responsive typography?  
+
+      * CSS handles responsive typography by using various techniques and units that allow font sizes to adjust based on the viewport size or the parent element's size.
+       -> Viewport Units (vw, vh, vmin, vmax)
+       -> Media Queries
+       -> em and rem Units 
+       -> Fluid Typography with calc()
+*/
+
+ /* 25. Describe the differences between link, visited, hover, and active pseudo-classes. 
+      
+     -> :link     :-
+        *  used to select and style unvisited links.
+        * It applies styles to anchor elements that have an href attribute but have not been visited.
+     -> :visited  :-
+        * used to style visited links.
+     -> :hover    :- 
+        *  used to style links when the user hovers their mouse pointer over the link.
+     -> :active   :-
+       * used to style links when they are being activated, typically when the user clicks the link.
+       * This style is applied for the duration of the click.
+*/
+
+ /* 26. What is the importance of the !important rule in CSS? 
+
+      * The !important rule in CSS is used to add more importance to a property/value than normal.
+      * In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
+*/
+
+ /* 27. Explain the concept of CSS specificity and how it affects style application. 
+
+      * CSS specificity is a set of rules that determine which CSS styles are applied to an HTML element when conflicting styles are defined. * When multiple CSS rules target the same element and define conflicting styles, the specificity of those rules determines which style is applied.
+*/
+
+ /* 28. Describe the difference between inline and inline-block elements. 
+
+    -> display: inline :- 
+       * Inline-level elements do not cause a line break before or after the element and only take up as much width as necessary.
+       * Inline elements are laid out in the same line as the content and elements next to them.
+       * <span>, <a>, <strong>, <em>, <img>
+    -> display: inline-block :- 
+       * They are laid out as inline elements, but they can have block-level styling properties applied to them
+       * Inline-block elements are laid out in the same line as other inline elements.
+       * Inline-block is often used when you want elements to be inline but need to control their dimensions and spacing.
+*/
+
+ /* 29. What is the purpose of the outline property in CSS? 
+
+      * An outline is a line that is drawn around elements, outside the borders, to make the element "stand out".
+*/
+
+ /* 30. Explain the concept of flex containers and flex items in Flexbox. 
+
+      -> Flex Containers :-
+         * A flex container is an element set to display: flex; or display: inline-flex;. 
+         * When you designate an element as a flex container, its direct children become flex items, and the container establishes a new flex formatting context. 
+         * This means the direct children of the flex container are aligned and distributed based on flexible properties specified in the container.
+
+      -> Flex Items:
+         * Flex items are the direct children of a flex container. 
+         * These elements can be aligned and distributed within the flex container according to the rules specified by the flex container's properties.
+*/
+
+ /* 31. How does CSS handle cross-browser compatibility issues? 
+
+         * Handling cross-browser compatibility issues in CSS involves writing styles in a way that ensures consistent rendering across different web browsers and their versions.
+*/
+
+ /* 32. Describe the differences between a class and an ID selector in CSS.
+
+      -> classes :- 
+       * the "class" selector is used to select an element with a specific class attribute.
+       * "class" assigned to an element has its name starts with "." followed by class name.
+       * Multiple class selectors can be attached to an element.
+       * The class can be applied to multiple elements so it could be multiple times on a single page.
+    -> IDs :-
+       * the "id" selector is used id attribute of an element.
+       * In HTML, for an element, the ID name starts with the "#" symbol followed by a unique name assigned to it.
+       * Only one ID selector can be attached to an element.
+       * ID is unique in a page and can only apply to at most one element
+*/
+
+ /* 33. Explain the use of the rem unit in CSS and its advantages over other units. 
+
+       * The rem unit in CSS stands for "root em" and represents the font size of the root element (<html>), making it relative to the base font size of the document. 
+       * Unlike the em unit, which is relative to the font size of the parent element, rem is always relative to the root element's font size.
+
+       -> Scalability
+       -> Easier to Manage
+       -> Predictable Nesting 
+       -> Consistent Spacing
+*/
+
+ /* 34. What is the purpose of the clip-path property in CSS?
+
+       * The clip-path property lets you clip an element to a basic shape or to an SVG source.
+*/
+
+ /* 35. Describe the advantages and disadvantages of using CSS frameworks. 
+
+      -> advantages  :-
+        * Rapid Development
+        * Consistency
+        * Community Support
+        * Cross-Browser Compatibility
+        * Customization
+      -> disadvantages :-
+        * Learning Curve
+        * File Size
+        * Limited Creativity
+        * Dependency
+        * Override Challenges
+*/
+
+ /* 36. Explain the concept of a CSS reset. 
+
+   * A reset stylesheet (or CSS reset) is a collection of CSS rules used to clear the browser's default formatting of HTML elements, removing potential inconsistencies between different browsers.
+*/
+
+ /* 37. How does CSS handle multi-column layout? 
+
+      * CSS provides the ability to create multi-column layouts using the column-count, column-width, and related properties. 
+      * Multi-column layouts allow content to flow into multiple columns within a specified container, making it easier to create newspaper-style columns, magazine layouts, and other complex text structures.
+*/
+
+ /* 38. Describe the purpose and use of the currentColor keyword in CSS. 
+  
+     * The currentcolor keyword represents the value of an element's color property.
+*/
+
+ /* 39. Explain the pointer-events property in CSS and its applications. 
+
+    * The CSS pointer-events property controls the behavior of HTML elements in response to mouse or touch events.   
+    * The pointer-events property defines whether or not an element reacts to pointer events.
+*/
+
+ /* 40. Explain the differences between justify-content and align-items in Flexbox. 
+
+      -> justify-content :- 
+         * property controls where the flex items sit on the main (or x) axis
+            - flex-start: This is the default value that aligns items at the start of the main axis.
+            - flex-end: This makes items sit at the end of the main axis.
+            - center: This makes the flex items sit at the center of the main axis.
+            - space-between: This distributes the remaining space between the flex items.
+            - space-around: This distributes the remaining space around the flex items.
+      -> align-items   :-
+         * property controls where the flex items sit on the cross (or y) axis
+            - stretch: This stretches flex items to fill the parent in the direction of the cross axis. This is a default value.
+            - baseline: This aligns the flex items at the baseline of the cross axis.
+            - center: This aligns the flex items at the center of the cross axis, and centers them vertically by default.
+            - flex-start: This aligns the flex items at the start of the cross axis, and aligns them vertically by default.
+            - flex-end: This aligns the flex items at the end of the cross axis.
+*/
+
+ /* 41. What is the purpose of the filter property in CSS and its possible functions? 
+
+         * The filter CSS property applies graphical effects like blur or color shift to an element. 
+         * Filters are commonly used to adjust the rendering of images, backgrounds, and borders. Several functions, such as blur() and contrast() , are available to help you achieve predefined effects.
+
+         * filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
+*/
+
+ /* 42. Describe the advantages and disadvantages of using inline styles. 
+
+      -> advantages :- 
+         * Quick Prototyping
+         * Specificity
+         * Dynamic Styling
+      -> disadvantages :- 
+         * Maintainability
+         * Readability
+         * Reusability
+         * Limited Browser Caching
+*/
+
+ /* 43. Explain the concept of a CSS preprocessor and its benefits. Provide examples. 
+
+       * CSS preprocessors are scripting languages that extend the default capabilities of CSS. 
+       * They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations.
+*/
+
+ /* 44. What is the importance of the box-sizing property in CSS?  
+
+      * The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
+*/
+
+ /* 45. How does CSS handle the concept of specificity? 
+
+       * CSS specificity is a set of rules used by browsers to determine which CSS styles should be applied to an element. 
+       * Specificity is crucial because it helps resolve conflicts when multiple CSS rules target the same element, preventing unintended styling and ensuring predictable outcomes. CSS specificity is calculated based on the selectors used in the CSS rules.
+*/
+
+ /* 46. Describe the differences between transition and animation properties in CSS for creating animations. 
+
+         -> transition :- 
+             * Transitions cannot loop (You can make them do that but they are not designed for that).
+             * Transitions need a trigger to run like mouse hover.	
+             * Use transition for manipulating the value using JavaScript. 	
+         -> animation :- 
+             * Animations have no problem in looping.
+             * The animation just start. They don’t need any kind of external trigger source.
+             * Flexibility is provided by having multiple keyframes and easy loop.
+*/
+
+ /* 47. Explain the difference between the > and ~ selectors in CSS. 
+
+         -> Child Combinator (>) :-
+            * The > selector targets the direct children of a specified parent element. 
+            * It selects elements that are immediately nested inside the parent element, ignoring nested elements further down the hierarchy.
+         -> General Sibling Combinator (~) :-
+            * The ~ selector targets sibling elements that share the same parent as the specified element. 
+            * It selects all elements that come after the specified element, regardless of their level of nesting.
+*/
+
+ /* 48. Describe the grids and grid-template-areas properties in CSS Grid. 
+
+         -> Grids :- 
+            * CSS Grid Layout, often referred to simply as Grid, is a layout system in CSS that allows developers to design complex web layouts more easily and efficiently. 
+            * It provides a two-dimensional grid-based layout system, enabling precise control over both rows and columns in HTML elements.
+         -> grid-template-areas :-
+            * The grid-template-areas property specifies areas within the grid layout.
+            * You can name grid items by using the grid-area property, and then reference to the name in the grid-template-areas property.
+*/
+
+ /* 49. What are the advantages of using Flexbox over traditional layout methods in CSS? 
+      ->  Flex layout makes it easier to design and build responsive web pages without using many float and position properties in the CSS code.
+         * Simplified and More Readable Code:
+         * Flexible and Dynamic Layouts:
+         * Automatic Equal Height Columns:
+         * Ordering and Reordering:
+         * Responsive Design Made Easier:
+         * Cross-Browser Compatibility:
+*/
+
+ /* 50. Explain the currentColor keyword in CSS and its usage. 
+
+         * The CSS currentcolor keyword is used to define the color but use the currently used color property. 
+         * If you want to use the same color at multiple places then you can easily use currentcolor keyword.
+*/
+
+ /* 51. What is the purpose of the contain property in CSS? 
+
+      * The CSS contain property gives you a way to explain your layout to the browser, so performance optimizations can be made
+*/
+
+ /* 52. Describe the differences between inherit, initial, and unset in CSS property values. 
+
+      * inherit: Inherits the value from the parent element.
+      * initial: Sets the property to its default value.
+      * unset: Resets the property to its initial value if it's a non-inherited property, and inherits it from the parent if it's an inherited property.
+*/
+
+ /* 53. Explain the importance of the @import rule in CSS. 	
+
+      * The @import rule allows you to import a style sheet into another style sheet.
+      * The @import rule must be at the top of the document (but after any @charset declaration).
+      * The @import rule also supports media queries, so you can allow the import to be media-dependent.
+*/
+
+ /* 54. How does the will-change property optimise CSS performance? 
+
+      * The will-change CSS property hints to browsers how an element is expected to change. 
+      * Browsers may set up optimizations before an element is actually changed.
+      * These kinds of optimizations can increase the responsiveness of a page by doing potentially expensive work before they are actually required.
+
+      .example {
+          will-change: transform, opacity;
+      }
+*/
+
+ /* 55. Describe the use of the aspect-ratio property in CSS. 
+
+      * The aspect-ratio property allows you to define the ratio between width and height of an element.
+      * If aspect-ratio and width properties are set, the height will follow in the defined aspect ratio.
+
+*/
+
+ /* 56. Explain the differences between outline and border in CSS. 
+
+      -> outline :- 
+         * While outline does not take any space, so it does not affect position of sibling elements.
+         * Outline size, color and type can always be same for all the sides of the element.
+         * Outline is mainly used for accessibility purpose
+      -> border :- 
+         * As border takes up space, it can affect position of sibling elements as well.
+         * Border size, color and type can be different for different sides of the element.
+         * Border is mainly used for design purpose.
+*/
+
+ /* 57. What is the purpose of the ch unit in CSS? 
+
+      * Relative to the width of the "0" (zero)
+      * The CH unit (character unit) lets us set the maximum width on text elements (e.g., headings or paragraphs) by limiting the number of characters (including spaces) per line.
+*/
+
+ /* 58. Describe the differences between visibility: hidden and display: none in CSS. 
+
+      -> visibility:hidden :-
+        * It is not visible but gets up it's original space whereas,
+        *  hides the elements without changing their layouts 
+      -> display:none :- 
+        * It is hidden and takes no space.
+        * turns off the layout of the elements, so they are not rendered.
+*/
+
+ /* 59. Explain the writing-mode property in CSS and its various values. 
+
+       * The writing-mode property specifies whether lines of text are laid out horizontally or vertically.
+       * writing-mode: horizontal-tb|vertical-rl|vertical-lr;
+*/
+
+ /* 60. Describe the differences between flex-grow, flex-shrink, and flex-basis in Flexbox. 
+
+      -> flex-grow   :-
+        * The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.
+        * Default Value: 0.
+      -> flex-shrink :-
+        * The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.
+        * Default Value: 1.
+      -> flex-basis  :-
+        * The flex-basis property specifies the initial length of a flex item.
+        * Default Value: auto
+*/
+
+ /* 61. Explain the purpose of the attr() function in CSS and how it's used. 
+   
+     * The attr() function returns the value of an attribute of the selected elements.
+     * attr(attribute-name)
+*/
+
+ /* 62. What is the significance of the unicode-bidi property in CSS? 
+
+      * The unicode-bidi property is used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document.
+      * unicode-bidi: normal|embed|bidi-override|initial|inherit;
+*/
+
+ /* 63. Describe the differences between page-break-before, page-break-after, and page-break-inside properties in CSS. 
+
+      -> page-break-before :-  
+         * The page-break-before property adds a page-break before a specified element..
+         * Note: You cannot use this property on an empty <div> or on absolutely positioned elements.
+         * page-break-before: auto|always|avoid|left|right|initial|inherit;
+      -> page-break-after  :-
+         * The page-break-after property adds a page-break after a specified element.
+         * Note: You cannot use this property on an empty <div> or on absolutely positioned elements.
+         * page-break-after: auto|always|avoid|left|right|initial|inherit;
+      -> page-break-inside :-
+         * The page-break-inside property sets whether a page-break should be avoided inside a specified element.
+         * Note: You cannot use this property on absolutely positioned elements.
+         * page-break-inside: auto|avoid|initial|inherit;
+*/
+
+ /* 64. Explain the concept of a CSS hack and when it might be used. 
+
+      * Web developers use CSS hacks to override the default styling of an element, usually to make small changes to the element's appearance in order to test or demonstrate a particular CSS property. 
+      * CSS hacks can be helpful in cases where you want to add a specific style or design to an individual web page.
+*/
+
+ /* 65. What is the object-fit property in CSS, and how does it work? 
+
+      * The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
+      * This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible".
+*/
+
+ /* 66. Describe the differences between inherit and initial keywords in CSS.
+
+      * inherit : Get the property from the parent element. 
+      * initial : The default value for the property (the browser default).
+*/
+
+ /* 67. Explain the concept of the content property in CSS and its use cases. 
+
+      * The content property is used with the ::before and ::after pseudo-elements, to insert generated content.
+*/
+
+ /* 68. What is the purpose of the quotes property in CSS? 
+
+      * The quotes property sets the type of quotation marks for quotations.
+      * quotes: none|string|initial|inherit;
+*/
+
+ /* 69. Explain the differences between the ::before and :before pseudo-elements in CSS. 
+   
+      -> ::before :-
+         * The double colon syntax (::before) is the modern and recommended way of defining pseudo-elements in CSS.
+         * The ::before selector inserts something before the content of each selected element(s).
+         * ::before {
+                css declarations;
+            }
+      -> :before  :- 
+         * The single colon syntax (:before) is the older, CSS2.1 syntax for defining pseudo-elements.
+*/
+
+ /* 70. Describe the use of the filter property in CSS and its various functions. 
+
+      * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
+      * filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
+*/
+
+ /* 71. Explain the use of the mask-image property in CSS and its applications.
+
+      * The mask-image property in CSS is used to apply an image or an SVG (Scalable Vector Graphics) as a mask to an element. 
+      * Masks are used to create complex shapes and effects by using images or SVGs to define which parts of an element are visible and which parts are transparent or partially transparent. 
+      * This property is particularly useful for creating non-rectangular shapes, gradient fades, or intricate patterns.
+      * mask-image: none|image|url|initial|inherit;
+*/
+
+ /* 72. Describe the :not() pseudo-class and its usage in CSS. 
+
+       * The :not() CSS pseudo-class represents elements that do not match a list of selectors. 
+       * Since it prevents specific items from being selected, it is known as the negation pseudo-class.     
+*/
+
+ /* 73. Explain the concept of vendor prefixes in CSS and their importance. 
+
+      * CSS Vendor prefixes (or browser prefixes) are a way for browsers to give access to new CSS features not yet considered stable
+*/
+
+ /* 74. What are the advantages and disadvantages of using CSS preprocessors? 
+
+     -> advantages :-
+        * CSS is made more maintainable.
+        * Easier to write nested selectors.
+        * Variables for consistent theming.
+        * Mixins to generate repeated CSS.
+     -> disadvantages :-
+        * Requires tools for preprocessing. Re-compilation time can be slow.
+        * Not writing currently and potentially usable CSS
+*/
+
+ /* 75. Explain the purpose of the hyphens property in CSS and its various values.
+
+      * The hyphens property defines whether hyphenation is allowed to create more soft wrap opportunities within a line of text.
+      * hyphens: none|manual|auto|initial|inherit;
+*/
+
+ /* 76. Describe the shape-outside property in CSS and its applications in text wrapping. 
+
+      * The shape-outside property in CSS is used to specify an element's shape around which inline content (such as text) should wrap. 
+      * It allows developers to create non-rectangular wrapping areas, allowing text to flow around complex shapes, such as circles, ellipses, or custom polygons. 
+      * This property is particularly useful for creating visually appealing layouts and designs where text needs to wrap around irregular or non-standard shapes.
+*/
+
+ /* 77. What is the purpose of the caret-color property in CSS? 
+
+      * The caret-color property specifies the color of the cursor (caret) in inputs, textareas, or any element that is editable.
+      * caret-color: auto|color|transparent|initial|inherit;
+*/
+
+ /* 78. Explain the differences between fr units and percentage units in CSS Grid. 
+
+     -> fr units  :-
+       * The fr unit stands for "fraction of available space" and is used to distribute the available space in the grid container among the columns and rows.
+       * fr units distribute available space proportionally, making them flexible and responsive.
+     -> percentage units  :- 
+       * Percentage units in CSS Grid are used to set explicit sizes for columns and rows relative to the size of the grid container.
+       * Percentage units set fixed sizes relative to the grid container's dimensions
+*/
+
+ /* 79. Describe the unicode-range property in CSS and its applications. 
+
+    * The unicode-range CSS descriptor sets the specific range of characters to be used from a font defined using the @font-face at-rule and made available for use on the current page. 
+    * If the page doesn't use any character in this range, the font is not downloaded; if it uses at least one, the whole font is downloaded.
+*/
+
+ /* 80. Explain the contain property in CSS and its significance for layout optimization.
+
+    * The contain property in CSS is used to indicate that an element and its descendants are independent of the rest of the document tree in terms of layout, style, and paint behavior. 
+    * When you apply the contain property to an element, it helps optimize the layout and rendering performance by isolating the element and its subtree, reducing the scope of layout recalculations and repaints.
+*/
+
+ /* 81. What is the use of the line-height property in CSS? 
+
+   * The line-height property specifies the height of a line.
+ */
+
+ /* 82. Describe the differences between object-fit and object-position in CSS. 
+ 
+      -> object-fit :-
+        * The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
+        * Controls how the content is resized to fit within the container (values: fill, contain, cover, none, scale-down).
+      -> object-position :-
+        * The CSS object-position property is used to specify how an <img> or <video> should be positioned within its container.
+        * Determines the alignment of the resized content within the container, especially when using object-fit (values: <position>).
+ */
+
+ /* 83. Explain the concept of CSS variables (custom properties) and their advantages. 
+ 
+       * CSS variables, also known as custom properties, are entities defined by CSS authors that contain specific values to be reused throughout a document. 
+       * They are entities defined by CSS authors that contain specific values to be reused throughout a document. 
+       * CSS variables are defined using the ( -- )prefix followed by a name that represents the variable
+
+       :root {
+            --primary-color: #3498db;
+             --secondary-color: #2ecc71;
+       }
+ */
+
+ /* 84. Describe the pointer-events property in CSS and its significance. 
+ 
+       * The CSS pointer-events property controls the behavior of HTML elements in response to mouse or touch events.
+       * pointer-events: auto|none;
+ */
+
+ /* 85. Explain the differences between em and rem units in CSS and when to use them. 
+ 
+       -> em :-
+          * em is relative to the font-size of its direct or nearest parent
+          * This may lead to a compounding effect
+          * Use em when you want your font sizes and other element dimensions to be relative to the parent element's font size. This is useful when you want elements to scale proportionally within their parent containers.
+       -> rem :-
+         * rem is relative to the HTML (root) font-size
+         * Does not lead to a compounding effect
+         * Use rem when you want your font sizes and dimensions to be relative to the root element's font size. rem is particularly handy when you need consistent sizing across your entire application, making it easier to manage and maintain a coherent design system.
+ */
+
+ /* 86. What is the purpose of the grid-template-areas property in CSS Grid? 
+ 
+    * The grid-template-areas property in CSS Grid Layout allows you to define the layout of the grid container using named grid areas. 
+    * It provides a convenient way to create a grid structure by assigning names to different sections of the grid and then placing grid items into these named areas. 
+    * This approach is highly readable and intuitive, making it easier to understand and manage complex grid layouts.
+ */
+
+ /* 87. Describe the word-wrap and word-break properties in CSS and their differences. 
+ 
+      -> word-wrap :- 
+         * The word-wrap property allows long words to be able to be broken and wrap onto the next line.
+         * word-wrap primarily deals with breaking long words or strings to fit within the container, allowing wrapping onto the next line if necessary.
+         * word-wrap: normal|break-word|initial|inherit;
+      -> word-break :- 
+         * The word-break property specifies how words should break when reaching the end of a line.
+         * word-break is more concerned with controlling how words break at the end of a line. It offers finer control, especially for languages with complex word breaking rules.
+         * word-break: normal|break-all|keep-all|break-word|initial|inherit;
+ */
+
+ /* 88. Explain the differences between currentColor and inherit in CSS. 
+
+       -> currentColor :-
+         *  The currentcolor keyword refers to the value of the color property of an element.
+         * It is particularly useful when you want to create elements with consistent colors without hard-coding specific color values, ensuring that the element's color adapts to the surrounding context.
+       -> inherit :-
+         * The inherit keyword specifies that a property should inherit its value from its parent element.
+         * It allows you to apply styles from a parent element to its child elements, ensuring consistency in design throughout the document hierarchy.
+ */
+
+ /* 89. What is the use of the backface-visibility property in CSS? 
+ 
+      * The backface-visibility property defines whether or not the back face of an element should be visible when facing the user.
+      * The back face of an element is a mirror image of the front face being displayed.
+      * This property is useful when an element is rotated. It lets you choose if the user should see the back face or not.
+ */
+
+ /* 90. Describe the clip-path property in CSS and its applications. 
+       
+       * The clip-path property lets you clip an element to a basic shape or to an SVG source.
+       * The clip-path property replaces the deprecated clip property.
+ */
+
+ /* 91. What is the purpose of the text-overflow property in CSS? 
+ 
+      * The text-overflow property in CSS is used to specify how the content of an element should behave when it overflows its box. 
+      * It is particularly useful when dealing with text that might be too long to fit within a fixed-size container. 
+      * The property defines how the text should be displayed when it is clipped or when it overflows the container's boundaries.
+ */
+
+ /* 92. Explain the revert keyword in CSS and its usage. 
+ 
+      * The revert CSS keyword reverts the cascaded value of the property from its current value to the value the property would have had if no changes had been made by the current style origin to the current element.
+ */
+
+ /* 93. Describe the differences between align-content and align-items in Flexbox. 
+ 
+       -> align-content :-
+         * This property of flex-box aligns flex-lines with respect to each other along the cross-axis.
+         * This property works only when the “flex-wrap:” property is set to wrap	
+         * This property has no effect when the number of flex-line is 1.	   
+       -> align-items :-
+         * This property of flex-box aligns the flex-items within flex-line along the cross-axis
+         * This property works even when the “flex-wrap:” property is not set to wrap
+         * This property does not depend on the number of flex-lines.
+ */
+
+ /* 94. What is the image-rendering property in CSS and how is it used? 
+ 
+       * The image-rendering property specifies the type of algorithm to be used for image scaling. 
+       * This property has no effect on images that are not scaled
+       * image-rendering: auto|smooth|high-quality|crisp-edges|pixelated|initial|inherit
+ */
+
+ /* 95. Explain the concept of the contain-intrinsic-size property in CSS. 
+ 
+       * The contain-intrinsic-size property allows authors to specify an appropriate value to be used as the size for layout.
+ */
+
+ /* 96. Explain the mask property in CSS and its uses. 
+ 
+       * The mask CSS shorthand property hides an element (partially or fully) by masking or clipping the image at specific points.
+       * To use a PNG or an SVG image as the mask layer, use a url() value to pass in the mask layer image.
+       * The mask image needs to have a transparent or semi-transparent area. Black indicates fully transparent.
+ */
+
+ /* 97. What is the purpose of the will-change property in CSS and when is it used? 
+ 
+       * The will-change CSS property hints to browsers how an element is expected to change. 
+       * Browsers may set up optimizations before an element is actually changed. 
+       * These kinds of optimizations can increase the responsiveness of a page by doing potentially expensive work before they are actually required.
+ */
+
+ /* 98. Describe the font-feature-settings property in CSS and its significance. 
+
+      * The font-feature-settings CSS descriptor allows you to define the initial settings to use for the font defined by the @font-face at-rule. 
+      * You can further use this descriptor to control typographic font features such as ligatures, small caps, and swashes, for the font defined by @font-face .
+  */
+
+ /* 99. Explain the differences between visibility: hidden and display: none in CSS. 
+  
+      -> visibility:hidden :-
+        * It is not visible but gets up it's original space whereas,
+        *  hides the elements without changing their layouts 
+      -> display:none :- 
+        * It is hidden and takes no space.
+        * turns off the layout of the elements, so they are not rendered.
+  */
+
+ /* 100. What is the significance of the scroll-behavior property in CSS? 
+     
+       * The scroll-behavior property specifies whether to smoothly animate the scroll position, instead of a straight jump, when the user clicks on a link within a scrollable box.
+       * scroll-behavior: auto|smooth|initial|inherit;
+  */
+
+ /* 101. Describe the differences between linear-gradient and radial-gradient in CSS. 
+  
+      -> linear-gradient :- 
+        * linear-gradient creates a gradient that transitions in a straight line, either horizontally, vertically, or diagonally. 
+        * It allows you to define the direction of the gradient by specifying an angle, such as to right, to bottom, or specific angles in degrees.
+
+        .linear-gradient {
+              background: linear-gradient(direction, color-stop1, color-stop2, ...);
+         }
+
+      -> radial-gradient :- 
+        * radial-gradient creates a gradient that radiates out from a center point, creating circular or elliptical gradients. 
+        * It allows you to define the shape of the gradient, its size, and the position of the center.
+
+        .radial-gradient {
+               background: radial-gradient(shape size at position, start-color, ..., last-color);
+         }
+  */
+
+ /* 102. Explain the box-decoration-break property in CSS and its uses. 
+  
+        * The box-decoration-break property specifies how the background, padding, border, border-image, box-shadow, margin, and clip-path of an element is applied when the box for the element is fragmented.
+        * box-decoration-break: slice|clone|initial|inherit|unset;
+  */
+
+ /* 103. What is the purpose of the hsl() and hsla() functions in CSS? 
+     
+        * Hue: Represents the type of color (0 to 360 degrees). It defines the base color, such as red, green, blue, etc.
+        * Saturation: Represents the intensity or purity of the color (0% to 100%). 0% saturation results in grayscale, and 100% saturation results in a fully saturated color.
+        *Lightness: Represents the brightness of the color (0% to 100%). 0% lightness is black, 100% lightness is white, and 50% lightness is the normal color.
+
+      -> hsl() :-
+        * hsl(hue, saturation, lightness)
+
+      -> hsla() :-
+        * hsla(hue, saturation, lightness, alpha)
+        * Alpha: Represents the opacity of the color, ranging from 0 (completely transparent) to 1 (completely opaque).
+  */
+
+ /* 104. Describe the concept of the aspect-ratio property in CSS. 
+
+       * The aspect-ratio property allows you to define the ratio between width and height of an element. 
+       * If aspect-ratio and width properties are set, the height will follow in the defined aspect ratio.
+  */
+
+ /* 105. Explain the overscroll-behavior property in CSS and its usage.
+  
+      * The overscroll behavior controls the permitted boundary default action for a scroll container element when its scrollport reaches the boundary of its scroll box. 
+      * The overscroll-behavior property specifies the overscroll behavior for a scroll container element.
+      * overscroll-behavior: auto|contain|none|initial|inherit;
+  */
+
+  /* 106. What is the ch unit in CSS and how is it different from other units? 
+  
+      * The ch unit in CSS represents the width of the "0" (zero) character of the element's font. 
+      * One ch is equal to the width of the zero character in the current font, making it a relative unit of measurement that scales with the font size.
+  */
+ 
+  /* 107. Describe the tab-size property in CSS and its uses. 
+  
+      * The tab-size property specifies the width of a tab character.
+      * In HTML, the tab character is usually displayed as a single space-character, except for some elements, like <textarea> and <pre>, and the result of the tab-size property will only be visible for those elements.
+      * tab-size: number|length|initial|inherit;
+  */
+
+  /* 108. Explain the text-align-last property in CSS and its significance. 
+  
+      * The text-align-last property specifies how to align the last line of a text.
+      * Notice that the text-align-last property sets the alignment for all last lines within the selected element. 
+      * So, if you have a <div> with three paragraphs in it, text-align-last will apply to the last line of EACH of the paragraphs.
+      * text-align-last: auto|left|right|center|justify|start|end|initial|inherit;
+  */
+
+  /* 109. What is the offset property in CSS and how is it used? 
+
+      * offset-anchor    :-	   Specifies the point on an element that is fixed to the path it is animated along.
+      * offset-distance  :-	   Specifies the distance from the start of the path defined by offset-path.
+      * offset-path      :-	   Specifies the path an element is animated along.
+      * offset-rotate    :-	   Specifies rotation of an element as it is animated along a path
+  
+  */
+ 
+
+
+
+
+
