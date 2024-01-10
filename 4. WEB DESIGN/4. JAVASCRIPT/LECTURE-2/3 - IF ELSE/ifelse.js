@@ -1,8 +1,12 @@
-    // ******* javascript if---else statement *******
+// ******* javascript if---else statement *******
 
 // The if/else statement is a part of JavaScript's "Conditional" Statements, which are used to perform different actions based on different conditions. 
-//  Use if to specify a block of code to be executed, if a specified condition is true.
+// Use if to specify a block of code to be executed, if a specified condition is true.
 
+// ● Use if to specify a block of code to be executed, if a specified condition is true
+// ● Use else to specify a block of code to be executed, if the same condition is false
+// ● Use else if to specify a new condition to test, if the first condition is false
+// ● Use switch to specify many alternative blocks of code to be executed.
 
 
 {
@@ -78,60 +82,38 @@
 //     }
 // }
 
-//4.. switch statement 
-// if input =1, "y", "yes" output = continue...
-// if input =0, "n", "no" output = end...
 
-// let input = "n";
-// {
-//     if (input === 1) {
-//         document.write("continue...")
-//     }
-//     else if (input === "y") {
-//         document.write("continue...")
-//     }
-//     else if (input === "yes") {
-//         document.write("continue...")
-//     }
-//     else if (input === 0) {
-//         document.write("end...")
-//     }
-//     else if (input === "n") {
-//         document.write("end...")
-//     }
-//     else if (input === "no") {
-//         document.write("end...")
-//     }
-//     else{
-//         document.write("wrong input")
-//     }
-// }
+//4.. switch statement :-
 
-// === comparison 
-// {
-//     let input = "yes";
+// ● The switch expression is evaluated once.
+// ● The value of the expression is compared with the values of each case.
+// ● If there is a match, the associated block of code is executed.
+// ● If there is no match, the default code block is executed.
 
-//     switch (input) {
-//         case 1:
-//             document.write("continue 1..")
-//             break;
-//         case "y":
-//             document.write("continue y..")
-//             break;
-//         case "yes":
-//             document.write("continue yes..")
-//             break;
-//         case 0:
-//             document.write("continue 0..")
-//             break;
-//         case "n":
-//             document.write("continue n..")
-//             break;
-//         case "no":
-//             document.write("continue no..")
-//             break;
-//         default:
-//             document.write("wrong input..")
-//             break;
-//     }
-// }
+{
+    let input = 1   ;
+
+    switch (input) {
+        case 1:
+            document.write("continue 1..")
+            break;
+        case "y":
+            document.write("continue y..")
+            break;
+        case "yes":
+            document.write("continue yes..")
+            break;
+        case 0:
+            document.write("continue 0..")
+            break;
+        case "n":
+            document.write("continue n..")
+            break;
+        case "no":
+            document.write("continue no..")
+            break;
+        default:
+            document.write("wrong input..")
+            break;
+    }
+}

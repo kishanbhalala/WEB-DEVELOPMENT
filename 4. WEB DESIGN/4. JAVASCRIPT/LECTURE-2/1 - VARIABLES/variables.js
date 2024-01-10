@@ -1,4 +1,4 @@
-//******** */ javascript variable ********* :-
+//********  javascript variable ********* :-
 
 // A JavaScript variable is simply a name of storage location. 
 // There are two types of variables in JavaScript : local variable and global variable.
@@ -25,7 +25,7 @@
 
 // examples :-
 
-// declaration var()
+// ** declaration var() ** 
 
 // {
 //     var x = "box" *10;
@@ -48,7 +48,7 @@
 // }   
 
 
-// declaration let()
+// ** declaration let() ** 
 // {
 //     {
 //         let num=10;
@@ -103,7 +103,7 @@
 //     let x;      //before initialization
 // }
 
-// declaration const()
+// ** declaration const() ** 
 {
     // const x= 12;
     // x = 13;
@@ -168,7 +168,7 @@
 //     // }
 // }
 
-// string with quotes 
+// ** string with quotes ** 
 // {
 //     let x="wor'ld";
 //     let y='wor"ld';
@@ -178,7 +178,7 @@
 //     console.log(z);
 // }
 
-// types of variables
+// ** types of variables ** 
 // {
 //     var myInteger =12; //32-bit number (from -2,147,483,648 to 2,147,483,647)
 //     var myLong = 747489433333; //64-bit number (from -9,223,372,036,854,775,808 to 9,223,372,036,854,77 number5,807)
@@ -191,5 +191,4 @@
 //     var notDefined; // undefined: we didn't define it to anything yet
 //     window.alert(aRandomVariable); //undefined
 //     var myNull = null; //null 
-
 //  }

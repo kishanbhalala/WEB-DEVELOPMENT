@@ -13,24 +13,26 @@
 
 // **** js Advantages ****:-
 
+// → Fast execution
+// → open and cross-platform
+// → JavaScript supports all modern browser
+// → Used to make user-friendly websites
+// → Very popular and large-community support
 // → It separates HTML and code
 // → It makes HTML and JavaScript easier to read and maintain
 // → Cached JavaScript files can speed up page loads
 // → complementry to and integrated with html.
-// → open and cross-platform
-// → Fast execution
-// → JavaScript supports all modern browser
 // → Reduces the server load because it executes on the client side
-// → Used to make user-friendly websites
-// → Very popular and large-community support
+
 
 // *** Features of javascript *** :-
 
 // → Light Weight and interpreted language
 // → Highly case-sensitive
-// → Allow developers to create form validations on  input fields.
 // → Object Oriented Programming
+// → Allow developers to create form validations on  input fields.
 // → High-level and dynamically typed programming language.
+
 
 //**** why javascript **** :-
 
@@ -55,20 +57,28 @@
 // (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
   
 
-// *** The latest ECMAScript(ES6) standard defines following data types: Out of which six data types are Primitive(predefined). *** :-
+// ** Data types **
 
-// → String.     = A sequence of characters that represent a text value. For example: "Howdy".
-// → Number.     = An integer or floating point number. For example: 42 or 3.14159.
-// → Boolean.    = true and false.
-// → BigInt.     = An integer with arbitrary precision. For example: 9007199254740992n.
-// → undefined.  = A top-level property whose value is not defined.
-// → null.       = A special keyword denoting a null value. (Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.)
-// → Symbol.     =  A data type whose instances are unique and immutable.
+// Primitive Data Types:
+// Number       =   5, 6.5, 7 etc
+// String       =   “Hello everyone” etc
+// Boolean      =   true or false
+// Null         =  represents null i.e. no value at all
+// Undefined    =  A variable that has not been assigned a value is undefined.
+// Symbol       =  used as an identifier for object properties.
+ 
+// Non-Primitive Data Types:
+// Object       =  instance through which we can access members
+// Array        =  group of similar values
+// RegExp       =  represents regular expression
+ 
 
 
  
 // ** using consol in javascript ** :-
-// {
+// The console.log() is a function in javascript that is used to print any kind of variable defined before in it or just print any message that needs to be displayed to the users.
+
+// // {
 //     console.log("hello world");
 //     console.log("hello javascript");
 //     console.log("80");
@@ -105,27 +115,14 @@
     // newelement.textContent="hello world";
     // document.body.appendChild(newelement); 
 
+  
 }
 
-// window alert() in javascript
-// {
-//     window.alert("warning");
-//     alert("how are you");
-//     alert('pause!');
-// }
-
-// windows prompt() in javascript
-// {
-//     var age = prompt('i am here');
-//     var names = prompt("what is your name");
-//     var input = prompt("and who are you");
-// }
-
-// using the DOM API 
+// ** using the DOM API ** 
 // {
 //     var a = 40;
-//     var b = "hi, i am javascript don't afraid of me."
 //     var b = 30;
+//     var b = "hi, i am javascript don't afraid of me."
 //     document.getElementById("demo1").innerHTML = a;
 //     document.getElementById("demo2").innerHTML = b;
 // }
@@ -148,24 +145,24 @@
 //     document.getElementById("demo4").innerHTML=toys1;
 // }
 
-// document.write('hello javascript');
-// js comment 
+
+// ** js comment **
 
 //single-line comments (//)
 /* multi-line comments */
 
 
-// Template literals
+// ** Template literals ** 
 
 // var _nameone = "5";
 // var name20 = '5';
 
-// console.log(nameone+nametwo);
+// console.log(_nameone+name20);
 
-//  alert(`${_nameone} + ${nametwo}`); 
+//  alert(`${_nameone} + ${name20}`); 
 
 
-// Rules for Naming JavaScript Variables
+// ** Rules for Naming JavaScript Variables ** 
 
 // {
 //     //valid
@@ -178,7 +175,7 @@
     // Let 1a = 'hello'; // this gives an error
 }
 
-// JavaScript is case-sensitive. So y and Y are different variables
+// ** JavaScript is case-sensitive. So y and Y are different variables ** 
 
 // {
 //     let y = "hi";
@@ -188,7 +185,7 @@
 //     console.log(Y);
 // }
 
-// Keywords cannot be used as variable names.
+// ** Keywords cannot be used as variable names. ** 
 
 {
     //invalid

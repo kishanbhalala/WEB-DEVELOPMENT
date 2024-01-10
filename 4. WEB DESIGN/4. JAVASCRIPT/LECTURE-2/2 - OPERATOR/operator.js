@@ -1,16 +1,18 @@
 // ***** javascriot oparators *****
 
 // Operators are used to assign values, compare values, perform arithmetic operations, and more. 
-// There are different types of JavaScript operators: Arithmetic Operators.
 
-// 1. arthmetic op 
-// 2. assignment op 
-// 3. comparison (relational) op
-// 4. logical op 
-// 5. special op
+// → Arithmetic Operators
+// → Assignment Operators
+// → Comparison (relational) Operators
+// → Logical Operators
+// → String Operators
+// → Bitwise Operators
+// → Ternary Operators
+// → Type Operators
 
 
-// 1. arthmetic op 
+// 1. Arithmetic Operators :- 
 
 //  + (addition)
 //  - (subtraction)
@@ -21,7 +23,7 @@
 //  -- (decrement)
 //  ** (exponentiation)
 
-// + addition
+// // + addition
 // {
 //     var a = 20;
 //     var b = 30;
@@ -80,7 +82,7 @@
 // }
 
 
-//2. assignment op  
+//2. Assignment Operators :-  
 
 //  = (simple assignment)
 //  ex: c = a + b will assign the value of a + b into c
@@ -118,7 +120,7 @@
 
 
 
-// 3. comparison op 
+// 3. Comparison Operators :-
 
 // == (equal)
 // checks if the value of two operands are equal or not, if yes, 
@@ -134,6 +136,7 @@
 // checks if the value of two operands are equal or not, the values are not 
 // equal, then the condition becomes true. 
 // ex: (a != b) is true.
+
 
 // > (greater than)
 // checks if the value of the left operand is greather than the value of the right 
@@ -155,24 +158,24 @@
 // of the right operand, if yes, then the condition becomes true. 
 // ex: (a <= b) is true.
 
-// {
-    // var a = 12;
-    // var b = 12;
-    
-    // var c = a == b;    //value same hoi to true nkr false
-    // var c = a === b;   //value and datatype same hoi to j true nkr false
-    // var c = a >= b;       //a ni value equal and enathi nani hoi to true nkr false
-    // var c = a <= b;       //a nii value equal and enathi moti hoi to true nkr false
-    // var c = a > b;       //a krta nani hoi to true nkr false
-    // var c = a < b;       //a krta moti hoi to true nkr false
-    // var c = a != b;       //value same na hoi to true nkr false
 
-    // document.getElementById("demo4").innerHTML = c
+// {
+// var a = 12;
+// var b = 12;
+
+// var c = a == b;    //value same hoi to true nkr false
+// var c = a === b;   //value and datatype same hoi to j true nkr false
+// var c = a >= b;       //a ni value equal and enathi nani hoi to true nkr false
+// var c = a <= b;       //a nii value equal and enathi moti hoi to true nkr false
+// var c = a > b;       //a krta nani hoi to true nkr false
+// var c = a < b;       //a krta moti hoi to true nkr false
+// var c = a != b;       //value same na hoi to true nkr false
+
+// document.getElementById("demo4").innerHTML = c
 // }
 
 
-
-// 4. logical op
+// 4. Logical Operators :-
 
 // && (AND op)
 // if both the operands are non-zero, then the condition become true. 
@@ -188,18 +191,18 @@
 // ex: ! (a && b) is false.
 
 {
-    // var a = false;
-    // var b = true;
+    // var a = true;
+    // var b = false;
 
-    // document.getElementById("demo5").innerHTML= a && b;
+    // document.getElementById("demo5").innerHTML = a && b;
     // document.getElementById("demo5").innerHTML= a || b;
-    // document.getElementById("demo5").innerHTML= ! (a && b);
+    // document.getElementById("demo5").innerHTML= !(a && b);
 }
 
 
-// --- miscellaneous op ---
+// --- miscellaneous (ternarty) Operators ---
 
-//    ? 
+//    ?
 //    : (conditional)
 //    if condition  is true? then value X : otherwise value Y
 
@@ -207,20 +210,21 @@
 // ((a < b) ? 100 : 200) => 100
 
 
-// --- javascript array method ---
-{
-    // const names = ['kishan','jeegar','sagar','anil'];
-    // const names2 = {person1:'kishan',person2:'jeegar',person3:'sagar'};
-    // console.log(names2.person1);
-    // document.write=(names2.person1);
-}
+// Type Operators :-
 
-// {
-//     let user;
-//     user = kishan;
-//     alert(user ?? "guest user")
-// }
+// typeof           =  Returns the type of a variable
+// instanceof       =  Returns true if an object is an instance of an object type
 
+
+// Bitwise Operators :-
+
+//   &    AND statement
+//   |    OR statement
+//   ~    NOT
+//   ^    XOR
+//   <<   Zero fill left shift
+//   >>   Signed right shift
+//   >>>  Zero Fill right shift
 
 // ------------------------------------- //
 // ------------------------------------- //
@@ -229,7 +233,7 @@
 
 //  Operator	             Description	                Example
 
-//    ()	            Expression Grouping	          (100 + 50) * 3
+//      ()	            Expression Grouping	          (100 + 50) * 3
 //   	.               Member Of	                    person.name
 //   	[]	            Member Of	                    person["name"]
 //   	?.	            Optional Chaining ES2020	    x ?. y

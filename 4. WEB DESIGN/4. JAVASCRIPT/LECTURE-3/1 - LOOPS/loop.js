@@ -1,8 +1,10 @@
 // what is loop :-
+
 // Loops are used in JavaScript to perform repeated tasks based on a condition. 
 // Conditions typically return true or false .
 // A loop will continue running until the defined condition returns false .
 
+// Iterable is an object which can be looped over or iterated over with the help of a for loop 
 
 // --- javascript while loop ---  
 
@@ -15,15 +17,15 @@
 // }
 
 
-// example
+// example :-
 // {
 //     let a = 1;
-
 //     while (a <= 10) {
 //         document.write(a +"<br>");
 //         a++;
 //     }
 // }
+
 // {
 //     let a = 1;
 //     let sum = 0;
@@ -49,7 +51,7 @@
 //      increment
 // }while (condition);
 
-// example
+// example :-
 // {
 //     let a = 0;
 //     do{
@@ -57,6 +59,7 @@
 //         a++;
 //     }while (a <= 10)
 // }
+
 
 // --- javascript for loop --- 
 
@@ -86,21 +89,21 @@
 // --- The For Of Loop ---
 
 // The for...of loop was introduced in the later versions of JavaScript ES6.
-
 // The for..of loop in JavaScript allows you to iterate over iterable objects (arrays, sets, maps, strings etc).
 
+
+// Variable - For every iteration the value of the next property is assigned to the variable. Variables can be declared with const, let, or var.
+// Iterable - An object that has iterable properties.
 {
     // for (variable of iterable) {
     //     // code block to be executed
     //   }
 }
-//   iterable - an iterable object (array, set, strings, etc).
-//   element - items in the iterable
 
 {
-    // // for...of with Arrays
+    // // for...of with Arrays :-
 
-    // // array
+    // // array :-
     // const students = ['John', 'Sara', 'Jack'];
 
     // // using for...of
@@ -109,11 +112,23 @@
     //     // display the values
     //     console.log(element);
     // }
-    
+
+
+    // // array :-
+    // {
+    //     const cars = ["BMW", "Volvo", "Mini"];
+    //     let text = "";
+    //     for (let x of cars) {
+    //         text += x + "\t";
+    //     }
+    //     document.write(text)
+    // }
+
 }
 
 {
-    // // for...of with Strings
+    // // for...of with Strings :-
+
     // const string = 'code';
 
     // // using for...of loop
@@ -123,8 +138,8 @@
 }
 
 {
-    // // for...of with Sets
-    // // define Set
+    // // for...of with Sets :-
+
     // const set = new Set([1, 2, 3]);
 
     // // looping through Set
@@ -134,8 +149,8 @@
 }
 
 {
-    // // for...of with Maps
-    // // define Map
+    // // for...of with Maps :-
+
     // let map = new Map();
 
     // // inserting elements
@@ -151,6 +166,8 @@
 
 // --- The For In Loop ---
 
+// The JavaScript for in statement loops through the properties of an Object 
+
 {
     // for (key in object) {
     //     // code block to be executed
@@ -159,7 +176,8 @@
 
 // Iterate Through an Object :-
 
-{
+    // object :-
+// {   
     // const student = {
     //     name: 'Monica',
     //     class: 7,
@@ -172,7 +190,18 @@
     //     // display the properties
     //     console.log(`${key} => ${student[key]}`);
     // }
-}
+
+
+    // array :-
+    // {
+    //     const number = [45, 4, 9, 16, 25];
+    //     let text = "";
+    //     for (let x in number) {
+    //         text += number[x];
+    //     }
+    //     document.write(text)
+    // }
+// }
 
 {
     // Update Values of Properties :-

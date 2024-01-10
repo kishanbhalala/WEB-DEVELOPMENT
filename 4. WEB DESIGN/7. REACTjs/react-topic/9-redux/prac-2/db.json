@@ -1,0 +1,40 @@
+{
+    "product": [
+        {
+            "id":1,
+            "name":"iphone 6",
+            "price":500.99,
+            "color":"black",
+            "category":"smartphones",
+            "brand":"apple",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl3yuuLVHKfZw6B8RmteHT9y2VvLZJmrKaLYvkkinkGA&s"
+        },
+        {
+            "id":2,
+            "name":"samsung s23",
+            "price":200.99,
+            "color":"red",
+            "category":"smartphones",
+            "brand":"samsung",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl3yuuLVHKfZw6B8RmteHT9y2VvLZJmrKaLYvkkinkGA&s"
+        },
+        {
+            "id":3,
+            "name":"T-shirt",
+            "price":300.99,
+            "color":"yellow",
+            "category":"clothes",
+            "brand":"nike",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl3yuuLVHKfZw6B8RmteHT9y2VvLZJmrKaLYvkkinkGA&s"
+        },
+        {
+            "id":4,
+            "name":"shoes",
+            "price":500.99,
+            "color":"white",
+            "category":"addidas",
+            "brand":"nike",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl3yuuLVHKfZw6B8RmteHT9y2VvLZJmrKaLYvkkinkGA&s"
+        }
+    ]
+}
