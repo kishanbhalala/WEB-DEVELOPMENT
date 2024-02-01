@@ -6,6 +6,14 @@
 
 // Iterable is an object which can be looped over or iterated over with the help of a for loop 
 
+// ● for      - loops through a block of code a number of times
+// ● for/in   - loops through the properties of an object
+// ● for/of   - loops through the values of an iterable object
+// ● while    - loops through a block of code while a specified condition is true
+// ● do/while - also loops through a block of code while a specified condition is true
+
+
+
 // --- javascript while loop ---  
 
 // the javascript while loop iterates the elements for the infinite number of times. 
@@ -88,6 +96,9 @@
 
 // --- The For Of Loop ---
 
+// koi pn object ni value ne direct access kri sko cho....and indax number ne pn use krvani jarur nthi..
+// values ne show karavi hoi to for of loop..
+
 // The for...of loop was introduced in the later versions of JavaScript ES6.
 // The for..of loop in JavaScript allows you to iterate over iterable objects (arrays, sets, maps, strings etc).
 
@@ -166,6 +177,8 @@
 
 // --- The For In Loop ---
 
+// object ni keys and array ni indax show karavi hoi to for in loop..
+
 // The JavaScript for in statement loops through the properties of an Object 
 
 {
@@ -176,31 +189,31 @@
 
 // Iterate Through an Object :-
 
-    // object :-
+// object :-
 // {   
-    // const student = {
-    //     name: 'Monica',
-    //     class: 7,
-    //     age: 12
-    // }
+// const student = {
+//     name: 'Monica',
+//     class: 7,
+//     age: 12
+// }
 
-    // // using for...in
-    // for ( let key in student ) {
+// // using for...in
+// for ( let key in student ) {
 
-    //     // display the properties
-    //     console.log(`${key} => ${student[key]}`);
-    // }
+//     // display the properties
+//     console.log(`${key} => ${student[key]}`);
+// }
 
 
-    // array :-
-    // {
-    //     const number = [45, 4, 9, 16, 25];
-    //     let text = "";
-    //     for (let x in number) {
-    //         text += number[x];
-    //     }
-    //     document.write(text)
-    // }
+// array :-
+// {
+//     const number = [45, 4, 9, 16, 25];
+//     let text = "";
+//     for (let x in number) {
+//         text += number[x];
+//     }
+//     document.write(text)
+// }
 // }
 
 {
@@ -246,7 +259,6 @@
     // }
 
     // // You should not use for...in to iterate over an array where the index order is important.
-
     // // One of the better ways to iterate over an array is using the for...of loop.
 }
 
@@ -254,10 +266,13 @@
 
 /*  --- JavaScript forEach() ---  */
 
-/* The forEach() method calls a function and iterates over the elements of an array. The forEach() method can also be used on Maps and Sets. */
+//  The forEach() method calls a function for each element in an array.
+//  The forEach() method is not executed for empty elements.
+//  It executes a provided function once for each array element.
+//  The forEach() method calls a function and iterates over the elements of an array. The forEach() method can also be used on Maps and Sets. 
 
 {
-    // array.forEach(function(currentValue, index, arr));
+    // array.forEach(function(currentValue, index, arr) => {});
 
     // function(currentValue, index, arr) - a function to be run for each element of an array
     // currentValue - the value of an array
@@ -279,7 +294,9 @@
     // }
 
     // the forEach() method takes myFunction() function that displays each element of a students array.
+
 }
+
 
 /* Updating the Array Elements */
 
@@ -287,7 +304,7 @@
 
 {
     // let students = ['John', 'Sara', 'Jack'];
-
+   
     // // using forEach
     // students.forEach(myFunction);
 
@@ -298,6 +315,8 @@
     // }
 
     // console.log(students);
+
+   
 }
 
 

@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    float celsius, fernhit;
+    float celsius;
 
     cout << "enter the celsius = ";
     cin >> celsius;

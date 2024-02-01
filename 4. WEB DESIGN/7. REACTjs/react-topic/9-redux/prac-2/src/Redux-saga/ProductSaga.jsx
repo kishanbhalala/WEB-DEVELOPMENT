@@ -11,7 +11,7 @@ function* searchProducts(data) {
     let result = yield fetch(`https://jsonplaceholder.typicode.com/posts?q=${data.query}`);
     result = yield result.json();
     // console.warn(data);
-    yield put({ type: SEARCH_PRODUCT, data:result })
+    yield put({ type: SEARCH_PRODUCT, data: result })
 }
 
 function* productSaga() {
@@ -20,19 +20,6 @@ function* productSaga() {
 }
 
 export default productSaga
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // function*  = genrator function... aync opration ne handle krva mate use thay..

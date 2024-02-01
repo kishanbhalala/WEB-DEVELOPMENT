@@ -76,3 +76,22 @@ parseInt() Parse its argument and returns a whole number
     
     // console.log(method15);
  }
+
+
+// ----------------------------------//
+// ----------------------------------//
+
+//  Truthy / Falsy Values :-
+
+// FALSY Values :
+// -> false
+// -> 0 (zero)  
+// -> "", '', `` (empty strings)
+// -> null
+// -> undefined
+// -> NaN (not a number)
+// -> Empty array ([]) is not falsy
+
+
+// TRUTHY Values :
+// -> Everything that is not FALSY

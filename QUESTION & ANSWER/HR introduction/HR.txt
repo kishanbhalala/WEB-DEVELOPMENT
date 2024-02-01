@@ -1,0 +1,64 @@
+1 = Tell me about your self ?
+=> Good evening sir/madam.
+=> myself kishan bhalala.
+=> I hail from Suratcity.
+=> I have done my b-com from seth C.D.Barfiwala.
+=> my technical skill html,css,javascript,boostrap,tailwindcss,and reactJs.
+=> My hobbies are reading books and playing cricket.
+=> That's all about me.
+=> Thank you.
+
+
+2 = What are your strengths / weakness ?
+=> my strengths are positive behavior, quick learner, testing and debugging.
+=> my weakness is easily trust everyone.
+
+
+3 = why do you want this job?
+=> I am excited about this job because it aligns perfectly with my career personal interests.
+
+4 = what motivates you ?
+=> Developing new skills.
+=> Working with others.
+=> overcoming challenges.
+
+5 = What are your salary expectations?
+=> as per company norms.
+=> As I am fresher, Salary is not an issue for me. 
+=> Learning and gaining experience is my major priority. 
+
+6 = why does this role attract you? 
+=> because I'm interested in this job..and Developing
+
+7 = why does this language attract you? 
+=> It's creative, always challenging and never boring.
+
+8 = why did we choose you?
+=> You should hire me because of my relevant skills, and passion for the industry.
+
+9 = how do you deal with criticism?
+=> accept it without negative emotions.
+
+10 = what is the difference between a static and a dynamic website?
+=> static = Content of Web pages can not be change at runtime.
+          = No feature of Content Management.
+          = HTML, CSS, Javascript is used for developing the website.
+          = No interaction with database possible.
+
+=> dynamic = Content of Web pages can be changed.
+           = Feature of Content Management System.
+           = Server side languages such as PHP, Node.js are used
+           = Interaction with database is possible
+
+11 = what is your expectations from the company?
+=> My expectations for the company would be to provide a work environment in which I can contribute to the team, I receive appreciation for my contributions, I have job stability and the ability to grow with the company.
+
+
+12 = what are your golas?
+=> my goals is to gain valuable industry knowledge and experience.
+
+13 = where do you found yourself in 5years?
+=> In five years, I see myself continuing to work hard and progressing in my current role.
+
+14 = why you want to change your field?
+=> I want to change my career path for future growth potential and new challenges

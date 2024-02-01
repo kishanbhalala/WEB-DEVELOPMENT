@@ -5,6 +5,18 @@
     // let carName1 = "Volvo XC60"; 
     // let carName2 = 'Volvo XC60'; 
 
+    
+    // Escape Characters :-
+
+    // ->   \' Single quote
+    // ->   \" Double quote
+    // ->   \\ Backslash
+    // ->   \b Backspace
+    // ->   \f Form feed
+    // ->   \n New line
+    // ->   \r Carriage return
+    // ->   \t Horizontal tabulator
+    // ->   \v Vertical Tabulator
 
 
 // ***** JAVASCRIPT STRING METHOD *****  20 method
@@ -30,7 +42,9 @@
 // string split() = string ne break kre
 
 
-
+{
+    
+}
 // -----string length----- 
 // {
 //     let a = "this is javascript language";
@@ -39,6 +53,10 @@
 // }
 
 // -----string slice()----- 
+
+// slice() extracts a part of a string and returns the extracted part in a new string.
+// The method takes 2 parameters: start position, and end position (end not included)
+
 // {
 //     let a = "apple, mango, banana, orange";
 //         //   0123456789012345678901234567
@@ -47,6 +65,10 @@
 // }
 
 // -----string substring()----- 
+
+// substring() is similar to slice().
+// The difference is that start and end values less than 0 are treated as 0 in substring().
+
 // {
 //     let a = "apple, mango, banana, orange";
 //         //   0123456789012345678901234567
@@ -55,6 +77,10 @@
 // }
 
 // -----string substr()----- 
+
+// substr() is similar to slice().
+// The difference is that the second parameter specifies the length of the extracted part.
+
 // {
 //     let a = "apple, mango, banana, orange";
 //         //   0123456789012345678901234567
@@ -83,6 +109,11 @@
 //         let chnage = a.replace(/visit/g, "kishan");
 //         document.write(chnage)
 //     }
+// {
+//     let a = "kishan is intelligent intelligent"
+//     let b = a.replace("intelligent", "smart")
+//     console.log(b);
+// }
 }
 
 // -----string replaceAll()-----
@@ -118,6 +149,7 @@
 //     document.write(a +  "<br>");
 //     document.write("length = "+ b);
 // }
+
 
 // -----string trim()----- 
 // {
@@ -206,7 +238,7 @@
 //***** JAVASCRIPT SEARCHING METHOD *****  8 method 
 
 // String indexOf("w") = string ma words ky index pr che te search kri ne aape
-     //   indexOf("o",12) =  index 12 sudhi ma ( "o" ) aavto hoi teni index search ny kre --teni pchi no first ("o") ni index search kre but 0 index thi search kre  
+     //   indexOf("o",12) =  index 12 sudhi ma ( "o" ) aavto hoi teni index search ny kre --teni pchi no first ("o") ni index search kre but 0 index thi continues search kre  
 // String lastIndexOf("m") = string ma savthi last charcter hoi teni index search kri ne aape (searching pelthi krse)
      //   lastindexOf("a",30) = up to 30 sudhi index ma last ( "a" ) aavto hoi teni index search kri ne aape
 // String search() = index search kri ne aape
@@ -218,6 +250,7 @@
 
 
 // -----String indexOf()-----
+
 // {
 //     let fruits = "apple, mango, watermalon, strawbarry, lemon";
 //     let part = fruits.indexOf("w");

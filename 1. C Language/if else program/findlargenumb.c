@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {  // find largest number of given three number 
 
    int a,b,c;
@@ -18,6 +18,6 @@ else
  { 
     printf("c value is large = %d",c);
  }
-getch();  
+return 0; 
  
 }

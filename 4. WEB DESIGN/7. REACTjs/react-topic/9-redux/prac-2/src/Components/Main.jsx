@@ -1,4 +1,3 @@
-
 import { addToCart, emptyCart, removeFromCart } from '../Redux-saga/Action';
 import { useDispatch, useSelector } from 'react-redux'
 import { ProductList } from '../Redux-saga/ProductAction';
@@ -8,7 +7,7 @@ import { useEffect } from 'react';
 function Main() {
     const dispatch = useDispatch();
     const data = useSelector((state) => state.productData);
-    console.warn("data in main components..saga", data);
+    console.warn("data in main components...saga", data);
     const product = {
         name: 'i Phone',
         category: 'mobile',

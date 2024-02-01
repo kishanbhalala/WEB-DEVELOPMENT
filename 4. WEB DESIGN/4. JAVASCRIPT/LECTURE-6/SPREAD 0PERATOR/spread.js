@@ -28,20 +28,22 @@
     // console.log(arr2); 
 }
 
-// Clone Array Using Spread Operator
+//--- Clone Array Using Spread Operator ---
 
 {
-    // let arr1 = [ 1, 2, 3];
-    // let arr2 = arr1;
+    // {
+    //     let arr1 = [1, 2, 3];
+    //     let arr2 = arr1;
 
-    // console.log(arr1);
-    // console.log(arr2); 
+    //     console.log(arr1);
+    //     console.log(arr2);
 
-    // // append an item to the array
-    // arr1.push(4);
+    //     // // append an item to the array
+    //     arr1.push(4);
 
-    // console.log(arr1);
-    // console.log(arr2);
+    //     console.log(arr1);
+    //     console.log(arr2);
+    // }
 
     // {
     //     let arr1 = [ 1, 2, 3];
@@ -60,7 +62,8 @@
     // }
 }
 
-// Spread Operator with Object
+
+// --- Spread Operator with Object --- 
 
 
 {
@@ -72,9 +75,21 @@
 
     // console.log(obj3);
 }
+// {
+//     let a = {
+//         name: "John",
+//         age: 30,
+//     };
+//     let b = {
+//         city: "New York"
+//     };
+//     let c = { ...a, ...b };
+//     console.log(c);
+// }
 
 
-// Rest Parameter
+
+// ***** Rest Parameter ***** 
 
 // When the spread operator is used as a parameter, it is known as the rest parameter.
 // You can also accept multiple arguments in a function call using the rest parameter. 
@@ -100,13 +115,13 @@
 // You can also pass multiple arguments to a function using the spread operator.
 
 {
-    // function sum(x, y ,z) {
-    //     console.log(x + y + z);
+    // function sum(x, y, z) {
+    //     console.log(x + y + z );
     // }
 
-    // const num1 = [1, 3, 4, 5];
+    // const num1 = [1, 3, 4];
 
-    // sum(...num1); 
+    // sum(...num1);
 }
 
 // If you pass multiple arguments using the spread operator, the function takes the required arguments and ignores the rest.

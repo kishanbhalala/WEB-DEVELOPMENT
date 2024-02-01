@@ -8,8 +8,4 @@ export default combineReducers({
 })
 
 
-
-
-
-
 // => project ni ander ek thi vadhare pn reducer hoi ske...but store ek j reducer ne connect kre ...atle jetla reducer bne tene ek j rootReducer ma combin kri devu

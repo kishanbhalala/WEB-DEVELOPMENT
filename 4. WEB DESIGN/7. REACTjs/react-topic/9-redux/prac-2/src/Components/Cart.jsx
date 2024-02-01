@@ -13,7 +13,7 @@ const Cart = () => {
         <>
             <div className='text-center'>
                 <Link to="/" className='text-2xl font-bold'>Product List</Link>
-                <h1>cart page</h1>
+                <h1 >cart page</h1>
             </div>
             <div className='border flex justify-between'>
                 <table className='w-full'>

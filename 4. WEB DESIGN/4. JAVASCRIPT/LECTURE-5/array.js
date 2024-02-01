@@ -3,8 +3,8 @@
 // Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 // JavaScript Array is a single variable that is used to store elements of different data types. 
 // JavaScript arrays are zero-indexed. The Javascript Arrays are not associative in nature.
-// Arrays are used when we have a list of items. 
 // An array allows you to store several values with the same name and access them by using their index number.
+// Arrays are used when we have a list of items. 
 
 // ***** JAVASCRIPT ARRAY *****
 
@@ -24,6 +24,8 @@
 // console.log(Object.keys(cars));
 // console.log(cars.length)
 
+
+// ********************** //
 
 // array length properties 
 // accessing  the first  array Element
@@ -138,11 +140,12 @@
 
 // ---converting arrays to strings---
 // {
-//     const cars = ["audi" , "BMW" , "jaguar", "innova"];
-//     console.log(cars.toString());
-//     console.log(cars.length)
+//     const cars = ["audi","BMW","jaguar","innova"];
+//     console.log(cars);
+//     console.log("length = " + cars.length)
+//     console.log("convert string = "  + cars.toString());
 //     let a = toString().length;
-//     console.log(a);
+//     console.log(a); 
 // }
 
 // ---Array pop()--- 
@@ -153,6 +156,7 @@
 //     cars.pop();
 //     document.getElementById("demo-1").innerHTML = cars;
 // }
+
 
 // The pop() method returns the value that was "popped out": 
 // {
@@ -271,14 +275,12 @@
 
 // array .isArray  = array check krva mate use thay -- array hoi to true nkr false
 // sorting array = array sorting kri ne aape (alphabet) hoi to abcd ni rite line ma kri aape
-// Reversing Array = array ne reverse kri ne aape
 // Numeric Sort = number ne sorting kri ne aape (small number thi start kre)
+// Reversing Array = array ne reverse kri ne aape
 // fill("1") = array ma bdha j element ni jgya a new element fill kri aape (all same) --fill("1",3) 3 element pchi 1 print kri aape jya sudhi array hoi tya sudhi
 // copywithin(3) = array ma start thi 3 element copy kre -- pchi aagad na element continue rakhe
 // valueof() = array same to same print kri ne aape
 // flat = sub-array ne concat kri aape
-
-
 
 
 // ---array .isArray --- 
@@ -289,22 +291,13 @@
 // }
 
 // ---sorting array--- 
-// {
-//     //charcter line ma kri dese
-//     let alphabet = ["zebra","monkey","cat","kites","apple","dog"];
-//     let a = alphabet.sort();
-//     console.log(a);
-// }
+{
+    //charcter line ma kri dese
 
-// ---Reversing Array---
-// {
-//     let alphabet = ["zebra","monkey","cat","kites","apple","dog"];
-//     console.log(alphabet);
-//     let rev = alphabet.reverse();
-//     console.log(rev);
-//     let b = rev.sort();
-//     console.log(b);
-// } 
+    // let alphabet = ["zebra","monkey","cat","kites","apple","dog"];
+    // let a = alphabet.sort();
+    // console.log(a);
+}
 
 // ---Numeric Sort ---
 // {
@@ -316,23 +309,35 @@
 // }
 
 
-// ---fill method--- 
-// Fill all the elements with a value: 
+// ---Reversing Array---
+// {
+//     let alphabet = ["zebra","monkey","cat","kites","apple","dog"];
+//     console.log(alphabet);
+//     let rev = alphabet.reverse();
+//     console.log(rev);
+//     let b = rev.sort();
+//     console.log(b);
+// }
+
+
+
+// ---fill method---
+// Fill all the elements with a value:
 // {
 //     const cars = ["farari","volvo","creta","bmw","lumo"];
 //     const newfill = cars.fill("1",2);
 //     document.write(newfill);
 // }
 
-// ---copywithin()--- 
-// The copyWithin() method copies array elements to another position in the array. 
+// ---copywithin()---
+// The copyWithin() method copies array elements to another position in the array.
 // {
 //     const cars = ["farari","volvo","creta","bmw","lumo","","",""];
 //     const newfill = cars.copyWithin(3);
 //     document.write(newfill);
 // }
 
-// ---valueof()--- 
+// ---valueof()---
 // valueOf() returns the same as
 // {
 //     const cars = ["farari","volvo","creta","bmw","lumo","cooper","jaguar","innova"];
@@ -340,8 +345,8 @@
 //     document.write(newfill);
 // }
 
-// ---flat()--- 
-// The flat() method concatenates sub-array elements. 
+// ---flat()---
+// The flat() method concatenates sub-array elements.
 // {
 //     const myArr = [1, 2, 3, [4, [5, 6, [7, 8,9]]]];
 //     const newArr = myArr.flat(3);
@@ -349,28 +354,31 @@
 // }
 
 
+
 // *****************************//
-// JavaScript Array Iteration
+// Array method for looping  //
+// *****************************//
 
-// ---JavaScript Array forEach()--- 
-// The forEach() method calls a function for each element in an array.
-// The forEach() method is not executed for empty elements.
+// map()           :- It creates a new array populated with the results of calling a provided function on every element in the calling array.
+// reduce()        :- It runs a function on each array element to produce (reduce it to) a single value. It works from left-to-right.
+// filter()        :- It creates a new array with all elements that pass the test implemented by the provided function.
+// forEach()       :- It executes a provided function once for each array element.
+// some()          :- array ma test kravti vkhte koi pn ek first value mdi jaay to  true kri dese nkr false
+// every()         :- array ma test karavti vkhte bdhi j value check krse...ane te condition pramane sachi hoi bdhi value to true nkr false
+// flatMap()       :- The flatMap() method maps all array elements and creates a new flat array.
+// Max()           :-  moti value find kri ne aape
+// Min()           :-  nani value find kri ne aape
 
-// {
-//     const numbers = [45, 4, 9, 16, 25];
 
-//     let txt = "";
-//     numbers.forEach(myFunction);
-//     document.getElementById("demo").innerHTML = txt;
-
-//     function myFunction(value, index, array) {
-//         txt += value * 2 + "<br>";
-//     }
-// }
 
 // ---JavaScript Array map()---
+
+// array.map((element, index) => {
+//     // code block to be executed
+// })
+
 // -> map mathod ek new array return kre .....je retun kre tene newarray ma store kri devanu
-// -> map method callback functon accept kre 
+// -> map method callback functon accept kre..
 // map() creates a new array from calling a function for every array element.
 // map() does not execute the function for empty elements.
 // map() does not change the original array.
@@ -386,41 +394,16 @@
 // }
 
 
-// ---JavaScript Array flatMap()--- 
-// The flatMap() method maps all array elements and creates a new flat array.
-// flatMap() creates a new array from calling a function for every array element.
-// flatMap() does not execute the function for empty elements.
-// flatMap() does not change the original array.
-
-// {
-//     const myArr = [1, 2, 3, 4, 5, 6];
-//     const newArr = myArr.flatMap((x) => x * 2);
-//     document.getElementById("demo").innerHTML = newArr;
-// }
-
-// ---JavaScript Array filter()--- 
-// -> filter method ek new array retun kre 
-// -> map method callback functon accept kre 
-// condition pramane je je value test ma clear thay te print kri ne aape 
-  
-// {
-//     const a = [45, 4, 9, 16, 25];
-//     const b = a.filter(myFunction);
-
-//     function myFunction(age)
-//     {
-//         return age > 18;
-//     }
-//     document.getElementById("demo").innerHTML = b;
-// }
-
 // --- JavaScript Array reduce() ---
-// -> map method callback functon accept kre 
-// -> two argument aave prev and current value 
+
+// -> two argument aave prev and current value
 // The reduce() method executes a reducer function for array element.
 // The reduce() method returns a single value: the function's accumulated result.
 // The reduce() method does not execute the function for empty array elements.
 // The reduce() method does not change the original array.
+
+// The reduce() method runs a function on each array element to produce (reduce it to) a single value.
+// The reduce() method works from left-to-right in the array. See also reduceRight().
 
 // {
 //     const numbers = [175, 50, 25];
@@ -432,19 +415,188 @@
 // }
 
 
+// ---JavaScript Array filter()---
+
+// -> filter method ek new array retun kre
+// -> condition pramane je je value test ma clear thay te print kri ne aape
+// The filter() method creates a new array with array elements that pass a test
+
+// {
+//     const a = [45, 4, 9, 16, 25];
+//     const b = a.filter(myFunction);
+
+//     function myFunction(age)
+//     {
+//         return age > 18;
+//     }
+//     document.getElementById("demo").innerHTML = b;
+// }
+
+// practice :-
+// {
+//     let arr = [1, 2, 3, 4, 5, 6];
+//     let b = arr.map((item) => item).filter((item) => item > 4).reduce((acc, curr) => acc + curr , 0)
+//     console.log(b);
+// }
+
+
+// ---JavaScript Array forEach()---
+
+// array.forEach((element, index) => {
+//     // code block to be executed
+// })
+
+// The forEach() method calls a function for each element in an array.
+// The forEach() method is not executed for empty elements.
+
+// {
+//     const numbers = [45, 4, 9, 16, 25];
+
+//     let txt = "";
+//     numbers.forEach(myFunction);
+//     document.getElementById("demo").innerHTML = txt;
+
+//     function myFunction(value, index, array) {
+//         txt += value * 2 + "<br>";
+//     }
+// }
+
+// ---JavaScript Array some()---
+
+// The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false.
+// It doesn't modify the array.
+
+// {
+//     const numbers = [45, 4, 9, 16, 25];
+//     let someOver18 = numbers.some(myFunction);
+//     function myFunction(value, index, array) {
+//      return value > 18;
+//     }
+//     console.log(someOver18);
+// }
+
+
+// ---JavaScript Array every()---
+
+// The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+
+// {
+//       const numbers = [45, 4, 9, 16, 25];
+//       let allOver18 = numbers.every(myFunction);
+//       function myFunction(value, index, array) {
+//       return value > 18;
+//     }
+//     console.log(allOver18);
+// }
+
+
+// ---JavaScript Array flatMap()---
+
+// flatMap() creates a new array from calling a function for every array element.
+// flatMap() does not execute the function for empty elements.
+// flatMap() does not change the original array.
+
+// {
+//     const myArr = [1, 2, 3, 4, 5, 6];
+//     const newArr = myArr.flatMap((x) => x * 2);
+//     document.getElementById("demo").innerHTML = newArr;
+// }
+
+
+
+// *********************************** //
 // *********************************** //
 
 // indexOf("search item" ,start) = array ma koi pn element ni index search kri ne aape
 // lastindexOf("search item" ,start) = array ma last thi search kre pchi teni index aape
+
+// entries() = key and value print kri ne aape
 // includes() = array ma value che ke ny te check kre hoi to true nkr false
-// array some() = array ma test kravti vkhte koi pn ek first value mdi jaay to  true kri dese nkr false
-// array every() = array ma test karavti vkhte bdhi j value check krse...ane te condition pramane sachi hoi bdhi value to true nkr false
-// array find() = array ma condition pramane element check karavti vkhte first value mdi jaay te value print kri dese and pchi ni value check pn ny kre
-// array findIndex() = find ni jem j kam kre pn value ni jgya a teni index print krse
+// find() = array ma condition pramane element check karavti vkhte first value mdi jaay te value print kri dese and pchi ni value check pn ny kre
+// findIndex() = find ni jem j kam kre pn value ni jgya a teni index print krse
+
+
+// Array entries():-
+// The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.
+
+// {
+//     const array1 = ['a', 'b', 'c'];
+//     const iterator1 = array1.entries();
+//     console.log(iterator1.next().value);
+//     console.log(iterator1.next().value);
+//     console.log(iterator1.next().value);
+// }
+
+// ---- Array includes()---- :-
+
+// The Array.includes() to arrays. This allows us to check if an element is present in an array (including NaN, unlike indexOf).
+// The Array.includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+
+// {
+//     const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//     console.log(fruits.includes("Mango"));
+// }
+
+// ---- Array find() ---- :-
+
+// The find() method returns the first element in the provided array that satisfies the provided testing function.
+// If no values satisfy the testing function, undefined is returned.
+
+// {
+//     const numbers = [4, 9, 16, 25, 29];
+//     let first = numbers.find(myFunction);
+//     function myFunction(value, index, array) {
+//         return value > 18;
+//     }
+//     console.log(first);
+// }
+
+
+// ---- Array findIndex() ---- :-
+
+// The findIndex() method returns the index of the first element in an array that satisfies the provided testing function.
+// If no elements satisfy the testing function, -1 is returned.
+
+// {
+//     const numbers = [4, 9, 16, 25, 29];
+//     let first = numbers.findIndex(myFunction);
+//     function myFunction(value, index, array) {
+//         return value > 18;
+//     }
+//     console.log(first);
+// }
+
+
+// ---- Array Max()---- :-
+
+// The Math.max.apply to find the highest number in an array.
+
+// {
+//     const points = [40, 100, 1, 5, 25, 10];
+//     function myArrayMax(arr) {
+//         return Math.max.apply(null, arr);
+//     }
+//     console.log(myArrayMax(points));
+// }
+
+// ---- Array Min()---- :-
+
+// The Math.min.apply to find the lowest number in an array.
+
+// {
+//     const points = [40, 100, 1, -5, 25, 10];
+//     function myArrayMin(arr) {
+//         return Math.min.apply(null, arr);
+//     }
+//     console.log(myArrayMin(points));
+// }
 
 
 
-// array vs object
+//************************************************ */
+//************************************************ */
+
+// ---- array vs object ----
 
 // Array :-
 // Arrays are best to use when the elements are numbers.

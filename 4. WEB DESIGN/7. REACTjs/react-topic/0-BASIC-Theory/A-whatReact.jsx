@@ -7,16 +7,18 @@
 
 // ReactJS Advantages :-
 
-// React.js builds a customized virtual DOM. Because the JavaScript virtual DOM is quicker than the conventional DOM, this will enhance the performance of apps. 
-// ReactJS makes an amazing UI possible. 
-// Search - engine friendly ReactJS. 
-// Modules and valid data make larger apps easier to manage by increasing readability. 
-// React integrates various architectures. 
-// React makes the entire scripting environment process simpler. 
-// It makes advanced maintenance easier and boosts output. 
-// Guarantees quicker rendering 
-// The availability of a script for developing mobile apps is the best feature of React.
+// Fast Rendering
+// It is declarative.
+// SEO friendly.
+// Redux Facility
+// Component Reusability
+// Offers Mobile Application Development
+// Stable and Streamline Code
+// Comes with JSX
+// Reliable Development Tools
+// Effortless Maintenance
 // ReactJS is supported by a large community.
+ 
 
 
 // installation :-

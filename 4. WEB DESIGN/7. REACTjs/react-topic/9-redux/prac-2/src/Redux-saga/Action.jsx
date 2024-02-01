@@ -24,6 +24,5 @@ export const emptyCart = (data) => {
 }
 
 
-
 // => action nu kam reactJs mathi data leva and reducer ne data pass krva..
 // => action and reducer ni ander type define hovo j joie tyre j smji skse..bne same hova joye..

@@ -25,7 +25,6 @@
 // December = 11
 
 
-
 // ---new Date()--- 
 // new Date() creates a date object with the current date and time: 
 // {
@@ -157,7 +156,6 @@
 
 
 
-
 // ***** JavaScript Get Date Methods *****
 
 
@@ -177,6 +175,7 @@
 // The get methods return information from existing date objects.
 // In a date object, the time is static. The "clock" is not "running".
 // The time in a date object is NOT the same as current time.
+
 
 // {
 //     const dates = new Date();

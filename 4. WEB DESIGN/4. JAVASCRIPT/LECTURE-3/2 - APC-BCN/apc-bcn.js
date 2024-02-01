@@ -1,4 +1,4 @@
-//*** (APC) *** 
+//*** (APC) ***
 //  functions to internet with the user : alert, prompt and confirm.
 
 // 1. alert() - shows a message.
@@ -10,7 +10,7 @@
 //               for cancel/Esc.
 
 
-//**  window alert() in javascript ** 
+//**  window alert() in javascript **
 // {
 //     window.alert("warning");
 //     alert("this is javascript");
@@ -18,7 +18,7 @@
 // }
 
 
-//**  windows prompt() in javascript ** 
+//**  windows prompt() in javascript **
 // {
 //     var age = prompt('i am here');
 //     var names = prompt("what is your name");
@@ -29,16 +29,17 @@
 //     document.write(message);
 // }
 
-// **  windows confirm() in javascript ** 
+// **  windows confirm() in javascript **
 
 // let message = confirm("this is javascript?");
 // document.write(message);
 
 
 
-//***  Break , continue, and nested loop  // (BCN) *** 
+//***  Break , continue, and nested loop  // (BCN) ***
 
-// break
+// Break :-
+// The break statement "jumps out" of a loop.
 // {
 //     for(let a =1; a <= 10; a++)
 //     {
@@ -51,7 +52,9 @@
 //     }
 // }
 
-// continue
+// Continue :-
+// The continue statement "jumps over" one iteration in the loop.
+// The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
 // {
 //     for(let a =1; a <= 10; a++)
 //         {
@@ -68,7 +71,7 @@
 //         }
 // }
 
-// nested loop
+// nested loop :-
 // {
 //     link: for(let a=1; a<=10; a++)
 //     {
