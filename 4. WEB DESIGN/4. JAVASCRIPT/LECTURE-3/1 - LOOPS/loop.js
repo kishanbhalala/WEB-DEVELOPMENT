@@ -304,7 +304,7 @@
 
 {
     // let students = ['John', 'Sara', 'Jack'];
-   
+
     // // using forEach
     // students.forEach(myFunction);
 
@@ -316,7 +316,7 @@
 
     // console.log(students);
 
-   
+
 }
 
 

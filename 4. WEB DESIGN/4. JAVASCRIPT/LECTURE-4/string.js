@@ -42,9 +42,6 @@
 // string split() = string ne break kre
 
 
-{
-    
-}
 // -----string length----- 
 // {
 //     let a = "this is javascript language";
