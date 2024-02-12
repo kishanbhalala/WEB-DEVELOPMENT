@@ -13,10 +13,10 @@ function App() {
     <>
 
       {/* Propes1  */}
-      {/* <Propes1 text="kishan bhalala" />
-      <Propes1 text={{ name: "kishan" }} data="Web developement" /> */}
+      {/* <Propes1 text="kishan bhalala" /> */}
+      {/* <Propes1 text={{ name: "kishan" }} data="Web developement" /> */}
 
-
+      
 
       {/* propes2 */}
 

@@ -1,10 +1,10 @@
 // what is Array :-
 
 // Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
-// JavaScript Array is a single variable that is used to store elements of different data types. 
+// JavaScript Array is a single variable that is used to store elements of different data types.
 // JavaScript arrays are zero-indexed. The Javascript Arrays are not associative in nature.
 // An array allows you to store several values with the same name and access them by using their index number.
-// Arrays are used when we have a list of items. 
+// Arrays are used when we have a list of items.
 
 // ***** JAVASCRIPT ARRAY *****
 
@@ -24,19 +24,17 @@
 // console.log(Object.keys(cars));
 // console.log(cars.length)
 
-
 // ********************** //
 
-// array length properties 
+// array length properties
 // accessing  the first  array Element
 // accessing  the last  array Element
 // adding array Element
 // converting arrays to strings
 
-
 // array index start with 0:
 // [0] is the first array Element
-// [1] is the second 
+// [1] is the second
 // [2] is the third...
 
 // {
@@ -54,7 +52,6 @@
 //     array[1] = "five"; //changing arrays element
 //     console.log(array)
 // }
-
 
 // ---accessing  the first  array Element---
 // {
@@ -79,9 +76,7 @@
 //     myFunction();
 // }
 
-
-
-// the length property provides an easy way to append new elements to an array without using the push() method 
+// the length property provides an easy way to append new elements to an array without using the push() method
 
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
@@ -99,8 +94,7 @@
 //     console.log(a);
 // }
 
-
-// adding elements with high indexes can create undefined "holes" in an Array. 
+// adding elements with high indexes can create undefined "holes" in an Array.
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
 //     cars[7] = "farari";
@@ -114,8 +108,7 @@
 //     document.getElementById("demo").innerHTML = text;
 // }
 
-
-// **** ARRAY (12) METHOD ****  
+// **** ARRAY (12) METHOD ****
 
 // Array length  =  array na element ni length count kri ne aape  --index (0) thi start thay
 // Array toString() = array ne string ma covert kri aape
@@ -125,11 +118,10 @@
 // Array unshift("farari") = array ma start thi element add kre
 // Array join(" - ") = array ma element ni vche join kri skye
 // Array delete() = array mathi koi pn index pr rahelo element delete kri skye -- and te index pr element add pn kri skye
-// Array concat() = badha array ne concat kri dey (merge) 
-// Array flat() = sub array na element ne concat kri aape 
+// Array concat() = badha array ne concat kri dey (merge)
+// Array flat() = sub array na element ne concat kri aape
 // Array splice(0,2) =  element delete kri sakay and add pn kri sakay - je range aapye tya sudhi delet thay = splice(index, howmany delet, "new add")
 // Array slice(1, 3)  = index ni range aapine array mathi koi pn element kadhi skye ane new array ma store kri skye = slice(start, end)
-
 
 // ---Array length ---
 // {
@@ -145,10 +137,10 @@
 //     console.log("length = " + cars.length)
 //     console.log("convert string = "  + cars.toString());
 //     let a = toString().length;
-//     console.log(a); 
+//     console.log(a);
 // }
 
-// ---Array pop()--- 
+// ---Array pop()---
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
 //     document.getElementById("demo").innerHTML = cars;
@@ -157,15 +149,14 @@
 //     document.getElementById("demo-1").innerHTML = cars;
 // }
 
-
-// The pop() method returns the value that was "popped out": 
+// The pop() method returns the value that was "popped out":
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
 //     document.getElementById("demo").innerHTML = cars.pop();
 //     document.getElementById("demo-1").innerHTML = cars;
 // }
 
-// ---Array push()--- 
+// ---Array push()---
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
 //     document.getElementById("demo").innerHTML = cars;
@@ -174,11 +165,11 @@
 // }
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
-//     document.getElementById("demo").innerHTML = cars.push("farari"); 
+//     document.getElementById("demo").innerHTML = cars.push("farari");
 //     document.getElementById("demo-1").innerHTML = cars;
 // }
 
-// ---Array shift()--- 
+// ---Array shift()---
 
 // The shift() method removes the first array element and "shifts" all other elements to a lower index.
 // {
@@ -192,13 +183,13 @@
 // The shift() method returns the value that was "shifted out":
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
-//     document.getElementById("demo").innerHTML = cars.shift(); 
+//     document.getElementById("demo").innerHTML = cars.shift();
 //     document.getElementById("demo-1").innerHTML = cars.length;
 // }
 
-// ---Array unshift()--- 
+// ---Array unshift()---
 
-// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements: 
+// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
 //     document.getElementById("demo").innerHTML = cars;
@@ -206,20 +197,20 @@
 //     document.getElementById("demo-1").innerHTML = cars;
 // }
 
-// The unshift() method returns the new array length: 
+// The unshift() method returns the new array length:
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
-//     document.getElementById("demo").innerHTML = cars.unshift("farari"); 
+//     document.getElementById("demo").innerHTML = cars.unshift("farari");
 //     document.getElementById("demo-1").innerHTML = cars;
-// }   
+// }
 
-// ---Array join()--- 
+// ---Array join()---
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
 //     document.getElementById("demo").innerHTML = cars.join(" - ");
 // }
 
-// ---Array delete()--- 
+// ---Array delete()---
 
 // Array elements can be deleted using the JavaScript operator delete.
 // Using delete leaves undefined holes in the array.
@@ -233,8 +224,8 @@
 //     document.getElementById("demo-1").innerHTML = cars;
 // }
 
-// ---Merging (Concatenating) Arrays--- 
-// The concat() method does not change the existing arrays. It always returns a new array. 
+// ---Merging (Concatenating) Arrays---
+// The concat() method does not change the existing arrays. It always returns a new array.
 // {
 //     const girls = ["pinsu","daya","shrushti"];
 //     const boys = ["kishan","jeegar","sagar"];
@@ -242,10 +233,10 @@
 //     const all = girls.concat(boys , kids,"vipul");
 //     document.getElementById("demo").innerHTML = all;
 //     console.log(all);
-// }   
+// }
 
-// ---Array flat()--- 
-// The flat() method creates a new array with sub-array elements concatenated to a specified depth. 
+// ---Array flat()---
+// The flat() method creates a new array with sub-array elements concatenated to a specified depth.
 // {
 //     const myArr = [[1, 2], [3, 4], [5 , 6]];
 
@@ -253,7 +244,7 @@
 //     document.getElementById("demo").innerHTML = newArr;
 // }
 
-// ---Array splice()--- 
+// ---Array splice()---
 // The splice() method can be used to add new items to an array and remove:
 // {
 //     const cars = ["audi" , "BMW" , "jaguar", "innova"];
@@ -270,8 +261,7 @@
 //     document.getElementById("demo").innerHTML = cars + "<br><br>" + newremove;
 // }
 
-
-// ******** (8) method ***************//    
+// ******** (8) method ***************//
 
 // array .isArray  = array check krva mate use thay -- array hoi to true nkr false
 // sorting array = array sorting kri ne aape (alphabet) hoi to abcd ni rite line ma kri aape
@@ -281,22 +271,21 @@
 // copywithin(3) = array ma start thi 3 element copy kre -- pchi aagad na element continue rakhe
 // valueof() = array same to same print kri ne aape
 // flat = sub-array ne concat kri aape
+// flatMap() = flatMap ma infinity depth sudhi na ly jy sko... only by default 1 depth sudhi j ly jy sko.
 
-
-// ---array .isArray --- 
-// { 
+// ---array .isArray ---
+// {
 //     let book = ["math","english","gujrati","hindi"];   //true
 //     let books = "string";                              // false
-//     console.log(Array.isArray(book)); 
+//     console.log(Array.isArray(book));
 // }
 
-// ---sorting array--- 
+// ---sorting array---
 {
-    //charcter line ma kri dese
-
-    // let alphabet = ["zebra","monkey","cat","kites","apple","dog"];
-    // let a = alphabet.sort();
-    // console.log(a);
+  //charcter line ma kri dese
+  // let alphabet = ["zebra","monkey","cat","kites","apple","dog"];
+  // let a = alphabet.sort();
+  // console.log(a);
 }
 
 // ---Numeric Sort ---
@@ -308,7 +297,6 @@
 //     document.write(num2);
 // }
 
-
 // ---Reversing Array---
 // {
 //     let alphabet = ["zebra","monkey","cat","kites","apple","dog"];
@@ -318,8 +306,6 @@
 //     let b = rev.sort();
 //     console.log(b);
 // }
-
-
 
 // ---fill method---
 // Fill all the elements with a value:
@@ -349,11 +335,29 @@
 // The flat() method concatenates sub-array elements.
 // {
 //     const myArr = [1, 2, 3, [4, [5, 6, [7, 8,9]]]];
-//     const newArr = myArr.flat(3);
+// const newArr = myArr.flat(Infinity);
 //     console.log(newArr);
 // }
 
+// ---JavaScript Array flatMap()---
 
+// flatMap() creates a new array from calling a function for every array element.
+// flatMap() does not execute the function for empty elements.
+// flatMap() does not change the original array.
+
+// {
+//     const myArr = [1, 2, 3, 4, 5, 6];
+//     const newArr = myArr.flatMap((x) => x * 2);
+//     document.getElementById("demo").innerHTML = newArr;
+// }
+
+// {
+//   var arr = ["welcome to","javascript","programing language"]
+//   arr = arr.flatMap((e) => {
+//       return e.split(" ");
+//   })
+//   console.log(arr);
+// }
 
 // *****************************//
 // Array method for looping  //
@@ -365,11 +369,8 @@
 // forEach()       :- It executes a provided function once for each array element.
 // some()          :- array ma test kravti vkhte koi pn ek first value mdi jaay to  true kri dese nkr false
 // every()         :- array ma test karavti vkhte bdhi j value check krse...ane te condition pramane sachi hoi bdhi value to true nkr false
-// flatMap()       :- The flatMap() method maps all array elements and creates a new flat array.
 // Max()           :-  moti value find kri ne aape
 // Min()           :-  nani value find kri ne aape
-
-
 
 // ---JavaScript Array map()---
 
@@ -393,7 +394,6 @@
 //     }
 // }
 
-
 // --- JavaScript Array reduce() ---
 
 // -> two argument aave prev and current value
@@ -412,6 +412,17 @@
 //     function myFunc(total, num) {
 //         return total - num;
 //     }
+// }
+// {
+//   const array1 = [
+//     [0, 1],
+//     [2, 3],
+//     [4, 5],
+//   ];
+//   const result = array1.reduceRight((accumulator, currentValue) =>
+//     accumulator.concat(currentValue),
+//   );
+//   console.log(result);
 // }
 
 
@@ -432,20 +443,13 @@
 //     document.getElementById("demo").innerHTML = b;
 // }
 
-// practice :-
-// {
-//     let arr = [1, 2, 3, 4, 5, 6];
-//     let b = arr.map((item) => item).filter((item) => item > 4).reduce((acc, curr) => acc + curr , 0)
-//     console.log(b);
-// }
-
-
 // ---JavaScript Array forEach()---
 
 // array.forEach((element, index) => {
 //     // code block to be executed
 // })
 
+// forEach kyrey return naa kre... oraginal array ma j change kre
 // The forEach() method calls a function for each element in an array.
 // The forEach() method is not executed for empty elements.
 
@@ -475,7 +479,6 @@
 //     console.log(someOver18);
 // }
 
-
 // ---JavaScript Array every()---
 
 // The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
@@ -489,20 +492,12 @@
 //     console.log(allOver18);
 // }
 
-
-// ---JavaScript Array flatMap()---
-
-// flatMap() creates a new array from calling a function for every array element.
-// flatMap() does not execute the function for empty elements.
-// flatMap() does not change the original array.
-
+// ---- practice ----  :-
 // {
-//     const myArr = [1, 2, 3, 4, 5, 6];
-//     const newArr = myArr.flatMap((x) => x * 2);
-//     document.getElementById("demo").innerHTML = newArr;
+// let arr = [1, 2, 3, 4, 5, 6];
+//     let b = arr.map((item) => item).filter((item) => item > 4).reduce((acc, curr) => acc + curr , 0)
+//     console.log(b);
 // }
-
-
 
 // *********************************** //
 // *********************************** //
@@ -515,7 +510,6 @@
 // find() = array ma condition pramane element check karavti vkhte first value mdi jaay te value print kri dese and pchi ni value check pn ny kre
 // findIndex() = find ni jem j kam kre pn value ni jgya a teni index print krse
 
-
 // Array entries():-
 // The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.
 
@@ -525,6 +519,12 @@
 //     console.log(iterator1.next().value);
 //     console.log(iterator1.next().value);
 //     console.log(iterator1.next().value);
+// }
+
+// {  let arr1 = ["ss", "gg", "kk"];
+//   for(let [index,ele] of arr1.entries()){
+//     console.log(index, ele);
+//   }
 // }
 
 // ---- Array includes()---- :-
@@ -551,7 +551,6 @@
 //     console.log(first);
 // }
 
-
 // ---- Array findIndex() ---- :-
 
 // The findIndex() method returns the index of the first element in an array that satisfies the provided testing function.
@@ -565,7 +564,6 @@
 //     }
 //     console.log(first);
 // }
-
 
 // ---- Array Max()---- :-
 
@@ -591,7 +589,21 @@
 //     console.log(myArrayMin(points));
 // }
 
-
+// without Math method max and min value :-
+// {
+//     const array = [-2, -1, 0, 1, 2, 3]
+//     let max = array[0], min = array[0];
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] > max) {
+//             max = array[i]
+//         }
+//         if (array[i] < min) {
+//             min = array[i]
+//         }
+//     }
+//     console.log("max = ", max);
+//     console.log("min = ", min);
+// }
 
 //************************************************ */
 //************************************************ */
@@ -604,7 +616,6 @@
 // The elements can be manipulated using [].
 // The elements can be popped out of an array using the pop() function.
 // Iterating through an array is possible using For loop, For..in, For..of, and ForEach().
-
 
 // Array of objects :-
 // Objects are best to use when the elements’ strings (text).

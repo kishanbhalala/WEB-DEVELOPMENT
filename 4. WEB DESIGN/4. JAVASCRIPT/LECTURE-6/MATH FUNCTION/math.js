@@ -83,10 +83,10 @@
 // }
 
 // Math.pow(x, y) returns the value of x to the power of y:
-// {
-//     let a = Math.pow(5,5);
-//     document.write(a);
-// }
+{
+    let a = Math.pow(5,5);
+    document.write(a);
+}
 
 // Math.sqrt(x) returns the square root of x:
 // {

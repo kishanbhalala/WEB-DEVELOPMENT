@@ -9,6 +9,8 @@
 // the useEffect hook allows you to perform these side effects after the component has rendered.
 // યુઝઇફેક્ટ હૂક તમને ઘટક રેન્ડર થયા પછી આ આડઅસરો કરવા માટે પરવાનગી આપે છે.
 
+// => useEffect ma pela component already  re-render thay jay pchi useEffect nu callback run thay.. aur a tb allow krta hai koi b action ko perfom krne ke liye iska mtlb hota hai ki tumahara componet pehele hi value ko leke chala jayega...uske badd useeffect ka callback run hoga
+// =>  jb ki usememo bana hi hai is liye ki vo function ki value ko case kr skyte hai memoized kr skte hai jo vo retun kr raha hai.aur usememo run krta hai component k render hone se pehle
 
 // syntax :-
 // useEffect accepts two arguments. the second argument is optional.

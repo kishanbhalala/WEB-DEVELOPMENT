@@ -13,11 +13,11 @@ function App() {
   return (
     <>
      {/* <Task1/> */}
-     {/* <UseEffect1/> */}
+     <UseEffect1/>
      {/* <UseEffect2 names="how are you"/> */}
      {/* <UseEffect3 val="kishan"/> */}
      {/* <UseEffect4 mess="12"/> */}
-     <UseEffect5 e="hy king"/>
+     {/* <UseEffect5 e="hy king"/> */}
    
 
     </>

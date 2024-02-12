@@ -8,10 +8,10 @@ const Data_fetch1 = () => {
     useEffect(() => {
         axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
             .then(res => {
-                console.log(res);
+                // console.log(res);
                 setPosts(res.data)
             }).catch(err => {
-                console.log(err);
+                // console.log(err);
                 setId(err.message)
             })
     }, [id])

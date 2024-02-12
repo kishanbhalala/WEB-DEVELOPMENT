@@ -4,6 +4,9 @@
 // Each value can only occur once in a Set.
 // A Set can hold any value of any data type.
 
+// => set ma single j value hoi ....koi pair naa hoi..
+// => jya array no use thay tyaa j set no use thay che..
+
 
 
 // new Set()	   Creates a new Set

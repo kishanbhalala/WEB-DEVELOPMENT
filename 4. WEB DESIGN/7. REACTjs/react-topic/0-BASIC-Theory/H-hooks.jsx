@@ -1,5 +1,7 @@
 // What is Hooks? :-
 
+const { useEffect, useContext, useCallback, useReducer } = require("react");
+
 // In React, "hooks" are functions that allow you to use state & other React features (life cycle methods) in functional components.
 // They were introduced in React version 16.8 and provide a more concise and reusable way to manage state and side effects compared to class components.
 // class components are generally no longer needed. (no plans to remove)
@@ -41,8 +43,8 @@
 
 // 4. useCallback :-  is used to memoize functions, preventing unnecessary re-renders in child components that receive these functions as props.
 // -> વિધેયોને યાદ કરવા માટે વપરાય છે, બાળ ઘટકોમાં બિનજરૂરી પુનઃપ્રદર્શન અટકાવવા કે જે આ કાર્યોને પ્રોપ્સ તરીકે મેળવે છે.
-// -> const memoizedCallback = useCallback(() => {
-//    }, [dependencies]);
+// -> const memoizedCallback = useCallback(() => {  }, [dependencies]);
+
 
 
 // 5. useMemo :- is used to memoize values, preventing unnecessary calculations or expensive operations on every render.
@@ -60,6 +62,7 @@
 // 7. useRef :-  is used to create mutable object references that persist across renders. It's commonly used to access and interact with the DOM.
 // -> મ્યુટેબલ ઑબ્જેક્ટ સંદર્ભો બનાવવા માટે વપરાય છે જે રેન્ડરોમાં ચાલુ રહે છે. તેનો ઉપયોગ સામાન્ય રીતે DOM ને ઍક્સેસ કરવા અને તેની સાથે ક્રિયાપ્રતિક્રિયા કરવા માટે થાય છે.
 // -> const myRef = useRef(initialValue);
+
 
 // 8. uselmperativeHandle :-  customizes the instance value that is exposed when using React.forwardRef. It allows you to expose specific functions or values from a child component's imperative API.
 // -> React.forwardRef નો ઉપયોગ કરતી વખતે ખુલ્લી થયેલ દાખલાની કિંમતને કસ્ટમાઇઝ કરે છે. તે તમને બાળ ઘટકના અનિવાર્ય API માંથી ચોક્કસ કાર્યો અથવા મૂલ્યોને ઉજાગર કરવાની મંજૂરી આપે છે.

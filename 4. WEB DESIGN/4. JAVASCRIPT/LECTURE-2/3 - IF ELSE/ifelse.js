@@ -1,7 +1,6 @@
 // ******* javascript if---else statement *******
 
 // The if/else statement is a part of JavaScript's "Conditional" Statements, which are used to perform different actions based on different conditions. 
-// Use if to specify a block of code to be executed, if a specified condition is true.
 
 // ● Use if to specify a block of code to be executed, if a specified condition is true
 // ● Use else to specify a block of code to be executed, if the same condition is false
@@ -91,7 +90,7 @@
 // ● If there is no match, the default code block is executed.
 
 {
-    let input = 1   ;
+    let input = 1;
 
     switch (input) {
         case 1:

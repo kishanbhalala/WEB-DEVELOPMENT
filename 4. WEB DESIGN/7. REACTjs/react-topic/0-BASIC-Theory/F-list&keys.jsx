@@ -2,6 +2,8 @@
 
 // In React, when rendering a list of elements (such as an array of items), it's important to assign a unique "key" prop to each element.
 // The key prop is a special attribute that helps React efficiently update and reorder the elements in the list.
+// પ્રતિક્રિયામાં, ઘટકોની સૂચિ (જેમ કે આઇટમ્સની શ્રેણી) રેન્ડર કરતી વખતે, દરેક ઘટકને અનન્ય "કી" પ્રોપ સોંપવું મહત્વપૂર્ણ છે.
+// કી પ્રોપ એ એક વિશિષ્ટ વિશેષતા છે જે સૂચિમાં ઘટકોને અસરકારક રીતે અપડેટ અને ફરીથી ગોઠવવામાં મદદ કરે છે.
 
 // list & keys example :-
 

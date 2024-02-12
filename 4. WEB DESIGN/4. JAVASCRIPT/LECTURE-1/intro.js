@@ -114,8 +114,6 @@
     // var newelement=document.createElement("marquee");
     // newelement.textContent="hello world";
     // document.body.appendChild(newelement); 
-
-  
 }
 
 // ** using the DOM API ** 

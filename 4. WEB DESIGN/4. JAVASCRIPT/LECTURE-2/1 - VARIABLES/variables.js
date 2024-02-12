@@ -1,4 +1,4 @@
-//********  javascript variable ********* :-
+//******** javascript variable ********* :-
 
 // A JavaScript variable is simply a name of storage location. 
 // There are two types of variables in JavaScript : local variable and global variable.
@@ -16,9 +16,9 @@
 // The scope of a let variable is block scope.
 // It can be updated but cannot be re-declared into the scope. 
 // It can be declared without initialization.
-
+l
 // const :- 
-// The scope of a const variable is block scope
+// The scope of a const variable is block scope.
 // It cannot be updated or re-declared into the scope.
 // It cannot be declared without initialization.
 
@@ -31,7 +31,7 @@
 //     var x = "box" *10;
 //     var foo_fa1=20;
 
-//     incorrect declaired
+//     incorrect declaired...
 
 //     var 123 =50;
 //     var *aa = 50;
@@ -48,7 +48,7 @@
 // }   
 
 
-// ** declaration let() ** 
+// *** declaration let() *** 
 // {
 //     {
 //         let num=10;
@@ -134,7 +134,7 @@
 //     console.log(x);
 // }
 // {
-//     // chaging the constent of array is possible in cost array 
+//     // chaging the constent of array is possible in cost array
 
 //     const arr1 = ["kishan","sagar","jeegar","anil"];
 //     console.log(arr1.toString());
@@ -168,7 +168,7 @@
 //     // }
 // }
 
-// ** string with quotes ** 
+// ** string with quotes **
 // {
 //     let x="wor'ld";
 //     let y='wor"ld';
@@ -178,17 +178,17 @@
 //     console.log(z);
 // }
 
-// ** types of variables ** 
+// ** types of variables **
 // {
 //     var myInteger =12; //32-bit number (from -2,147,483,648 to 2,147,483,647)
 //     var myLong = 747489433333; //64-bit number (from -9,223,372,036,854,775,808 to 9,223,372,036,854,77 number5,807)
 //     var myFloat =5.5; //32-bit floating-point number (decimal)
 //     var myDouble = 74747478282394040.33; //64-bit floating-point number
 //     var myBoolean = true; //1-bit true/false (0 or 1)
-//     var myBoolean2 = false; 
+//     var myBoolean2 = false;
 //     var myNotANumber = NaN;
 //     var NaN_Example = 0/0; //NaN: Division by Zero is not possible
 //     var notDefined; // undefined: we didn't define it to anything yet
 //     window.alert(aRandomVariable); //undefined
-//     var myNull = null; //null 
+//     var myNull = null; //null
 //  }

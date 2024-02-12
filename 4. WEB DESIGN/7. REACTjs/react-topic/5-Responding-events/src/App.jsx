@@ -3,7 +3,7 @@
 // import ClickOn2 from './Events/ClickOn2'
 // import ClickOn3 from './Events/ClickOn3'
 // import ClickOn4 from './Events/ClickOn4'
-// import ClickOn5 from './Events/ClickOn5'
+import ClickOn5 from './Events/ClickOn5'
 // import ClickOn6 from './Events/ClickOn6'
 // import Task1 from './Events/Task1'
 
@@ -20,14 +20,14 @@ function App() {
       {/* <ClickOn2 /> */}
       {/* <ClickOn3 /> */}
       {/* <ClickOn4 /> */}
-      {/* <ClickOn5/> */}
+      <ClickOn5/>
       {/* <ClickOn6 /> */}
       {/* <ClickOn7/> */}
       {/* <ClickOn8 /> */}
 
       {/* <Task1 button1="kishan" button2="web designer"/> */}
 
-      <Solution  />
+      {/* <Solution  /> */}
 
      
 

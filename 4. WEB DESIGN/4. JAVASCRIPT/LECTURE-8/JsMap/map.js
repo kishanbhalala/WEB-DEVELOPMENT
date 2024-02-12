@@ -1,5 +1,8 @@
 // *****  javascript Map method ***** 
 
+// =>  Map similar object but advance from object.
+// => Map has better perfomance than object.
+
 // Map is a collection of key/value pairs that can use any type of data as a key or value and remember the order of its entries. It is used to iterate over all the elements in an array, which results in a new array.
 // નકશો એ કી/મૂલ્ય જોડીનો સંગ્રહ છે જે કોઈપણ પ્રકારના ડેટાનો ઉપયોગ કી અથવા મૂલ્ય તરીકે કરી શકે છે અને તેની એન્ટ્રીઓનો ક્રમ યાદ રાખી શકે છે. તેનો ઉપયોગ એરેમાંના તમામ ઘટકો પર પુનરાવર્તિત કરવા માટે થાય છે, જે નવી એરેમાં પરિણમે છે
 

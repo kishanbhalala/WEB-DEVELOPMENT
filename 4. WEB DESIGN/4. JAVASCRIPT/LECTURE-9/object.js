@@ -2,10 +2,10 @@
 
 //  object is a non-primitive data-type that allows you to store multiple collections of data.
 //  An object is a collection of properties, and a property is an association between a name (or key) and a value.
-//  A property's value can be a function, in which case the property is known as a method. 
+//  A property's value can be a function, in which case the property is known as a method.
 //  Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life.
-//  The Object type represents one of JavaScript's data types. 
-//  It is used to store various keyed collections and more complex entities. 
+//  The Object type represents one of JavaScript's data types.
+//  It is used to store various keyed collections and more complex entities.
 //  Objects can be created using the Object() constructor or the object initializer / literal syntax.
 
 // ઑબ્જેક્ટ એ બિન-આદિમ ડેટા-પ્રકાર છે જે તમને ડેટાના બહુવિધ સંગ્રહને સંગ્રહિત કરવાની મંજૂરી આપે છે.
@@ -16,23 +16,23 @@
 // તેનો ઉપયોગ વિવિધ કીડ સંગ્રહો અને વધુ જટિલ એકમોને સંગ્રહિત કરવા માટે થાય છે.
 // ઑબ્જેક્ટ () કન્સ્ટ્રક્ટર અથવા ઑબ્જેક્ટ ઇનિશિયલાઈઝર / શાબ્દિક સિન્ટેક્સનો ઉપયોગ કરીને ઑબ્જેક્ટ બનાવી શકાય છે.
 
+// =>  object ni ander string keys j use kri sko..and new Map ni ander bdhi j keys like boolean number....
 
 // object syntax :-
 
+// object = {property1:value1,property2:value2.....propertyN:valueN}
 
-// object = {property1:value1,property2:value2.....propertyN:valueN}    
-
-// --- Here is an example of a JavaScript object. --- 
+// --- Here is an example of a JavaScript object. ---
 {
-//     const student = {
-//         firstName: 'ram',
-//         class: 10
-//     };
-// console.log(student.firstName);
-// console.warn(student.class);
+  //     const student = {
+  //         firstName: 'ram',
+  //         class: 10
+  //     };
+  // console.log(student.firstName);
+  // console.warn(student.class);
 }
 
-// --- JavaScript Object Declaration --- 
+// --- JavaScript Object Declaration ---
 
 // {
 //     const object_name = {
@@ -42,27 +42,26 @@
 // console.log(object_name);
 // }
 
-// --- object creation --- 
+// --- object creation ---
 {
-    // const person = { 
-    //     name: 'John',
-    //     age: 20
-    // };
-    // console.log(typeof person); 
+  // const person = {
+  //     name: 'John',
+  //     age: 20
+  // };
+  // console.log(typeof person);
 }
-
 
 // ***** JavaScript Object Properties *****
 
-// In JavaScript, "key: value" pairs are called properties. 
+// In JavaScript, "key: value" pairs are called properties.
 // For example :-
 
 {
-    // let person = { 
-    //     name: 'John',
-    //     age: 20
-    // };
-    // Here, name: 'John' and age: 20 are properties.
+  // let person = {
+  //     name: 'John',
+  //     age: 20
+  // };
+  // Here, name: 'John' and age: 20 are properties.
 }
 
 // --- Accessing Object Properties ---
@@ -71,39 +70,38 @@
 
 // Here's the syntax of the dot notation.
 {
-    // objectName.key
+  // objectName.key
 }
 // For example,
 {
-    // const person = { 
-    //     name: 'John', 
-    //     age: 20, 
-    // };
-
-    // // accessing property
-    // console.log(person.age); 
+  // const person = {
+  //     name: 'John',
+  //     age: 20,
+  // };
+  // // accessing property
+  // console.log(person.age);
 }
 
 // 2. Using bracket Notation
 
+// => symbol thi object ni ander key use krvi hoi to bracket notation no j use krvo pde
 // Here is the syntax of the bracket notation.
 {
-    // objectName["propertyName"]
+  // objectName["propertyName"]
 }
-// for example 
+// for example
 {
-    // const car = {
-    //     innova: "30 lacs",
-    //     bmw : "1 crore"
-    // };
-    //    // accessing property
-    //    document.write(car["innova"] + "<br>" + car["bmw"]); 
+  // const car = {
+  //     innova: "30 lacs",
+  //     bmw : "1 crore"
+  // };
+  //    // accessing property
+  //    document.write(car["innova"] + "<br>" + car["bmw"]);
 }
-
 
 // --- JavaScript Nested Objects ---
 
-// An object can also contain another object. 
+// An object can also contain another object.
 // For example :-
 
 // {
@@ -126,7 +124,7 @@
 //     }
 
 //      // //accessing property of obj object
-//     console.log(obj.cars); 
+//     console.log(obj.cars);
 
 //     // // accessing property of cars object
 //     console.log(obj.cars.c3);
@@ -135,23 +133,20 @@
 //     console.log(obj.cars.person.n2);
 // }
 
-
-
-
 // ***** JavaScript Object Methods *****
 
-// JavaScript Object.assign()
-// Javascript Object.create()
-// JavaScript Object.entries()
-// JavaScript Object.is()
-// JavaScript Object.hasOwnProperty()
-// JavaScript Object.freeze()
-// JavaScript Object.getOwnPropertyNames()
-// Javascript Object.setPrototypeOf()
-// JavaScript Object.toString()
-// JavaScript Object.valueOf()
-// JavaScript Object.values()
-
+// JavaScript Object.assign()  = bdha object ne merege krva...
+// Javascript Object.create()   = //constructor method kevay eni ander j singleton bne.. koi pn changes na krvo hoi tyre..
+// JavaScript Object.entries() = key ane values bne pair ne ek ek array ma muke
+// JavaScript Object.is()     =   bey value srkhi hoi to true
+// JavaScript Object.hasOwnProperty() = check kre obje ma properties che ke ny true / false
+// JavaScript Object.freeze()  =  freeze kri dey modify thavathi atkaave
+// JavaScript Object.getOwnPropertyNames() = bdhi j key nee array ma muke
+// Javascript Object.setPrototypeOf() = bija object pr set kre..
+// JavaScript Object.toString() = Object.toString() always returns the object constructor.
+// JavaScript Object.valueOf() = returns the primitive value of an object.
+// JavaScript Object.values() = only values print karava mate..
+// JavaScript Object.keys() = only keys print karava mate..
 
 //  1. ---JavaScript Object.assign()---
 
@@ -161,7 +156,9 @@
 // The assign() method takes in:
 
 // target - the target object to which we will copy all the properties of the sources.
-// sources - the source object(s) whose properties we want to copy.//  1. JavaScript Object.assign()
+// sources - the source object(s) whose properties we want to copy.
+
+//  1. JavaScript Object.assign()
 
 // {
 //     const obj1 = { a: 1 };
@@ -169,7 +166,6 @@
 //     const obj3 = { c: 3 };
 
 //     // combine all the properties of
-//     // obj1, obj2, obj3 into a single object 
 //     const merge = Object.assign(obj2, obj1, obj3);
 
 //     console.log(merge);
@@ -201,8 +197,20 @@
 //     // In the above example, we have used the assign() method to assign the contents of obj to newObject.
 // }
 
-
 // 2. --- Javascript Object.create() ---
+
+// => jyre object banavo tyre ema change krvo j naa hoi tyre Object.create method no use karay....delete na thay
+
+// {
+//     let obj = Object.create({
+//       name: "kishn",
+//       age: 25,
+//       num: 12345,
+//     });
+//     //   delete obj.age
+//     obj.email = "aaa@gmail.com";
+//     console.log(obj);
+//   }
 
 // {
 //     let student = {
@@ -222,10 +230,10 @@
 
 // 3. --- JavaScript Object.entries() ---
 
-// returns properties in key-value format:-
+// returns array properties in key-value format:-
 // {
 //     const obj = { name: "kishan", age: 20, location: "india" };
-//     console.log(Object.entries(obj)); 
+//     console.log(Object.entries(obj));
 // }
 
 // keys are arranged randomly:-
@@ -241,12 +249,12 @@
 // entries() to Iterate Through Key-Value Pairs:-
 // {
 //     const obj = {
-//         name: "John", 
-//         age: 27, 
-//         location: "Nepal" 
+//         name: "John",
+//         age: 27,
+//         location: "Nepal"
 //     };
 
-//     for (const [key, value] of Object.entries(obj)) 
+//     for (const [key, value] of Object.entries(obj))
 //     {
 //         console.log(`${key}: ${value}`);
 //     }
@@ -262,19 +270,17 @@
 //     console.log(Object.is(obj1,obj1));
 // }
 
-
 // // Javascript Object.is()
 // {
 //     // //objects with same values
-//     console.log(Object.is("JavaScript", "JavaScript")); 
+//     console.log(Object.is("JavaScript", "JavaScript"));
 
 //     // objects with different values
-//     console.log(Object.is("JavaScript", "javascript")); 
+//     console.log(Object.is("JavaScript", "javascript"));
 
 //     // compare null values
 //     console.log(Object.is(null, null));
 // }
-
 
 // // is() With Custom Objects
 // {
@@ -294,21 +300,18 @@
 //     console.log(Object.is(obj1, obj2));
 // }
 
-
 // // is() With Special Cases
 // {
-//     console.log(Object.is([], []));  
+//     console.log(Object.is([], []));
 
-//     console.log(Object.is(0, -0));  
+//     console.log(Object.is(0, -0));
 
-//     console.log(Object.is(-0, -0)); 
+//     console.log(Object.is(-0, -0));
 
-//     console.log(Object.is(NaN, 0/0));  
+//     console.log(Object.is(NaN, 0/0));
 // }
 
-
-
-// 5. --- JavaScript Object.hasOwnProperty() --- 
+// 5. --- JavaScript Object.hasOwnProperty() ---
 // The Object.hasOwnProperty() method checks if the object possesses the given property.
 
 // {
@@ -323,19 +326,18 @@
 //     // create an object with property id
 //     const obj = {id: 42 , toString:10};
 
-//     // check if id exists in obj 
-//     console.log(obj.hasOwnProperty("id")); 
+//     // check if id exists in obj
+//     console.log(obj.hasOwnProperty("id"));
 
-//     // // check if name exists in obj 
-//     console.log(obj.hasOwnProperty("name")); 
+//     // // check if name exists in obj
+//     console.log(obj.hasOwnProperty("name"));
 
 //     // // inherited properties return false
-//     console.log(obj.hasOwnProperty("toString")); 
+//     console.log(obj.hasOwnProperty("toString"));
 // }
 
-
 // 6. --- JavaScript Object.freeze() ---
-    // The Object.freeze() method freezes an object i.e. it prevents the object from being modified.
+// The Object.freeze() method freezes an object i.e. it prevents the object from being modified.
 
 // {
 //     let obj = {
@@ -347,13 +349,12 @@
 
 //       // changes will fail silently
 //       obj.foo = "bar111";
-//       console.log(obj.foo); 
+//       console.log(obj.foo);
 
-//       // cannot add a new property 
+//       // cannot add a new property
 //       obj.new_foo = "two";
-//       console.log(obj.new_foo); 
+//       console.log(obj.new_foo);
 // }
-
 
 // 7. --- JavaScript Object.getOwnPropertyNames() ---
 // The Object.getOwnPropertyNames() method returns an array of all the properties found in a given object.
@@ -370,7 +371,6 @@
 
 //        console.log(propertyNames);
 //  }
-
 
 // 8. --- Javascript Object.setPrototypeOf() ---
 // The Object.setPrototypeOf() method sets the prototype of the specified object to another object or null.
@@ -389,25 +389,19 @@
 //     console.log(obj.foo);
 // }
 
+// 9. --- JavaScript Object.toString() ---
 
-// 9. --- JavaScript Object.toString() --- 
-// // The Object.toString() method returns the given object as a string.
-
-// {
-//     //create a number with value 10
-//     let num = 10;
-
-//     // check the type of num before
-//     // using the toString() method
-//     console.log(typeof num); 
-
-//     // check the type of num after 
-//     //using the toString() method
-//     console.log(typeof num.toString()); 
-// }
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue"
+//   };
+//   const keys = Object.toString(person);
+//   console.log(keys);
 
 
-// 10. --- JavaScript Object.valueOf() --- 
+// 10. --- JavaScript Object.valueOf() ---
 // The Object.valueOf() method returns the primitive value of the specified object.
 
 // {
@@ -416,7 +410,6 @@
 //     console.log(num);
 //     console.log(num.valueOf());
 // }
-
 
 // 11. --- JavaScript Object.values() ---
 //    // The Object.values() method returns an array containing the enumerable values of an object.
@@ -446,13 +439,9 @@
 //     console.log(Object.values(string));
 // }
 
-
-
-
 // ******************************************************************************* //
-                                // practice  : - 
+// practice  : -
 // ******************************************************************************* //
-
 
 // --- for in loop ---
 // {
@@ -468,9 +457,8 @@
 //     }
 // }
 
-
-// ----- javascript object in create array and function ----- 
-// keyword  =   this. 
+// ----- javascript object in create array and function -----
+// keyword  =   this.
 
 // {
 //     var a = {
@@ -494,4 +482,40 @@
 //     document.write(a.favmovie[1] + "<br>");
 //     document.write(a.fees() + "<br>");
 //     document.write(a.fullname());
+// }
+
+// --- add a key/value pair to an object ---
+
+// {
+//     let person = {
+//         name: "kishan",
+//         age: 25,
+//         country: "India"
+//     }
+//     person.num = 8140413316;
+//     console.log(person);
+// }
+
+// --- object in array and function ---
+// {
+//     let person = {
+//         name: "kishan",
+//         age: 25,
+//         country: "India",
+//         favMovie : ["rrr","kgf","puspa"],
+//         salary : function(){
+//             return 25000;
+//         }
+//     }
+//     console.log(person);
+//     document.write(person.favMovie[1]);
+//     document.write(person.salary());
+// }
+
+// --- add object pair ---
+// {
+//     let a = new Object();
+//     a.fname = "kishan";
+//     a.lname = "bhalala";
+//     document.write(a.fname)
 // }

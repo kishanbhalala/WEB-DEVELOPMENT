@@ -25,7 +25,6 @@
 //     abc("kishan" , callme)
 // }
 
-
 /* --- JavaScript Arrow Function --- */
 
 // Arrow function is one of the features introduced in the ES6 version of JavaScript. 
@@ -99,6 +98,7 @@
 
 
 // 6.this(key) with Arrow Function
+// => this no use kro cho atle ke aakha object no refrance
 
 {
     // Inside a regular function
@@ -158,37 +158,3 @@
 // }
 
 
-// --- Javascript Function call() ---
-
-// The call() method takes arguments separately.
-// The apply() method takes arguments as an array.
-
-// The call() method calls a function by passing this and specified values as arguments.
-
-// // Using call() Method
-// {
-//     function sum(a, b) {
-//         return a + b;
-//       }
-
-//     // invoking sum() by passing this and 'a', 'b' arguments
-//     let result = sum.call(this, 5, 10);
-//     console.log(result);
-// }
-
-
-// With and Without Using call() Method
-
-// {
-//     // function that finds product of two numbers
-//     function product(a, b) {
-//         return a * b;
-//     }
-//     // invoking product() without using call() method
-//     let result1 = product(10, 20);
-//     console.log("Return value Without using call() method : " + result1);
-
-//     // invoking product() using call() method
-//     let result2 = product.call(this, 20, 20);
-//     console.log("Return value Using call() method: " + result2);
-// }

@@ -1,7 +1,7 @@
-// ***** Asynchronous JavaScript ***** 
+// ***** Asynchronous JavaScript *****
 
 // js is not asynchronous :- sigle threading che
-// main stack and side stack vche ni puchtach ne   :-  event loop    kevay
+// main stack and side stack vche ni puchtach ne   :-  event loop kevay
 
 // syncronous and asyncronous ?
 // syncronous :-
@@ -13,7 +13,7 @@
 // setTimeout
 // setInterval
 // promises
-// fetch 
+// fetch
 // axios
 // XMLHttpRequest
 
@@ -25,16 +25,13 @@
 // The setTimeout() method calls a function after a number of milliseconds.
 // 1 second = 1000 milliseconds.
 
-// syntax :- 
+// syntax :-
 {
-    // setTimeout(function, milliseconds, param1, param2, ...) 
-
-    // function - a function containing a block of code
-    // milliseconds - the time after which the function is executed
-    // The setTimeout() method returns an intervalID, which is a positive integer.
+  // setTimeout(function, milliseconds, param1, param2, ...)
+  // function - a function containing a block of code
+  // milliseconds - the time after which the function is executed
+  // The setTimeout() method returns an intervalID, which is a positive integer.
 }
-
-
 
 // 1. Display a Text Once After 3 Second
 
@@ -49,8 +46,7 @@
 //      // the setTimeout() method calls the greet() function after 3000 milliseconds (3 second).
 // }
 
-
-// 2.  The setTimeout() method returns the interval id. 
+// 2.  The setTimeout() method returns the interval id.
 // {
 //     function greet() {
 //         console.log('hello kishan');
@@ -58,7 +54,6 @@
 //     let intervalID = setTimeout(greet, 3000);
 //     console.log('ID : ' + intervalID);
 // }
-
 
 // 3.  Display Time Every 3 Second
 // {
@@ -76,25 +71,24 @@
 // --- JavaScript clearTimeout() ---
 // **************************************** //
 
-// The clearTimeout() method clears a timer set with the setTimeout() method. 
-// As you have seen in the above example, the program executes a block of code after the specified time interval. 
+// The clearTimeout() method clears a timer set with the setTimeout() method.
+// As you have seen in the above example, the program executes a block of code after the specified time interval.
 // If you want to stop this function call, you can use the clearTimeout() method.
 
 // The syntax of clearTimeout() method is
 {
-    // clearTimeout(intervalID);
+  // clearTimeout(intervalID);
 }
 
 // example 1:-
-// const myTimeout = setTimeout(myGreeting, 3000);
-
 {
-    // function myGreeting() {
-    //     document.getElementById("demo").innerHTML = "Happy Birthday!"
-    // }
-    // function myStopFunction() {
-    //     clearTimeout(myTimeout);
-    // }
+  // const myTimeout = setTimeout(myGreeting, 3000);
+  // function myGreeting() {
+  //     document.getElementById("demo").innerHTML = "Happy Birthday!"
+  // }
+  // function myStopFunction() {
+  //     clearTimeout(myTimeout);
+  // }
 }
 
 // example 2:- start and stop counter
@@ -120,14 +114,11 @@
 //     }
 // }
 
-
-
-
 // --- JavaScript CallBack Function ---
 
 // callback always function j hoy
 
-// A function is a block of code that performs a certain task when called. 
+// A function is a block of code that performs a certain task when called.
 // {
 //     function greet (name) {
 //         console.log('hiii' + " - " + name);
@@ -154,7 +145,7 @@
 // ****** JavaScript Promise and Promise Chaining  ******
 
 
-// In JavaScript, a promise is a good way to handle asynchronous operations. 
+// In JavaScript, a promise is a good way to handle asynchronous operations.
 // It is used to find out if the asynchronous operation is successfully completed or not.
 // JavaScript માં, વચન એ અસુમેળ કામગીરીને હેન્ડલ કરવાની સારી રીત છે.
 // અસુમેળ કામગીરી સફળતાપૂર્વક પૂર્ણ થઈ છે કે નહીં તે શોધવા માટે તેનો ઉપયોગ થાય છે.
@@ -170,13 +161,11 @@
 // Create a Promise syntex :-
 // To create a promise object, we use the Promise() constructor.
 {
-    // let promise = new Promise(function(resolve, reject){
-    //     //do something
-    // });
-
-    // // The Promise() constructor takes a function as an argument. The function also accepts two functions resolve() and reject().
-
-    // // If the promise returns successfully, the resolve() function is called. And, if an error occurs, the reject() function is called.
+  // let promise = new Promise(function(resolve, reject){
+  //     //do something
+  // });
+  // // The Promise() constructor takes a function as an argument. The function also accepts two functions resolve() and reject().
+  // // If the promise returns successfully, the resolve() function is called. And, if an error occurs, the reject() function is called.
 }
 
 // Program with a Promise
@@ -194,14 +183,12 @@
 //     console.log(countvalue);
 // }
 
-
 // --- JavaScript Promise Chaining ---
 
 // Promises are useful when you have to handle more than one asynchronous task, one after another. For that, we use promise chaining.
 // You can perform an operation after a promise is resolved using methods then(), catch() and finally().
 // વચનો ઉપયોગી છે જ્યારે તમારે એક પછી એક કરતાં વધુ અસુમેળ કાર્યને હેન્ડલ કરવું પડે. તે માટે, અમે વચન સાંકળનો ઉપયોગ કરીએ છીએ.
 // પછી(), પકડ() અને છેલ્લે() પદ્ધતિઓનો ઉપયોગ કરીને વચન ઉકેલાઈ જાય પછી તમે ઓપરેશન કરી શકો છો.
-
 
 // - JavaScript then() method -
 
@@ -210,7 +197,7 @@
 // The syntax of then() method is
 
 {
-    // promiseObject.then(onFulfilled, onRejected);
+  // promiseObject.then(onFulfilled, onRejected);
 }
 
 // Chaining the Promise with then() method :-
@@ -256,12 +243,9 @@
 //     );
 // }
 
-
 // - JavaScript finally() method -
-
 // {
-//     // You can also use the finally() method with promises. The finally() method gets executed when the promise is either resolved successfully or rejected.
-
+// // You can also use the finally() method with promises. The finally() method gets executed when the promise is either resolved successfully or rejected.
 //     let countValue = new Promise(function (resolve, reject) {
 //         // could be resolved or rejected
 //         resolve('Promise resolved');
@@ -273,7 +257,6 @@
 //         }
 //     );
 // }
-
 
 // Best example for promise 1:-
 // {
@@ -333,7 +316,6 @@
 //         console.log(`error: ${error}`);
 //     });
 // }
-
 
 //code sort krine promise use krel
 // {

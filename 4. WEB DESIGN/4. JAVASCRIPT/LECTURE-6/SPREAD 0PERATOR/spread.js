@@ -9,7 +9,6 @@
 //     const arrValue = ['My', 'name', 'is', 'Jack'];
 //     console.log(arrValue);
 //     console.log(...arrValue);
-
 //     {
 //         // In this case, the code:
 //         console.log(...arrValue)
