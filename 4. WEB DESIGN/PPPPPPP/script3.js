@@ -76,10 +76,10 @@
 //     { name: "sagar", age: 27 },
 //   ];
 
-//   var a = obj.map((item) => {
-//     return item.name + "" + item.age;
-//   });
-//   document.write(a[1]);
+//     var a = obj.map((item) => {
+//         return item.name + "" + item.age;
+//     });
+//   console.log(a[1]);
 // }
 
 /////////////////////////////////// function ///////////////////////////////////

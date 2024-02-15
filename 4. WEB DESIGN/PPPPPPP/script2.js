@@ -58,14 +58,19 @@
 //     }
 // }
 // {
-//     var obj = {
-//         name : "kishan",
-//         age : 25,
-//         number :  13478646464
-//     }
-//     for (var c of  Object.keys(obj)) {
-//         document.write(c)
-//     }
+    // var obj = {
+    //     name : "kishan",
+    //     age : 25,
+    //     number :  13478646464
+    // }
+    // for (var c of Object.keys(obj)) {
+    //     document.write(c)
+    // }
+    // for(var x of Object.entries(obj))
+    // {
+    //     document.write(x)
+    // } 
+    // document.write(Object.values(obj));
 // }
 // {
 //     var a = [10,20,30,40,50]
@@ -157,10 +162,41 @@
 //   obj.add("hiii");
 //   obj.add({ name: "kishan" });
 //   obj.delete(3)
-// //   obj.clear()
+////obj.clear()
 
 // obj.forEach((item) => {
 //     console.log(item);
 // })
 //   console.log(obj);
+// }
+
+// {
+//     // duplicate value //
+
+//     var array = [2,4,1,2,5,5,3,2,7,3]
+
+//     var duplicate = [...new Set(array)]
+//     duplicate.sort((a,b) => a - b)
+//     console.log(duplicate);
+// }
+// {
+//     var array = new Set([1,3,4,2,2,4])
+//     console.log(array);
+// }
+// {
+//     var obj = [
+//         {name : "kishan" ,age: 25},
+//         {name : "jeegar" ,age: 25},
+//         {name : "kishan" ,age: 25},
+//     ];
+//     var check ={};
+//     var res = [];
+//     for(let i=0; i<obj.length; i++)
+//     {
+//        if(!check[obj[i].name]){
+//         check[obj[i].name] = true;
+//         res.push(obj[i])
+//         }
+//     }
+//     console.log(res);
 // }

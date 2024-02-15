@@ -1,4 +1,5 @@
 import "./App.css";
+import GetInputBox from "./GetInput/GetInputBox";
 import CustomHook from "./Hooks/CustomHook";
 import UseCallback from "./Hooks/UseCallback";
 import { UseContext } from "./Hooks/UseContext/UseContext";
@@ -21,7 +22,8 @@ function App() {
       {/* <UseCallback /> */}
       {/* <UseMemo/> */}
       {/* <UseRef/> */}
-      <CustomHook/>
+      {/* <CustomHook/> */}
+      <GetInputBox/>
     </>
   );
 }
