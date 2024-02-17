@@ -605,6 +605,21 @@
 //     console.log("min = ", min);
 // }
 
+// second largest number :-
+// {
+//   var array1 = [22,33,2,22,256,31]
+//   var array2 = [25,31,2,22,2,31]
+
+//   function secondLarge(arr) {
+
+//       var uniq = [...new Set(arr)]
+//       const disc = uniq.sort((a,b) => b - a)
+//       return  disc[1];
+//   }
+//   console.log(secondLarge(array1));
+//   console.log(secondLarge(array2));
+// }   
+
 //************************************************ */
 //************************************************ */
 

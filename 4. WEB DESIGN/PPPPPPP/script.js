@@ -8,6 +8,7 @@
 
 // number method
 
+
 // var num = 1033.010;
 // console.log(num.toFixed(1));
 // console.log(num.toExponential(6));

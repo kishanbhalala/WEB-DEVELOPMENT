@@ -19,7 +19,7 @@ arr.forEach(button => {
         }
         else {
             string += e.target.innerHTML;
-            input.value = string
+            input.value = string;
         }
     }) 
 })

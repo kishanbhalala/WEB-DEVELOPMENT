@@ -10,9 +10,7 @@
 //         .then(data => console.log(data))
 //         .catch(error => console.log('Error...', error));
 // }
-{
-  
-}
+
 
 // 2. axios() :-
 
