@@ -38,17 +38,19 @@
 
 ////////////////////////////////////////// String methods //////////////////////////////////////////
 
-// var str = "Hello world Hello worlds";
+// var str = "Hello world Hello is hello worlds";
 // console.log(str.length);
 // console.log(str.slice(1,4));
 // console.log(str.substring(1,4));
 // console.log(str.substr(1,4));
-// console.log(str.replace("Hello","hiii"));
+// console.log(str.replace(/Hello/g,"hiii"));
+// console.log(str.replace(/Hello/gi,"hmmm"));
 // console.log(str.replaceAll("Hello","kishan"));
 // console.log(str.toLowerCase());
 // console.log(str.toUpperCase());
 // console.log(str.startsWith("H"));
 // console.log(str.endsWith("D"));
+
 
 // var str1 = "   space removed  ";
 // console.log(str1.trim());
@@ -66,9 +68,11 @@
 // console.log(String.fromCharCode(97,98,99));
 // console.log(str.concat(" ",str1));
 
+
+
 ////////////////////////////////////// Array method //////////////////////////////////////
 
-// var arr = [10, 30, 12, 8, 20];
+var arr = [10, 30, 12, 8, 20];
 
 // console.log(arr.length);
 // console.log(arr.toString());
@@ -147,18 +151,21 @@
 // }
 
 // {
-//     var arr = ["welcome to","javascript","programing language"]
-//     arr = arr.flatMap((e) => {
+    // var arr = ["welcome to","javascript","programing language"]
+
+//     res = arr.flatMap((e) => {
 //         return e.split(" ");
 //     })
-//     console.log(arr);
+//     console.log(res);
+//     console.log(res[3]);
 // }
+
 
 // {
 //   var arr1 = [10, 30, 12, 8, 20];
 //   document.getElementById("demo").innerHTML = "Original Array: <br>" + arr1;
 
-//   var arr2 = arr1.splice(2,1,"11111","22222","kishan",12);
+//   var arr2 = arr1.splice(2,1,"11111","22222","kishan");
 //   document.getElementById("res").innerHTML = "Array after splicing  element:<br> " + arr2;
 //   document.getElementById("res1").innerHTML = "final array:<br> " + arr1;
 //   delete arr1[2]

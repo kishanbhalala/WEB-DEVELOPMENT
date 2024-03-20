@@ -1,6 +1,5 @@
 // ***** Uses of JavaScript *****
 
-
 // JavaScript is one of the most popular programming languages because of its wide range of applications.
 
 // Before JavaScript was primarily used in:
@@ -12,8 +11,6 @@
 // mobile apps
 // web apps
 // Now let's explore the uses of JavaScript in more detail.
-
-
 
 // 1. Making The Web Pages Interactive
 
@@ -27,7 +24,6 @@
 // There are many other ways where JavaScript is used in making the web pages interactive.
 // Here is an image of a webpage that uses JS to make it interactive.
 // Example of an interactive webpage
-
 
 // 2. Making Server Side Applications
 
@@ -64,3 +60,5 @@
 // Other popular JS gaming engines and libraries are GDevelop, melonJS, ImpactJS, BabylonJS, PhaserJS, PixiJS, PlayCanvas, A-Frame.
 // Some libraries even allow you to export your games into other platforms such as Android, iOS, etc.
 // Here is an image of a game developed in JavaScript.
+
+

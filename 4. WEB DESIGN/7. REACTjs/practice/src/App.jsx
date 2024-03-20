@@ -9,13 +9,15 @@ import UseMemo from "./Hooks/UseMemo";
 import UseReducer from "./Hooks/UseReducer";
 import UseRef from "./Hooks/UseRef";
 import UseState from "./Hooks/UseState";
+import SelectGetValue from "./SelectBox/SelectGetValue";
 import Prop from "./propes/Prop";
 
 function App() {
   return (
     <>
+    
       {/* <Prop surname={{sur:"bhalala"}} occ="web"/> */}
-      {/* <UseState/> */}
+      <UseState/>
       {/* <UseEffect/> */}
       {/* <UseContext/> */}
       {/* <UseReducer/> */}
@@ -23,7 +25,8 @@ function App() {
       {/* <UseMemo/> */}
       {/* <UseRef/> */}
       {/* <CustomHook/> */}
-      <GetInputBox/>
+      {/* <GetInputBox/> */}
+      {/* <SelectGetValue/> */}
     </>
   );
 }

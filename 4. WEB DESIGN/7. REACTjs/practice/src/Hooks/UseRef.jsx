@@ -2,8 +2,10 @@ import React, { useRef, useState } from 'react'
 
 const UseRef = () => {
     const refEle = useRef("");
+    
     const [name, setName] = useState("kishan")
     console.log(refEle);
+
     function reset(){
         setName("")
         refEle.current.focus()

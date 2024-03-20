@@ -77,10 +77,12 @@
 //   ];
 
 //     var a = obj.map((item) => {
-//         return item.name + "" + item.age;
+//         return item.name + " " + item.age;
 //     });
-//   console.log(a[1]);
+//   console.log(a);
 // }
+
+
 
 /////////////////////////////////// function ///////////////////////////////////
 
@@ -105,6 +107,7 @@
 //     console.log("first call back");
 // }
 // greet("kishan",callme)
+
 
 // ---- why call , apply, bind ----  //
 
@@ -234,3 +237,5 @@
 //     .then(response => console.log(response.data))
 //     .catch(err => console.log('eeeee',err))
 // }
+
+

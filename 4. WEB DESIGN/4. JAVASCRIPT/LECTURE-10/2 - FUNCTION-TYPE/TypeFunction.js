@@ -145,7 +145,7 @@
 // }
 
 //7. Higher order function :-
-// Functions that take one or more functions as arguments or return a function.
+//  
 // eg: map(), filter (), reduce()
 
 // {

@@ -6,7 +6,7 @@ const UseCallback = () => {
   const [count, setCount] = useState(0);
   const Learning = useCallback(() => {
 
-  }, [add]);
+  }, [count]);
   return (
     <div>
       <h1>use call back memoizes callback function</h1>

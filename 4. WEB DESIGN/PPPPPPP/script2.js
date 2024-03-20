@@ -58,19 +58,25 @@
 //     }
 // }
 // {
-    // var obj = {
-    //     name : "kishan",
-    //     age : 25,
-    //     number :  13478646464
-    // }
-    // for (var c of Object.keys(obj)) {
-    //     document.write(c)
-    // }
-    // for(var x of Object.entries(obj))
-    // {
-    //     document.write(x)
-    // } 
-    // document.write(Object.values(obj));
+//     const myName = "kishan";
+//     for(let letter of myName){
+//         console.log(letter);
+//     }
+// }
+// {
+// var obj = {
+//     name : "kishan",
+//     age : 25,
+//     number :  13478646464
+// }
+// for (var c of Object.keys(obj)) {
+//     document.write(c)
+// }
+// for(var x of Object.entries(obj))
+// {
+//     document.write(x)
+// }
+// document.write(Object.values(obj));
 // }
 // {
 //     var a = [10,20,30,40,50]
@@ -87,6 +93,17 @@
 //     for(let x in obj){
 //         document.write(`${x} : ${obj[x]}` + "<br>")
 //     }
+// }
+// {
+//   const obj = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+//   };
+// var a = [10,20,30,40,50]
+//   for (let key in a) {
+//     document.write(key);
+//   }
 // }
 
 ///////////////////////////// date method /////////////////////////////
