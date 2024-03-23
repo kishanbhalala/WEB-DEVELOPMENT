@@ -1,22 +1,21 @@
 import React from 'react'
-import Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
+import Error from './components/Error'
 import Navbar from './layout/Navbar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Error from './components/Error'
-import AddUser from './components/AddUser'
+import Create from './components/Create'
+import Read from './components/Read'
+import Update from './components/Update'
+
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/users/add" element={<AddUser />} />
+          <Route path="/" element={<Create />} />
+          <Route path="/read" element={<Read />} />
+          <Route path="/update" element={<Update />} />
           <Route element={<Error />} />
         </Routes>
       </BrowserRouter>
