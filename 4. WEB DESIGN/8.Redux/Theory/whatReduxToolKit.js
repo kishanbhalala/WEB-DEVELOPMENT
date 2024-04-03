@@ -98,7 +98,7 @@
 // 1. createAsyncThunk:
 // • Part of Redux Toolkit.
 // • Generates asynchronous action creators
-// • Takes an action type string and anasync function.
+// • Takes an action type string and an async function.
 
 // • Action Type :
 // • First argument to createAsynchunk.

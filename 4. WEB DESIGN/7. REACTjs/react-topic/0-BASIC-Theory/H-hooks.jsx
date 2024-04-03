@@ -1,6 +1,6 @@
 // What is Hooks? :-
 
-const { useEffect, useContext, useCallback, useReducer } = require("react");
+// const { useEffect, useContext, useCallback, useReducer } = require("react");
 
 // In React, "hooks" are functions that allow you to use state & other React features (life cycle methods) in functional components.
 // They were introduced in React version 16.8 and provide a more concise and reusable way to manage state and side effects compared to class components.

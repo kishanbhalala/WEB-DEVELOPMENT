@@ -1,6 +1,5 @@
 import React from 'react'
 import Error from './components/Error'
-import Navbar from './layout/Navbar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Create from './components/Create'
 import Read from './components/Read'
